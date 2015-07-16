@@ -45,12 +45,12 @@ public class Zoom : MonoBehaviour {
 			if (Input.GetKey(KeyCode.A))
 			{
 				FOVpoprzedni = kameraGlowna.GetComponent<Camera>().fieldOfView;
-				FOVdocelowy = Mathf.Round(FOVpoprzedni - zoomSpeedKlawiatury);
+				FOVdocelowy = Mathf.Round(FOVpoprzedni - perspectiveVelocity * zoomSpeedKlawiatury);
 			}
 			else if (Input.GetKey(KeyCode.Z))
 			{
 				FOVpoprzedni = kameraGlowna.GetComponent<Camera>().fieldOfView;
-				FOVdocelowy = Mathf.Round(FOVpoprzedni + zoomSpeedKlawiatury);
+				FOVdocelowy = Mathf.Round(FOVpoprzedni + perspectiveVelocity *  zoomSpeedKlawiatury);
 			}
 				
 
@@ -64,7 +64,8 @@ public class Zoom : MonoBehaviour {
 				FOVdocelowy = zoomMax;
 			}
 
-			kameraGlowna.GetComponent<Camera>().fieldOfView = Mathf.SmoothDamp (FOVpoprzedni, FOVdocelowy, ref perspectiveVelocity, perspectiveZoomSpeed);
+//			kameraGlowna.GetComponent<Camera>().fieldOfView = Mathf.SmoothDamp (FOVpoprzedni, FOVdocelowy, ref perspectiveVelocity, perspectiveZoomSpeed);
+			kameraGlowna.GetComponent<Camera>().fieldOfView = Mathf.Lerp (FOVpoprzedni, FOVdocelowy, perspectiveVelocity * perspectiveZoomSpeed);
 			//FOVdocelowy = Mathf.Clamp(FOVdocelowy, 30, 70);
 		}
 
