@@ -675,6 +675,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: .5
       objectReference: {fileID: 0}
+    - target: {fileID: 11493168, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
+      propertyPath: blenda
+      value: 
+      objectReference: {fileID: 1840432630}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
   m_IsPrefabParent: 0
@@ -1176,4 +1180,8 @@ Prefab:
 RectTransform:
   m_PrefabParentObject: {fileID: 22448908, guid: 7e5189fd751612348a1b3f0a0067f151,
     type: 2}
+  m_PrefabInternal: {fileID: 1840432628}
+--- !u!1 &1840432630 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 160416, guid: 7e5189fd751612348a1b3f0a0067f151, type: 2}
   m_PrefabInternal: {fileID: 1840432628}

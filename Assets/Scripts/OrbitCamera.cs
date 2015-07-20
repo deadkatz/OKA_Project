@@ -19,6 +19,8 @@ public class OrbitCamera : MonoBehaviour
 	
 	public float yMinLimit = 5f;
 	public float yMaxLimit = 40f;
+
+	public bool ObslugaMyszki;
 	
 	private float pinchSpeed;
 	private float distanceMin = .5f;
@@ -151,7 +153,7 @@ public class OrbitCamera : MonoBehaviour
 //					lastDist = curDist;	
 //					//distance = distance * (1 - Time.deltaTime * 10);
 //				}
-											if(Input.GetMouseButton(0))   {
+				if(ObslugaMyszki == true && Input.GetMouseButton(0))   {
 												
 												
 												

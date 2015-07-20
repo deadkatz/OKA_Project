@@ -2352,7 +2352,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1318713926}
+    m_TransformParent: {fileID: 1178152137}
     m_Modifications:
     - target: {fileID: 22439388, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_LocalPosition.x
@@ -2384,11 +2384,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22439388, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 22439388, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: .000122070312
+      value: 2.94391066e-06
       objectReference: {fileID: 0}
     - target: {fileID: 22439388, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_AnchoredPosition.y
@@ -2426,6 +2426,14 @@ Prefab:
       propertyPath: m_Pivot.y
       value: .5
       objectReference: {fileID: 0}
+    - target: {fileID: 22439388, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11493168, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
+      propertyPath: blenda
+      value: 
+      objectReference: {fileID: 1318713926}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
   m_IsPrefabParent: 0
@@ -4768,10 +4776,9 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
   m_IsPrefabParent: 0
---- !u!224 &1318713926 stripped
-RectTransform:
-  m_PrefabParentObject: {fileID: 22488360, guid: 225c7e4ab0579c34da68a53968d691a6,
-    type: 2}
+--- !u!1 &1318713926 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 138954, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
   m_PrefabInternal: {fileID: 1318713925}
 --- !u!1 &1338264967
 GameObject:

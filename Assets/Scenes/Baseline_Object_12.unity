@@ -2034,6 +2034,10 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 90
   m_AreaSize: {x: 16, y: 16}
+--- !u!1 &825114354 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 138954, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
+  m_PrefabInternal: {fileID: 1350681576}
 --- !u!1 &843637817
 GameObject:
   m_ObjectHideFlags: 0
@@ -3254,11 +3258,6 @@ MonoBehaviour:
 --- !u!224 &1350681583 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22455226, guid: 225c7e4ab0579c34da68a53968d691a6,
-    type: 2}
-  m_PrefabInternal: {fileID: 1350681576}
---- !u!224 &1350681584 stripped
-RectTransform:
-  m_PrefabParentObject: {fileID: 22488360, guid: 225c7e4ab0579c34da68a53968d691a6,
     type: 2}
   m_PrefabInternal: {fileID: 1350681576}
 --- !u!1 &1357407524
@@ -5031,7 +5030,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1350681584}
+    m_TransformParent: {fileID: 1350681583}
     m_Modifications:
     - target: {fileID: 22439388, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_LocalPosition.x
@@ -5063,11 +5062,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22439388, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 22439388, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: .000122070312
+      value: 2.94391066e-06
       objectReference: {fileID: 0}
     - target: {fileID: 22439388, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_AnchoredPosition.y
@@ -5105,6 +5104,14 @@ Prefab:
       propertyPath: m_Pivot.y
       value: .5
       objectReference: {fileID: 0}
+    - target: {fileID: 22439388, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11493168, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
+      propertyPath: blenda
+      value: 
+      objectReference: {fileID: 825114354}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
   m_IsPrefabParent: 0

@@ -28,7 +28,6 @@ GameObject:
   - 124: {fileID: 12470164}
   - 81: {fileID: 8145454}
   - 114: {fileID: 11484900}
-  - 114: {fileID: 11464182}
   - 114: {fileID: 11450868}
   m_Layer: 0
   m_Name: Main Camera
@@ -182,25 +181,7 @@ MonoBehaviour:
   ySpeed: 1.5
   yMinLimit: 5
   yMaxLimit: 40
---- !u!114 &11464182
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 110780}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 799444c39c7e1db4f93e251f1cf28a3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  przewodnik: {fileID: 103098}
-  smoothTime: .300000012
-  velocity: {x: 0, y: 0, z: 0}
-  buttonPressed: 0
-  ogarniczenieZGory: 5
-  klawiszObrotPoziom: .5
-  klawiszObrotPion: .5
+  ObslugaMyszki: 0
 --- !u!114 &11484900
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -213,7 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kameraGlowna: {fileID: 110780}
-  perspectiveZoomSpeed: 1
+  perspectiveZoomSpeed: .100000001
   perspectiveVelocity: 1
   zoomSpeedKlawiatury: 1
   zoomMin: 30
