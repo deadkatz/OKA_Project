@@ -160,6 +160,7 @@ GameObject:
   - 114: {fileID: 11436680}
   - 114: {fileID: 11412984}
   - 223: {fileID: 22388240}
+  - 114: {fileID: 11490152}
   m_Layer: 5
   m_Name: Line_02
   m_TagString: Klawisz
@@ -181,6 +182,7 @@ GameObject:
   - 114: {fileID: 11487550}
   - 114: {fileID: 11491222}
   - 223: {fileID: 22372282}
+  - 114: {fileID: 11499126}
   m_Layer: 5
   m_Name: Line_04
   m_TagString: Klawisz
@@ -383,6 +385,7 @@ GameObject:
   - 114: {fileID: 11483928}
   - 114: {fileID: 11489626}
   - 223: {fileID: 22341510}
+  - 114: {fileID: 11481434}
   m_Layer: 5
   m_Name: Line_08
   m_TagString: Klawisz
@@ -556,6 +559,7 @@ GameObject:
   - 114: {fileID: 11487694}
   - 114: {fileID: 11455028}
   - 223: {fileID: 22341790}
+  - 114: {fileID: 11433118}
   m_Layer: 5
   m_Name: Line_05
   m_TagString: Klawisz
@@ -596,6 +600,7 @@ GameObject:
   - 114: {fileID: 11466872}
   - 114: {fileID: 11487380}
   - 223: {fileID: 22370048}
+  - 114: {fileID: 11436034}
   m_Layer: 5
   m_Name: Line_03
   m_TagString: Klawisz
@@ -1263,6 +1268,7 @@ GameObject:
   - 114: {fileID: 11435754}
   - 114: {fileID: 11458030}
   - 223: {fileID: 22300942}
+  - 114: {fileID: 11484564}
   m_Layer: 5
   m_Name: Line_09
   m_TagString: Klawisz
@@ -1753,6 +1759,7 @@ GameObject:
   - 114: {fileID: 11443200}
   - 114: {fileID: 11446674}
   - 223: {fileID: 22318476}
+  - 114: {fileID: 11428774}
   m_Layer: 5
   m_Name: Line_06
   m_TagString: Klawisz
@@ -1774,6 +1781,7 @@ GameObject:
   - 114: {fileID: 11413980}
   - 114: {fileID: 11441652}
   - 223: {fileID: 22311742}
+  - 114: {fileID: 11449206}
   m_Layer: 5
   m_Name: Line_01
   m_TagString: Klawisz
@@ -1980,6 +1988,7 @@ GameObject:
   - 114: {fileID: 11455296}
   - 114: {fileID: 11497816}
   - 223: {fileID: 22382126}
+  - 114: {fileID: 11465984}
   m_Layer: 5
   m_Name: Line_10
   m_TagString: Klawisz
@@ -2075,6 +2084,7 @@ GameObject:
   - 114: {fileID: 11465010}
   - 114: {fileID: 11469598}
   - 223: {fileID: 22332876}
+  - 114: {fileID: 11437510}
   m_Layer: 5
   m_Name: Line_07
   m_TagString: Klawisz
@@ -6952,6 +6962,22 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11428774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11429002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7826,6 +7852,22 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11433118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11433718
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8231,6 +8273,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   KlawiszWlaczony: {fileID: 141994}
+--- !u!114 &11436034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 117550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11436680
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8327,6 +8385,22 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 128968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &11437510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164296}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
@@ -10011,6 +10085,22 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11449206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11449330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11984,6 +12074,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   klawiszModulKolorWlaczony: {fileID: 106334}
+--- !u!114 &11465984
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 160326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11466032
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14184,6 +14290,22 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11481434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11481920
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14425,6 +14547,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   KlawiszWlaczony: {fileID: 157946}
+--- !u!114 &11484564
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11484584
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15225,6 +15363,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IkonyLinii: {fileID: 170426}
+--- !u!114 &11490152
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11490448
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16166,6 +16320,22 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11499126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11499422
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19044,7 +19214,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -3.71869828e-05, y: 9.53674316e-07}
-  m_SizeDelta: {x: 126, y: 63}
+  m_SizeDelta: {x: 136.100006, y: 63}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22423730
 RectTransform:
@@ -20312,7 +20482,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -3.64796215e-05, y: 9.53674316e-07}
-  m_SizeDelta: {x: 126, y: 63}
+  m_SizeDelta: {x: 109.5, y: 63}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22461392
 RectTransform:
@@ -20399,7 +20569,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: .000103476821, y: 9.53674316e-07}
-  m_SizeDelta: {x: 126, y: 63}
+  m_SizeDelta: {x: 138.600006, y: 63}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22463450
 RectTransform:
@@ -20614,7 +20784,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 2.38481734e-05, y: 9.53674316e-07}
-  m_SizeDelta: {x: 154.899994, y: 63}
+  m_SizeDelta: {x: 168.600006, y: 63}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22473866
 RectTransform:
@@ -20824,7 +20994,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 8.48833297e-05, y: 9.53674316e-07}
-  m_SizeDelta: {x: 126, y: 63}
+  m_SizeDelta: {x: 165.899994, y: 63}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22482474
 RectTransform:
@@ -20964,7 +21134,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -7.96286477e-05, y: 9.53674316e-07}
-  m_SizeDelta: {x: 126, y: 63}
+  m_SizeDelta: {x: 110.699997, y: 63}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22486968
 RectTransform:
@@ -20981,7 +21151,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 8.48833297e-05, y: 9.53674316e-07}
-  m_SizeDelta: {x: 126, y: 63}
+  m_SizeDelta: {x: 191.399994, y: 63}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22487368
 RectTransform:
@@ -21138,7 +21308,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -1.85934914e-05, y: 9.53674316e-07}
-  m_SizeDelta: {x: 126, y: 63}
+  m_SizeDelta: {x: 124.900002, y: 63}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22491464
 RectTransform:
