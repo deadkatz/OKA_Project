@@ -108,7 +108,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &39867607
 RectTransform:
@@ -368,7 +368,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &47175474
 RectTransform:
@@ -380,8 +380,20 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD:Assets/Scenes/Simply_object_01.unity
   m_Children: []
   m_Father: {fileID: 1600102294}
+=======
+  m_Children:
+  - {fileID: 158735341}
+  - {fileID: 1603229214}
+  - {fileID: 2033458211}
+  - {fileID: 1768412698}
+  - {fileID: 1704922526}
+  - {fileID: 1361367375}
+  - {fileID: 1416681304}
+  m_Father: {fileID: 198472738}
+>>>>>>> origin/master:Assets/Scenes/Simply_object_02.unity
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
@@ -13986,7 +13998,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &2077693671
 RectTransform:
@@ -14025,6 +14037,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11443718, guid: 225c7e4ab0579c34da68a53968d691a6,
     type: 2}
+<<<<<<< HEAD:Assets/Scenes/Simply_object_01.unity
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2077693670}
   m_Enabled: 1
@@ -14042,6 +14055,10 @@ MonoBehaviour:
     width: 1
     height: 1
 --- !u!114 &2077693674
+=======
+  m_PrefabInternal: {fileID: 616558665}
+--- !u!114 &961987952 stripped
+>>>>>>> origin/master:Assets/Scenes/Simply_object_02.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11477896, guid: 225c7e4ab0579c34da68a53968d691a6,
@@ -14127,6 +14144,7 @@ RectTransform:
   m_PrefabParentObject: {fileID: 22448836, guid: 225c7e4ab0579c34da68a53968d691a6,
     type: 2}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Assets/Scenes/Simply_object_01.unity
   m_GameObject: {fileID: 2091408636}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -14289,6 +14307,11 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2091408636}
 --- !u!1 &2107953917
+=======
+  m_GameObject: {fileID: 1031995960}
+  m_Mesh: {fileID: 4300000, guid: 9207d23e77ea47f469b7403f4a690cbd, type: 3}
+--- !u!1 &1361367373
+>>>>>>> origin/master:Assets/Scenes/Simply_object_02.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 111884, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
@@ -14445,7 +14468,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &2108773899
 RectTransform:
@@ -14760,8 +14783,104 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+<<<<<<< HEAD:Assets/Scenes/Simply_object_01.unity
 --- !u!223 &2139763628
 Canvas:
+=======
+  m_Lightmapping: 4
+  m_BounceIntensity: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 90
+  m_AreaSize: {x: 16, y: 16}
+--- !u!1001 &2033458210
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 585063377}
+    m_Modifications:
+    - target: {fileID: 400006, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: .0299999993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -.728999972
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.37000036
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.53999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.53999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.53999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d32e414f4173cdf4e812c75722023b2a, type: 2}
+    - target: {fileID: 2300002, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5d76cb2d56a4db340a24cf6f889fa702, type: 2}
+    - target: {fileID: 2300004, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 438568f9a4cd58649950992c9fdea9d1, type: 2}
+    - target: {fileID: 100004, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &2033458211 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400006, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
+  m_PrefabInternal: {fileID: 2033458210}
+--- !u!1001 &2050292754
+Prefab:
+>>>>>>> origin/master:Assets/Scenes/Simply_object_02.unity
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 22343296, guid: 225c7e4ab0579c34da68a53968d691a6,
     type: 2}
