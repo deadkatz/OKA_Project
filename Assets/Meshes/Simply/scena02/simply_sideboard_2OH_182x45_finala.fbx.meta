@@ -64,6 +64,10 @@ ModelImporter:
     100112: transform7
     100114: transform8
     100116: transform9
+    100118: boki_srodki_mesh
+    100120: fronty_mesh
+    100122: metal_mesh
+    100124: top_mesh
     400000: aaa2:M4.I5
     400002: aaa3:M13.I17
     400004: aaa4:M17.I27
@@ -123,6 +127,10 @@ ModelImporter:
     400112: transform7
     400114: transform8
     400116: transform9
+    400118: boki_srodki_mesh
+    400120: fronty_mesh
+    400122: metal_mesh
+    400124: top_mesh
     2300000: aaa2:M4.I5
     2300002: aaa3:M13.I17
     2300004: aaa4:M17.I27
@@ -131,6 +139,10 @@ ModelImporter:
     2300010: aaa:M5.I6
     2300012: M0.I0
     2300014: M0.I1
+    2300016: boki_srodki_mesh
+    2300018: fronty_mesh
+    2300020: metal_mesh
+    2300022: top_mesh
     3300000: aaa2:M4.I5
     3300002: aaa3:M13.I17
     3300004: aaa4:M17.I27
@@ -139,6 +151,10 @@ ModelImporter:
     3300010: aaa:M5.I6
     3300012: M0.I0
     3300014: M0.I1
+    3300016: boki_srodki_mesh
+    3300018: fronty_mesh
+    3300020: metal_mesh
+    3300022: top_mesh
     4300000: aaa:M5.I6
     4300002: aaa2:M4.I5
     4300004: aaa3:M13.I17
@@ -147,6 +163,10 @@ ModelImporter:
     4300010: M0.I1
     4300012: M0.I0
     4300014: aaa6:polySurface1
+    4300016: top_mesh
+    4300018: boki_srodki_mesh
+    4300020: fronty_mesh
+    4300022: metal_mesh
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -176,7 +196,7 @@ ModelImporter:
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
