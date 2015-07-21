@@ -874,7 +874,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
 --- !u!1 &198472737
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,7 +1426,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11436796, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22453076, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_LocalScale.x
@@ -1474,7 +1474,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11469152, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Modulline_Scene_01
+      value: Moduline_Scene_01
       objectReference: {fileID: 0}
     - target: {fileID: 11480044, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -1563,6 +1563,10 @@ Prefab:
     - target: {fileID: 22420466, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22311742, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_OverrideSorting
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
