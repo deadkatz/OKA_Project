@@ -165,14 +165,6 @@ Prefab:
       propertyPath: target
       value: 
       objectReference: {fileID: 429537539}
-    - target: {fileID: 11484900, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
-      propertyPath: perspectiveVelocity
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11484900, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
-      propertyPath: perspectiveZoomSpeed
-      value: .0500000007
-      objectReference: {fileID: 0}
     - target: {fileID: 498798, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
       propertyPath: m_LocalPosition.z
       value: 7.88000011
@@ -5232,10 +5224,14 @@ Prefab:
       propertyPath: m_Pivot.y
       value: .5
       objectReference: {fileID: 0}
+    - target: {fileID: 11410172, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
+      propertyPath: blenda
+      value: 
+      objectReference: {fileID: 1318713927}
     - target: {fileID: 11477268, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11477268, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5243,7 +5239,7 @@ Prefab:
     - target: {fileID: 11428406, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11428406, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5251,7 +5247,7 @@ Prefab:
     - target: {fileID: 11446510, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11446510, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5259,7 +5255,7 @@ Prefab:
     - target: {fileID: 11489558, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11489558, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5267,7 +5263,7 @@ Prefab:
     - target: {fileID: 11419636, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11419636, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5275,7 +5271,7 @@ Prefab:
     - target: {fileID: 11453288, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11453288, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5283,7 +5279,7 @@ Prefab:
     - target: {fileID: 11444312, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11444312, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5291,7 +5287,7 @@ Prefab:
     - target: {fileID: 11484032, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11484032, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5299,7 +5295,7 @@ Prefab:
     - target: {fileID: 11451614, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11451614, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5307,7 +5303,7 @@ Prefab:
     - target: {fileID: 11462786, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11462786, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5315,7 +5311,7 @@ Prefab:
     - target: {fileID: 11447704, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11447704, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5323,23 +5319,15 @@ Prefab:
     - target: {fileID: 11454082, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11454082, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
       objectReference: {fileID: 0}
-    - target: {fileID: 11497396, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1545861564}
-    - target: {fileID: 11497396, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LadujScene
-      objectReference: {fileID: 0}
     - target: {fileID: 11450652, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11450652, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5347,7 +5335,7 @@ Prefab:
     - target: {fileID: 11448402, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11448402, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5355,7 +5343,7 @@ Prefab:
     - target: {fileID: 11482506, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11482506, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5363,7 +5351,7 @@ Prefab:
     - target: {fileID: 11450718, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11450718, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5371,7 +5359,7 @@ Prefab:
     - target: {fileID: 11448554, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11448554, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5379,7 +5367,7 @@ Prefab:
     - target: {fileID: 11434306, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11434306, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5387,7 +5375,7 @@ Prefab:
     - target: {fileID: 11429724, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11429724, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
@@ -5395,31 +5383,22 @@ Prefab:
     - target: {fileID: 11448630, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1545861564}
+      objectReference: {fileID: 1922910072}
     - target: {fileID: 11448630, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LadujScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 11497396, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1922910072}
+    - target: {fileID: 11497396, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1545861563 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 113910, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
-  m_PrefabInternal: {fileID: 1545861562}
---- !u!114 &1545861564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1545861563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5dd5389514e7544986866991aac9009, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nazwaSceny: 
-  blenda: {fileID: 1318713927}
 --- !u!1 &1552269986
 GameObject:
   m_ObjectHideFlags: 0
