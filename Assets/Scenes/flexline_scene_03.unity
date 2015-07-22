@@ -2826,12 +2826,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &576545120 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11413246, guid: 4ea34ecfea046f84d837c63de17e405a,
-    type: 2}
-  m_PrefabInternal: {fileID: 576545119}
-  m_Script: {fileID: 11500000, guid: c5dd5389514e7544986866991aac9009, type: 3}
 --- !u!1001 &580428261
 Prefab:
   m_ObjectHideFlags: 0
@@ -8520,7 +8514,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: .5
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: 11447388, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -8594,81 +8587,6 @@ Prefab:
       value: LadujScene
       objectReference: {fileID: 0}
     - target: {fileID: 11410482, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-=======
-    - target: {fileID: 11411954, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 576545120}
-    - target: {fileID: 11450624, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 576545120}
-    - target: {fileID: 11411770, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 576545120}
-    - target: {fileID: 11409824, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 576545120}
-    - target: {fileID: 11404376, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 576545120}
-    - target: {fileID: 11410482, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 576545120}
-    - target: {fileID: 11418598, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 576545120}
-    - target: {fileID: 11447388, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 576545120}
-    - target: {fileID: 11434044, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 576545120}
-    - target: {fileID: 11408086, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 576545120}
-    - target: {fileID: 11411954, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LadujScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 11450624, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LadujScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 11411770, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LadujScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 11409824, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LadujScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 11404376, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LadujScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 11410482, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LadujScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 11418598, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LadujScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 11447388, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LadujScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 11434044, guid: 9c4662afbdbe8544493111b1258dfea9, type: 2}
->>>>>>> origin/master
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
       objectReference: {fileID: 0}
