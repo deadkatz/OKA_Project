@@ -161,6 +161,7 @@ GameObject:
   - 114: {fileID: 11412984}
   - 223: {fileID: 22388240}
   - 114: {fileID: 11490152}
+  - 114: {fileID: 11466368}
   m_Layer: 5
   m_Name: Line_02
   m_TagString: Klawisz
@@ -183,6 +184,7 @@ GameObject:
   - 114: {fileID: 11491222}
   - 223: {fileID: 22372282}
   - 114: {fileID: 11499126}
+  - 114: {fileID: 11489392}
   m_Layer: 5
   m_Name: Line_04
   m_TagString: Klawisz
@@ -386,6 +388,7 @@ GameObject:
   - 114: {fileID: 11489626}
   - 223: {fileID: 22341510}
   - 114: {fileID: 11481434}
+  - 114: {fileID: 11443394}
   m_Layer: 5
   m_Name: Line_08
   m_TagString: Klawisz
@@ -560,6 +563,7 @@ GameObject:
   - 114: {fileID: 11455028}
   - 223: {fileID: 22341790}
   - 114: {fileID: 11433118}
+  - 114: {fileID: 11498028}
   m_Layer: 5
   m_Name: Line_05
   m_TagString: Klawisz
@@ -601,6 +605,7 @@ GameObject:
   - 114: {fileID: 11487380}
   - 223: {fileID: 22370048}
   - 114: {fileID: 11436034}
+  - 114: {fileID: 11411074}
   m_Layer: 5
   m_Name: Line_03
   m_TagString: Klawisz
@@ -1269,6 +1274,7 @@ GameObject:
   - 114: {fileID: 11458030}
   - 223: {fileID: 22300942}
   - 114: {fileID: 11484564}
+  - 114: {fileID: 11409166}
   m_Layer: 5
   m_Name: Line_09
   m_TagString: Klawisz
@@ -1760,6 +1766,7 @@ GameObject:
   - 114: {fileID: 11446674}
   - 223: {fileID: 22318476}
   - 114: {fileID: 11428774}
+  - 114: {fileID: 11447700}
   m_Layer: 5
   m_Name: Line_06
   m_TagString: Klawisz
@@ -1782,6 +1789,7 @@ GameObject:
   - 114: {fileID: 11441652}
   - 223: {fileID: 22311742}
   - 114: {fileID: 11449206}
+  - 114: {fileID: 11493680}
   m_Layer: 5
   m_Name: Line_01
   m_TagString: Klawisz
@@ -1989,6 +1997,7 @@ GameObject:
   - 114: {fileID: 11497816}
   - 223: {fileID: 22382126}
   - 114: {fileID: 11465984}
+  - 114: {fileID: 11429456}
   m_Layer: 5
   m_Name: Line_10
   m_TagString: Klawisz
@@ -2085,6 +2094,7 @@ GameObject:
   - 114: {fileID: 11469598}
   - 223: {fileID: 22332876}
   - 114: {fileID: 11437510}
+  - 114: {fileID: 11487424}
   m_Layer: 5
   m_Name: Line_07
   m_TagString: Klawisz
@@ -3906,6 +3916,22 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11409166
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11409758
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4076,6 +4102,22 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11411074
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 117550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11411144
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7016,6 +7058,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   klawiszModulKolorWlaczony: {fileID: 118344}
+--- !u!114 &11429456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 160326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11429536
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9246,6 +9304,22 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11443394
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11443808
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9759,6 +9833,22 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11447700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11447728
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12229,6 +12319,22 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11466368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11466468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12422,7 +12528,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Firstline_scene_01
+          m_StringArgument: Firstline_scene_01NEW
           m_BoolArgument: 0
         m_CallState: 1
       - m_Target: {fileID: 11465010}
@@ -14849,6 +14955,22 @@ MonoBehaviour:
   addony1: []
   addony2: []
   addony3: []
+--- !u!114 &11487424
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11487550
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14985,6 +15107,22 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11489392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11489498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15747,6 +15885,22 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11493680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11493954
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16165,6 +16319,22 @@ MonoBehaviour:
   ikonaOff: {fileID: 11448482}
   ikonaOn: {fileID: 153530}
   tabOn: {fileID: 175078}
+--- !u!114 &11498028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11498120
 MonoBehaviour:
   m_ObjectHideFlags: 1
