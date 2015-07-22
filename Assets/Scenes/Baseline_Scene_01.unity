@@ -259,6 +259,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 58603126}
   ikonaOn: {fileID: 2081459562}
   tabOn: {fileID: 2081459562}
+  CurrentImage: 0
 --- !u!114 &58603125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1542,7 +1543,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22483892, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 22440680, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_RootOrder
@@ -1566,9 +1567,34 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22311742, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_OverrideSorting
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 154750, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11413980, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22311742, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 138954, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11411074, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+    - {fileID: 11447700, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+    - {fileID: 11487424, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+    - {fileID: 11443394, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+    - {fileID: 11489392, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+    - {fileID: 11498028, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+    - {fileID: 11409166, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+    - {fileID: 11429456, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+    - {fileID: 11493680, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &290121982
@@ -1999,6 +2025,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 341633465}
   ikonaOn: {fileID: 430262684}
   tabOn: {fileID: 430262684}
+  CurrentImage: 0
 --- !u!114 &341633464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2660,6 +2687,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 408501931}
   ikonaOn: {fileID: 290620230}
   tabOn: {fileID: 290620230}
+  CurrentImage: 0
 --- !u!114 &408501930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3799,6 +3827,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 774447669}
   ikonaOn: {fileID: 1392662558}
   tabOn: {fileID: 1392662558}
+  CurrentImage: 0
 --- !u!114 &774447668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4331,6 +4360,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 861422213}
   ikonaOn: {fileID: 192763249}
   tabOn: {fileID: 192763249}
+  CurrentImage: 0
 --- !u!114 &861422212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4723,6 +4753,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 956871739}
   ikonaOn: {fileID: 1557407625}
   tabOn: {fileID: 1557407625}
+  CurrentImage: 0
 --- !u!114 &956871738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5325,6 +5356,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1015878106}
   ikonaOn: {fileID: 813655243}
   tabOn: {fileID: 813655243}
+  CurrentImage: 0
 --- !u!114 &1015878105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5930,6 +5962,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1116206542}
   ikonaOn: {fileID: 360222589}
   tabOn: {fileID: 360222589}
+  CurrentImage: 0
 --- !u!114 &1116206541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6439,6 +6472,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1287390758}
   ikonaOn: {fileID: 1964271866}
   tabOn: {fileID: 1964271866}
+  CurrentImage: 0
 --- !u!114 &1287390757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6675,6 +6709,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1299267634}
   ikonaOn: {fileID: 1395721029}
   tabOn: {fileID: 1395721029}
+  CurrentImage: 0
 --- !u!114 &1299267633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6911,6 +6946,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1299748504}
   ikonaOn: {fileID: 1478471243}
   tabOn: {fileID: 1478471243}
+  CurrentImage: 0
 --- !u!114 &1299748503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9973,6 +10009,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1904452044}
   ikonaOn: {fileID: 294975401}
   tabOn: {fileID: 294975401}
+  CurrentImage: 0
 --- !u!114 &1904452043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10209,6 +10246,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1935125903}
   ikonaOn: {fileID: 1087751790}
   tabOn: {fileID: 1087751790}
+  CurrentImage: 0
 --- !u!114 &1935125902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11017,6 +11055,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 2040022938}
   ikonaOn: {fileID: 1496254854}
   tabOn: {fileID: 1496254854}
+  CurrentImage: 0
 --- !u!114 &2040022937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11690,6 +11729,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 2142246356}
   ikonaOn: {fileID: 39876072}
   tabOn: {fileID: 39876072}
+  CurrentImage: 0
 --- !u!114 &2142246355
 MonoBehaviour:
   m_ObjectHideFlags: 0

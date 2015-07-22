@@ -17,7 +17,6 @@ public class WcisnijKlawiszSceny : MonoBehaviour {
 
 	public void klawiszScenyWlacz()
 	{
-
 		GameObject[] gameObjects = GameObject.FindGameObjectsWithTag ("Klawisz");
 		foreach (GameObject target in gameObjects) {
 			target.GetComponent<Button> ().interactable = false;

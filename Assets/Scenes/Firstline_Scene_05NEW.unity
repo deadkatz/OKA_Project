@@ -1351,7 +1351,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11472594, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11457268, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_Texture
@@ -1389,6 +1389,10 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 22332876, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
   m_IsPrefabParent: 0
@@ -1409,10 +1413,6 @@ GameObject:
 --- !u!1 &402170595 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 153530, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
-  m_PrefabInternal: {fileID: 402170591}
---- !u!1 &402170596 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 186974, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
   m_PrefabInternal: {fileID: 402170591}
 --- !u!1 &402170597 stripped
 GameObject:
@@ -1437,10 +1437,6 @@ GameObject:
 --- !u!1 &402170602 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 157946, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
-  m_PrefabInternal: {fileID: 402170591}
---- !u!1 &402170603 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 195108, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
   m_PrefabInternal: {fileID: 402170591}
 --- !u!1 &402170604 stripped
 GameObject:
@@ -1518,23 +1514,6 @@ Canvas:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 402170595}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 1
-  m_OverridePixelPerfect: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!223 &402170616
-Canvas:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 402170596}
   m_Enabled: 1
   serializedVersion: 2
   m_RenderMode: 2
@@ -1637,23 +1616,6 @@ Canvas:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 402170602}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 1
-  m_OverridePixelPerfect: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!223 &402170623
-Canvas:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 402170603}
   m_Enabled: 1
   serializedVersion: 2
   m_RenderMode: 2

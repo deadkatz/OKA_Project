@@ -7,12 +7,15 @@ public class KlawiszPoziomController : MonoBehaviour {
 	public RawImage ikonaOff;
 	public GameObject ikonaOn;
 	public GameObject tabOn;
+	public bool CurrentImage;
 
 	// Use this for initialization
 	void Start () {
-		ikonaOff.enabled = true;
-		ikonaOn.SetActive(false);
+		if (CurrentImage != true) {
+			ikonaOff.enabled = true;
+			ikonaOn.SetActive (false);
 //		tabOn.SetActive(false);
+		}
 	}
 	
 	// Update is called once per frame
