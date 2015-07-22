@@ -165,13 +165,9 @@ Prefab:
       propertyPath: target
       value: 
       objectReference: {fileID: 429537539}
-    - target: {fileID: 11484900, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
-      propertyPath: perspectiveVelocity
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11484900, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
-      propertyPath: perspectiveZoomSpeed
-      value: .0500000007
+    - target: {fileID: 498798, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 7.82000017
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
@@ -897,6 +893,18 @@ Prefab:
     - target: {fileID: 11477268, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458926, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 5d5a2d19f5caf4116b21d97399381774, type: 3}
+    - target: {fileID: 11402616, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: bda450ad013e04decb1e78e0c636afa2, type: 3}
+    - target: {fileID: 178974, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}

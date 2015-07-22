@@ -19,11 +19,11 @@ public class PrzejdzDoSceny : MonoBehaviour {
 	{
 		string nazwaSceny = sceneKontroler.GetComponent<SceneController> ().nazwaSceny;
 
-		if (nazwaSceny == "FirstLine_MainScene")
-		{
-			Application.LoadLevel ("FirstLine_MainScene");
-		}
-		else
+//		if (nazwaSceny == "Firstline_Scene")
+//		{
+//			Application.LoadLevel ("FirstLine_MainScene");
+//		}
+//		else
 		{
 			Application.LoadLevel(nazwaSceny);
 		}
