@@ -68,7 +68,7 @@ LightmapSettings:
     m_TextureCompression: 0
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
-  m_LightmapSnapshot: {fileID: 112000000, guid: 0b2933ffc20204e4eb749b2744904109,
+  m_LightmapSnapshot: {fileID: 112000000, guid: d6cbd2f1ca6f1014ba99dfe6a302c516,
     type: 2}
   m_RuntimeCPUUsage: 25
 --- !u!196 &5
@@ -157,6 +157,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 39867610}
   ikonaOn: {fileID: 1219626017}
   tabOn: {fileID: 368263320}
+  CurrentImage: 0
 --- !u!114 &39867610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1694,6 +1695,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 207874620}
   ikonaOn: {fileID: 228164144}
   tabOn: {fileID: 1337013404}
+  CurrentImage: 0
 --- !u!114 &207874620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2403,6 +2405,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 268757963}
   ikonaOn: {fileID: 906169814}
   tabOn: {fileID: 1161887377}
+  CurrentImage: 0
 --- !u!114 &268757963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3093,6 +3096,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 356712665}
   ikonaOn: {fileID: 833832008}
   tabOn: {fileID: 833832008}
+  CurrentImage: 0
 --- !u!114 &356712664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4297,6 +4301,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 438568f9a4cd58649950992c9fdea9d1, type: 2}
+    - target: {fileID: 2300000, guid: 4013f9463f4edb24e9a0bef90d054278, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 2.5999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 4013f9463f4edb24e9a0bef90d054278, type: 3}
+      propertyPath: m_AutoUVMaxDistance
+      value: .200000003
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4013f9463f4edb24e9a0bef90d054278, type: 3}
   m_IsPrefabParent: 0
@@ -7199,6 +7211,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 856801290}
   ikonaOn: {fileID: 91884453}
   tabOn: {fileID: 1983751581}
+  CurrentImage: 0
 --- !u!114 &856801290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14605,6 +14618,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 2108773901}
   ikonaOn: {fileID: 1470270665}
   tabOn: {fileID: 802506467}
+  CurrentImage: 0
 --- !u!114 &2108773901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14867,6 +14881,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 2139763629}
   ikonaOn: {fileID: 800130129}
   tabOn: {fileID: 1339809668}
+  CurrentImage: 0
 --- !u!114 &2139763627
 MonoBehaviour:
   m_ObjectHideFlags: 0
