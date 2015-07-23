@@ -1058,6 +1058,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 113127127}
   ikonaOn: {fileID: 287693433}
   tabOn: {fileID: 287693433}
+  CurrentImage: 0
 --- !u!114 &113127126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1738,6 +1739,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 144823743}
   ikonaOn: {fileID: 1852574188}
   tabOn: {fileID: 1852574188}
+  CurrentImage: 0
 --- !u!114 &144823742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2504,6 +2506,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 183524262}
   ikonaOn: {fileID: 1949043013}
   tabOn: {fileID: 1949043013}
+  CurrentImage: 0
 --- !u!114 &183524261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6283,6 +6286,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 511840026}
   ikonaOn: {fileID: 999581728}
   tabOn: {fileID: 999581728}
+  CurrentImage: 0
 --- !u!114 &511840025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6667,6 +6671,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 522644703}
   ikonaOn: {fileID: 1830821256}
   tabOn: {fileID: 1830821256}
+  CurrentImage: 0
 --- !u!114 &522644702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9513,6 +9518,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 723893434}
   ikonaOn: {fileID: 183395783}
   tabOn: {fileID: 183395783}
+  CurrentImage: 0
 --- !u!114 &723893433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9793,7 +9799,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
 --- !u!1001 &773050181
 Prefab:
   m_ObjectHideFlags: 0
@@ -10774,6 +10780,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 862455703}
   ikonaOn: {fileID: 1394781245}
   tabOn: {fileID: 1394781245}
+  CurrentImage: 0
 --- !u!114 &862455702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11622,6 +11629,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 903883519}
   ikonaOn: {fileID: 166127681}
   tabOn: {fileID: 166127681}
+  CurrentImage: 0
 --- !u!114 &903883518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12214,7 +12222,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!1001 &965765475
 Prefab:
   m_ObjectHideFlags: 0
@@ -13313,6 +13321,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1036343986}
   ikonaOn: {fileID: 428710817}
   tabOn: {fileID: 428710817}
+  CurrentImage: 0
 --- !u!114 &1036343985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13701,6 +13710,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1071248531}
   ikonaOn: {fileID: 1996278168}
   tabOn: {fileID: 1996278168}
+  CurrentImage: 0
 --- !u!114 &1071248530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15287,6 +15297,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1214677994}
   ikonaOn: {fileID: 2072383395}
   tabOn: {fileID: 2072383395}
+  CurrentImage: 0
 --- !u!114 &1214677993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18482,6 +18493,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1437116226}
   ikonaOn: {fileID: 1806160208}
   tabOn: {fileID: 1806160208}
+  CurrentImage: 0
 --- !u!114 &1437116225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20075,11 +20087,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11436796, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11441652, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467904, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_Enabled
@@ -20272,6 +20284,30 @@ Prefab:
     - target: {fileID: 11474982, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22311742, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_OverrideSorting
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441652, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: CurrentImage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 154750, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 164296, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_TagString
+      value: LinieKlawisz
+      objectReference: {fileID: 0}
+    - target: {fileID: 111736, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_TagString
+      value: Bkg_Klawisz
+      objectReference: {fileID: 0}
+    - target: {fileID: 150378, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_TagString
+      value: Bkg_Klawisz
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
@@ -21367,6 +21403,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1638410594}
   ikonaOn: {fileID: 2109791337}
   tabOn: {fileID: 2109791337}
+  CurrentImage: 0
 --- !u!114 &1638410593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27962,6 +27999,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 2097200061}
   ikonaOn: {fileID: 1273357227}
   tabOn: {fileID: 1273357227}
+  CurrentImage: 0
 --- !u!114 &2097200060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28463,6 +28501,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 2131207074}
   ikonaOn: {fileID: 1628245985}
   tabOn: {fileID: 1628245985}
+  CurrentImage: 0
 --- !u!114 &2131207073
 MonoBehaviour:
   m_ObjectHideFlags: 0

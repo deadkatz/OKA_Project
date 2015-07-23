@@ -163,7 +163,7 @@ GameObject:
   - 114: {fileID: 11490152}
   m_Layer: 5
   m_Name: Line_02
-  m_TagString: Klawisz
+  m_TagString: LinieKlawisz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -185,7 +185,7 @@ GameObject:
   - 114: {fileID: 11499126}
   m_Layer: 5
   m_Name: Line_04
-  m_TagString: Klawisz
+  m_TagString: LinieKlawisz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -388,7 +388,7 @@ GameObject:
   - 114: {fileID: 11481434}
   m_Layer: 5
   m_Name: Line_08
-  m_TagString: Klawisz
+  m_TagString: LinieKlawisz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -562,7 +562,7 @@ GameObject:
   - 114: {fileID: 11433118}
   m_Layer: 5
   m_Name: Line_05
-  m_TagString: Klawisz
+  m_TagString: LinieKlawisz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -603,7 +603,7 @@ GameObject:
   - 114: {fileID: 11436034}
   m_Layer: 5
   m_Name: Line_03
-  m_TagString: Klawisz
+  m_TagString: LinieKlawisz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1271,7 +1271,7 @@ GameObject:
   - 114: {fileID: 11484564}
   m_Layer: 5
   m_Name: Line_09
-  m_TagString: Klawisz
+  m_TagString: LinieKlawisz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1762,7 +1762,7 @@ GameObject:
   - 114: {fileID: 11428774}
   m_Layer: 5
   m_Name: Line_06
-  m_TagString: Klawisz
+  m_TagString: LinieKlawisz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1784,7 +1784,7 @@ GameObject:
   - 114: {fileID: 11449206}
   m_Layer: 5
   m_Name: Line_01
-  m_TagString: Klawisz
+  m_TagString: LinieKlawisz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1858,7 +1858,7 @@ GameObject:
   - 223: {fileID: 22381850}
   m_Layer: 5
   m_Name: BKg_Button
-  m_TagString: Bkg_Klawisz
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1991,7 +1991,7 @@ GameObject:
   - 114: {fileID: 11465984}
   m_Layer: 5
   m_Name: Line_10
-  m_TagString: Klawisz
+  m_TagString: LinieKlawisz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2087,7 +2087,7 @@ GameObject:
   - 114: {fileID: 11437510}
   m_Layer: 5
   m_Name: Line_07
-  m_TagString: Klawisz
+  m_TagString: LinieKlawisz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3549,7 +3549,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 1
       - m_Target: {fileID: 11466872}
-        m_MethodName: klawiszScenyWlacz
+        m_MethodName: klawiszliniiWlacz
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4608,8 +4608,8 @@ MonoBehaviour:
           m_StringArgument: Simply_scene_01
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 11466872}
-        m_MethodName: klawiszScenyWlacz
+      - m_Target: {fileID: 11487550}
+        m_MethodName: klawiszliniiWlacz
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7273,8 +7273,8 @@ MonoBehaviour:
           m_StringArgument: Trion_scene_01
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 11466872}
-        m_MethodName: klawiszScenyWlacz
+      - m_Target: {fileID: 11436680}
+        m_MethodName: klawiszliniiWlacz
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7487,7 +7487,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108654}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -7531,8 +7531,8 @@ MonoBehaviour:
           m_StringArgument: Jump_scene_01
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 11466872}
-        m_MethodName: klawiszScenyWlacz
+      - m_Target: {fileID: 11483928}
+        m_MethodName: klawiszliniiWlacz
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11896,8 +11896,8 @@ MonoBehaviour:
           m_StringArgument: Puron_scene_01
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 11466872}
-        m_MethodName: klawiszScenyWlacz
+      - m_Target: {fileID: 11443200}
+        m_MethodName: klawiszliniiWlacz
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12317,7 +12317,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 117550}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 00be6b5c52efdbf4eb8eb9446281a8e0, type: 3}
   m_Name: 
@@ -12435,8 +12435,8 @@ MonoBehaviour:
           m_StringArgument: Firstline_scene_01NEW
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 11466872}
-        m_MethodName: klawiszScenyWlacz
+      - m_Target: {fileID: 11465010}
+        m_MethodName: klawiszliniiWlacz
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12601,8 +12601,8 @@ MonoBehaviour:
           m_StringArgument: Flipon_scene_01
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 11466872}
-        m_MethodName: klawiszScenyWlacz
+      - m_Target: {fileID: 11487694}
+        m_MethodName: klawiszliniiWlacz
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12675,8 +12675,8 @@ MonoBehaviour:
           m_StringArgument: Moduline_scene_01
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 11466872}
-        m_MethodName: klawiszScenyWlacz
+      - m_Target: {fileID: 11435754}
+        m_MethodName: klawiszliniiWlacz
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13571,8 +13571,8 @@ MonoBehaviour:
           m_StringArgument: Baseline_scene_01
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 11466872}
-        m_MethodName: klawiszScenyWlacz
+      - m_Target: {fileID: 11413980}
+        m_MethodName: klawiszliniiWlacz
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14114,8 +14114,8 @@ MonoBehaviour:
           m_StringArgument: Europa_scene_01
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 11466872}
-        m_MethodName: klawiszScenyWlacz
+      - m_Target: {fileID: 11455296}
+        m_MethodName: klawiszliniiWlacz
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
