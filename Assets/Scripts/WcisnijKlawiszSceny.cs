@@ -34,7 +34,12 @@ public class WcisnijKlawiszSceny : MonoBehaviour {
 		GameObject[] linieKlawisze = GameObject.FindGameObjectsWithTag ("LinieKlawisz");
 		foreach (GameObject linietarget in linieKlawisze) {
 			linietarget.GetComponent<Button> ().interactable = false;
-			linietarget.SetActive (false);
+//			linietarget.SetActive (false);
+		}
+		GameObject[] BKG_klawisze = GameObject.FindGameObjectsWithTag ("Bkg_Klawisz");
+		foreach (GameObject CurrentKlawisz in BKG_klawisze) {
+			CurrentKlawisz.SetActive (false);
+			
 		}
 
 	}
