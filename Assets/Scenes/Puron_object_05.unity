@@ -596,11 +596,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 498798, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 8.56999969
+      value: 7.73000002
       objectReference: {fileID: 0}
     - target: {fileID: 498798, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -.379999995
+      value: -0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
@@ -701,6 +701,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 592080406}
   ikonaOn: {fileID: 936476936}
   tabOn: {fileID: 936476936}
+  CurrentImage: 0
 --- !u!114 &592080405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -892,7 +893,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400006, guid: e89b7606f593bb14cb43cc235700997e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.14999998
+      value: 1.52999997
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: e89b7606f593bb14cb43cc235700997e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -900,7 +901,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: e89b7606f593bb14cb43cc235700997e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.4000001
+      value: 2.53999996
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: e89b7606f593bb14cb43cc235700997e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -920,7 +921,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: e89b7606f593bb14cb43cc235700997e, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: e89b7606f593bb14cb43cc235700997e, type: 3}
       propertyPath: m_LocalScale.x
@@ -1239,7 +1240,7 @@ Light:
   serializedVersion: 6
   m_Type: 3
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: .850000024
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -1260,7 +1261,7 @@ Light:
   m_BounceIntensity: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 90
-  m_AreaSize: {x: 16, y: 16}
+  m_AreaSize: {x: 19, y: 19}
 --- !u!4 &1361367375
 Transform:
   m_ObjectHideFlags: 0
@@ -1268,7 +1269,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1361367373}
   m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106709}
-  m_LocalPosition: {x: -.129999995, y: 4.82000017, z: 0}
+  m_LocalPosition: {x: -.129999995, y: 8.35999966, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 198472738}
