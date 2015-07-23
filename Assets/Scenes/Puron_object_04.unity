@@ -168,7 +168,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400006, guid: 3e4513879cbfbdc4ba050f45e2d17409, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.15600002
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3e4513879cbfbdc4ba050f45e2d17409, type: 3}
       propertyPath: m_LocalPosition.y
@@ -176,7 +176,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3e4513879cbfbdc4ba050f45e2d17409, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.4000001
+      value: 1.54999995
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3e4513879cbfbdc4ba050f45e2d17409, type: 3}
       propertyPath: m_LocalRotation.x
@@ -752,7 +752,7 @@ Light:
   serializedVersion: 6
   m_Type: 3
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: .850000024
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -773,7 +773,7 @@ Light:
   m_BounceIntensity: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 90
-  m_AreaSize: {x: 16, y: 16}
+  m_AreaSize: {x: 19, y: 19}
 --- !u!4 &1361367375
 Transform:
   m_ObjectHideFlags: 0
@@ -781,7 +781,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1361367373}
   m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106709}
-  m_LocalPosition: {x: -.0599999987, y: 4.82000017, z: 1.12}
+  m_LocalPosition: {x: -.0599999987, y: 8.72000027, z: -.0599999987}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 198472738}
@@ -827,11 +827,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 498798, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 9.60999966
+      value: 7.73999977
       objectReference: {fileID: 0}
     - target: {fileID: 498798, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -.0900000036
+      value: -.0199999996
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
@@ -1284,6 +1284,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1705148425}
   ikonaOn: {fileID: 1868715474}
   tabOn: {fileID: 1868715474}
+  CurrentImage: 0
 --- !u!114 &1705148424
 MonoBehaviour:
   m_ObjectHideFlags: 0
