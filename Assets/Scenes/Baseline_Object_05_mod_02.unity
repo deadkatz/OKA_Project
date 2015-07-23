@@ -1144,6 +1144,10 @@ Prefab:
       propertyPath: m_TagString
       value: Module1
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 9a5083574570b6942b986e8f92654333, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 205ae6e821bfaef45a5d6beb328a095c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9a5083574570b6942b986e8f92654333, type: 3}
   m_IsPrefabParent: 0
@@ -4491,7 +4495,7 @@ Prefab:
     - target: {fileID: 11458880, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: movableObject
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1736033931}
     - target: {fileID: 22490820, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_AnchoredPosition.x
       value: -100
@@ -6092,6 +6096,10 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1318713925}
   m_Script: {fileID: 11500000, guid: 00be6b5c52efdbf4eb8eb9446281a8e0, type: 3}
+--- !u!1 &1736033931 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 9a5083574570b6942b986e8f92654333, type: 3}
+  m_PrefabInternal: {fileID: 306806107}
 --- !u!1 &1777779256
 GameObject:
   m_ObjectHideFlags: 0
