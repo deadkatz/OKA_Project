@@ -324,7 +324,7 @@ Light:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 208803135}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 6
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -521,6 +521,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 421898925}
   ikonaOn: {fileID: 156942122}
   tabOn: {fileID: 156942122}
+  CurrentImage: 0
 --- !u!114 &421898924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -962,6 +963,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 552342627}
   ikonaOn: {fileID: 992663170}
   tabOn: {fileID: 992663170}
+  CurrentImage: 0
 --- !u!114 &552342626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1179,6 +1181,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 558759874}
   ikonaOn: {fileID: 1835927537}
   tabOn: {fileID: 1835927537}
+  CurrentImage: 0
 --- !u!114 &558759873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1551,6 +1554,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 760405500}
   ikonaOn: {fileID: 1432692048}
   tabOn: {fileID: 1432692048}
+  CurrentImage: 0
 --- !u!114 &760405499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1787,6 +1791,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 775487956}
   ikonaOn: {fileID: 1857535669}
   tabOn: {fileID: 1857535669}
+  CurrentImage: 0
 --- !u!114 &775487955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1992,7 +1997,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 810893781}
   m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106709}
-  m_LocalPosition: {x: -1.42999995, y: 4.82000017, z: 0}
+  m_LocalPosition: {x: 0, y: 4.82000017, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1338264968}
@@ -2422,6 +2427,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1084330010}
   ikonaOn: {fileID: 267277620}
   tabOn: {fileID: 267277620}
+  CurrentImage: 0
 --- !u!114 &1084330009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2658,6 +2664,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1186441707}
   ikonaOn: {fileID: 1244982574}
   tabOn: {fileID: 1244982574}
+  CurrentImage: 0
 --- !u!114 &1186441706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3286,6 +3293,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1357407528}
   ikonaOn: {fileID: 1824121387}
   tabOn: {fileID: 1824121387}
+  CurrentImage: 0
 --- !u!114 &1357407527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3596,6 +3604,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1366224152}
   ikonaOn: {fileID: 1408659833}
   tabOn: {fileID: 1408659833}
+  CurrentImage: 0
 --- !u!114 &1366224151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3832,6 +3841,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1400854572}
   ikonaOn: {fileID: 495053856}
   tabOn: {fileID: 495053856}
+  CurrentImage: 0
 --- !u!114 &1400854571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4419,6 +4429,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1444548952}
   ikonaOn: {fileID: 753222201}
   tabOn: {fileID: 753222201}
+  CurrentImage: 0
 --- !u!114 &1444548951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4629,7 +4640,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 6de6c422355abdc4e90592b3b4be16ab, type: 2}
+  - {fileID: 2100000, guid: 7e566d768a5e150449c2cbfaec7aba90, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -4717,6 +4728,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1592563188}
   ikonaOn: {fileID: 1977555230}
   tabOn: {fileID: 1977555230}
+  CurrentImage: 0
 --- !u!114 &1592563187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4953,6 +4965,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1746131423}
   ikonaOn: {fileID: 2061621269}
   tabOn: {fileID: 2061621269}
+  CurrentImage: 0
 --- !u!114 &1746131422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6022,6 +6035,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 2079561694}
   ikonaOn: {fileID: 1440932888}
   tabOn: {fileID: 1440932888}
+  CurrentImage: 0
 --- !u!114 &2079561693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6258,6 +6272,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 2084648777}
   ikonaOn: {fileID: 843637817}
   tabOn: {fileID: 843637817}
+  CurrentImage: 0
 --- !u!114 &2084648776
 MonoBehaviour:
   m_ObjectHideFlags: 0

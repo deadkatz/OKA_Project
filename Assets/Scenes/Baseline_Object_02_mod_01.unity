@@ -343,6 +343,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 128430220}
   ikonaOn: {fileID: 82976206}
   tabOn: {fileID: 82976206}
+  CurrentImage: 0
 --- !u!114 &128430219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -696,6 +697,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 165447647}
   ikonaOn: {fileID: 1405895132}
   tabOn: {fileID: 1405895132}
+  CurrentImage: 0
 --- !u!114 &165447646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -913,7 +915,7 @@ Light:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 208803135}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 6
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1097,6 +1099,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 492474398}
   ikonaOn: {fileID: 868954176}
   tabOn: {fileID: 868954176}
+  CurrentImage: 0
 --- !u!114 &492474397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1450,6 +1453,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 564741790}
   ikonaOn: {fileID: 572822143}
   tabOn: {fileID: 572822143}
+  CurrentImage: 0
 --- !u!114 &564741789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1803,6 +1807,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 617073690}
   ikonaOn: {fileID: 1137837279}
   tabOn: {fileID: 1137837279}
+  CurrentImage: 0
 --- !u!114 &617073689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2273,6 +2278,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 743805126}
   ikonaOn: {fileID: 1305410670}
   tabOn: {fileID: 1305410670}
+  CurrentImage: 0
 --- !u!114 &743805125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2626,6 +2632,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 785367408}
   ikonaOn: {fileID: 1087311034}
   tabOn: {fileID: 1087311034}
+  CurrentImage: 0
 --- !u!114 &785367407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2831,7 +2838,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 810893781}
   m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106709}
-  m_LocalPosition: {x: -1.42999995, y: 4.82000017, z: 0}
+  m_LocalPosition: {x: 0, y: 4.82000017, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1338264968}
@@ -3868,6 +3875,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1212820392}
   ikonaOn: {fileID: 1702375505}
   tabOn: {fileID: 1702375505}
+  CurrentImage: 0
 --- !u!114 &1212820391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4981,6 +4989,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1471162029}
   ikonaOn: {fileID: 735693496}
   tabOn: {fileID: 735693496}
+  CurrentImage: 0
 --- !u!114 &1471162028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5217,6 +5226,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1497361767}
   ikonaOn: {fileID: 497477173}
   tabOn: {fileID: 497477173}
+  CurrentImage: 0
 --- !u!114 &1497361766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5427,7 +5437,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 6de6c422355abdc4e90592b3b4be16ab, type: 2}
+  - {fileID: 2100000, guid: 7e566d768a5e150449c2cbfaec7aba90, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -5515,6 +5525,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1578316999}
   ikonaOn: {fileID: 883971697}
   tabOn: {fileID: 883971697}
+  CurrentImage: 0
 --- !u!114 &1578316998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5751,6 +5762,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1638764582}
   ikonaOn: {fileID: 773625837}
   tabOn: {fileID: 773625837}
+  CurrentImage: 0
 --- !u!114 &1638764581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6091,6 +6103,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 1777779259}
   ikonaOn: {fileID: 710880764}
   tabOn: {fileID: 710880764}
+  CurrentImage: 0
 --- !u!114 &1777779258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6358,6 +6371,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 2026861367}
   ikonaOn: {fileID: 156426770}
   tabOn: {fileID: 156426770}
+  CurrentImage: 0
 --- !u!114 &2026861366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6594,6 +6608,7 @@ MonoBehaviour:
   ikonaOff: {fileID: 2067669166}
   ikonaOn: {fileID: 1132500517}
   tabOn: {fileID: 1132500517}
+  CurrentImage: 0
 --- !u!114 &2067669165
 MonoBehaviour:
   m_ObjectHideFlags: 0
