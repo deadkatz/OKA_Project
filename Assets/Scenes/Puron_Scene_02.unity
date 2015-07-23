@@ -68,7 +68,7 @@ LightmapSettings:
     m_TextureCompression: 0
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
-  m_LightmapSnapshot: {fileID: 112000000, guid: e7c727843d6866143b83b62ae08afaa8,
+  m_LightmapSnapshot: {fileID: 112000000, guid: 888ea94e2250e424cabf8c33d62ee74c,
     type: 2}
   m_RuntimeCPUUsage: 25
 --- !u!196 &5
@@ -3339,10 +3339,6 @@ Prefab:
       value: klawiszliniiWlacz
       objectReference: {fileID: 0}
     - target: {fileID: 11474982, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1581820698}
-    - target: {fileID: 11474982, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: klawiszliniiWlacz
       objectReference: {fileID: 0}
@@ -3566,6 +3562,10 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11474982, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1581820739}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
   m_IsPrefabParent: 0
@@ -3995,6 +3995,12 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
+--- !u!114 &1581820739 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11413980, guid: 4ea34ecfea046f84d837c63de17e405a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1581820697}
+  m_Script: {fileID: 11500000, guid: 00be6b5c52efdbf4eb8eb9446281a8e0, type: 3}
 --- !u!1001 &1593596027
 Prefab:
   m_ObjectHideFlags: 0
