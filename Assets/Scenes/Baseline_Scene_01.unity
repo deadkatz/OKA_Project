@@ -68,7 +68,7 @@ LightmapSettings:
     m_TextureCompression: 0
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
-  m_LightmapSnapshot: {fileID: 112000000, guid: 30ce0d45fa7552240bee71973b150a13,
+  m_LightmapSnapshot: {fileID: 112000000, guid: 89e921616081e5148adecd20aa4299db,
     type: 2}
   m_RuntimeCPUUsage: 25
 --- !u!196 &5
@@ -929,14 +929,14 @@ Transform:
   - {fileID: 602099999}
   - {fileID: 831921654}
   - {fileID: 1309656455}
-  - {fileID: 803161247}
   - {fileID: 1361367375}
   - {fileID: 1768412698}
   - {fileID: 1704922526}
+  - {fileID: 1154827014}
+  - {fileID: 803161247}
   - {fileID: 1999512953}
   - {fileID: 1993385317}
   - {fileID: 1959176920}
-  - {fileID: 1154827014}
   - {fileID: 2138419517}
   - {fileID: 991039575}
   - {fileID: 1879095141}
@@ -4107,7 +4107,7 @@ Transform:
   m_Children:
   - {fileID: 620791537}
   m_Father: {fileID: 198472738}
-  m_RootOrder: 25
+  m_RootOrder: 29
 --- !u!1 &807206450
 GameObject:
   m_ObjectHideFlags: 0
@@ -6456,6 +6456,10 @@ Prefab:
       propertyPath: m_TagString
       value: Module1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300016, guid: 96397751fe5e16a4293e7ba0bbe62c90, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d32e414f4173cdf4e812c75722023b2a, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 96397751fe5e16a4293e7ba0bbe62c90, type: 3}
   m_IsPrefabParent: 0
@@ -7400,7 +7404,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 198472738}
-  m_RootOrder: 26
+  m_RootOrder: 25
 --- !u!1 &1392662558
 GameObject:
   m_ObjectHideFlags: 0
@@ -8978,7 +8982,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 198472738}
-  m_RootOrder: 28
+  m_RootOrder: 27
 --- !u!1001 &1733118559
 Prefab:
   m_ObjectHideFlags: 0
@@ -9240,7 +9244,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 198472738}
-  m_RootOrder: 27
+  m_RootOrder: 26
 --- !u!108 &1768412699
 Light:
   m_ObjectHideFlags: 0
