@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class MaterialControllerSkrypt : MonoBehaviour {
 
@@ -25,7 +26,11 @@ public class MaterialControllerSkrypt : MonoBehaviour {
 
 			for (int i = 0; i < modulyDoWymiany.Length; i++)
 			{
+				if(modulyDoWymiany[i].GetComponent<Renderer>()){
 				modulyDoWymiany[i].GetComponent<MeshRenderer>().material = wybranyMaterial;
+				}else if(modulyDoWymiany[i].GetComponent<Image>()){
+					modulyDoWymiany[i].GetComponent<Image>().material = wybranyMaterial;
+				}
 			}
 		}
 
@@ -35,7 +40,11 @@ public class MaterialControllerSkrypt : MonoBehaviour {
 			
 			for (int i = 0; i < modulyDoWymiany.Length; i++)
 			{
-				modulyDoWymiany[i].GetComponent<MeshRenderer>().material = wybranyMaterial;
+				if(modulyDoWymiany[i].GetComponent<Renderer>()){
+					modulyDoWymiany[i].GetComponent<MeshRenderer>().material = wybranyMaterial;
+				}else if(modulyDoWymiany[i].GetComponent<Image>()){
+					modulyDoWymiany[i].GetComponent<Image>().material = wybranyMaterial;
+				}
 			}
 		}
 
@@ -45,7 +54,11 @@ public class MaterialControllerSkrypt : MonoBehaviour {
 			
 			for (int i = 0; i < modulyDoWymiany.Length; i++)
 			{
-				modulyDoWymiany[i].GetComponent<MeshRenderer>().material = wybranyMaterial;
+				if(modulyDoWymiany[i].GetComponent<Renderer>()){
+					modulyDoWymiany[i].GetComponent<MeshRenderer>().material = wybranyMaterial;
+				}else if(modulyDoWymiany[i].GetComponent<Image>()){
+					modulyDoWymiany[i].GetComponent<Image>().material = wybranyMaterial;
+				}
 			}
 		}
 	}
