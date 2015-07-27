@@ -6,6 +6,7 @@ public class MaterialControllerSkrypt : MonoBehaviour {
 
 	public int numerModulu = 1;
 	public Material wybranyMaterial;
+	public Texture wybranaTekstura;
 
 	// Use this for initialization
 	void Start () {
@@ -29,7 +30,7 @@ public class MaterialControllerSkrypt : MonoBehaviour {
 				if(modulyDoWymiany[i].GetComponent<Renderer>()){
 				modulyDoWymiany[i].GetComponent<MeshRenderer>().material = wybranyMaterial;
 				}else if(modulyDoWymiany[i].GetComponent<RawImage>()){
-					modulyDoWymiany[i].GetComponent<RawImage>().material = wybranyMaterial;
+					modulyDoWymiany[i].GetComponent<RawImage>().texture = wybranaTekstura;
 				}
 			}
 		}
@@ -43,7 +44,7 @@ public class MaterialControllerSkrypt : MonoBehaviour {
 				if(modulyDoWymiany[i].GetComponent<Renderer>()){
 					modulyDoWymiany[i].GetComponent<MeshRenderer>().material = wybranyMaterial;
 				}else if(modulyDoWymiany[i].GetComponent<RawImage>()){
-					modulyDoWymiany[i].GetComponent<RawImage>().material = wybranyMaterial;
+					modulyDoWymiany[i].GetComponent<RawImage>().texture = wybranaTekstura;
 				}
 			}
 		}
@@ -57,7 +58,7 @@ public class MaterialControllerSkrypt : MonoBehaviour {
 				if(modulyDoWymiany[i].GetComponent<Renderer>()){
 					modulyDoWymiany[i].GetComponent<MeshRenderer>().material = wybranyMaterial;
 				}else if(modulyDoWymiany[i].GetComponent<RawImage>()){
-					modulyDoWymiany[i].GetComponent<RawImage>().material = wybranyMaterial;
+					modulyDoWymiany[i].GetComponent<RawImage>().texture = wybranaTekstura;
 				}
 			}
 		}
