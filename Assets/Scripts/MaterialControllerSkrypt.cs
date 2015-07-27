@@ -28,8 +28,8 @@ public class MaterialControllerSkrypt : MonoBehaviour {
 			{
 				if(modulyDoWymiany[i].GetComponent<Renderer>()){
 				modulyDoWymiany[i].GetComponent<MeshRenderer>().material = wybranyMaterial;
-				}else if(modulyDoWymiany[i].GetComponent<Image>()){
-					modulyDoWymiany[i].GetComponent<Image>().material = wybranyMaterial;
+				}else if(modulyDoWymiany[i].GetComponent<RawImage>()){
+					modulyDoWymiany[i].GetComponent<RawImage>().material = wybranyMaterial;
 				}
 			}
 		}
@@ -42,8 +42,8 @@ public class MaterialControllerSkrypt : MonoBehaviour {
 			{
 				if(modulyDoWymiany[i].GetComponent<Renderer>()){
 					modulyDoWymiany[i].GetComponent<MeshRenderer>().material = wybranyMaterial;
-				}else if(modulyDoWymiany[i].GetComponent<Image>()){
-					modulyDoWymiany[i].GetComponent<Image>().material = wybranyMaterial;
+				}else if(modulyDoWymiany[i].GetComponent<RawImage>()){
+					modulyDoWymiany[i].GetComponent<RawImage>().material = wybranyMaterial;
 				}
 			}
 		}
@@ -56,8 +56,8 @@ public class MaterialControllerSkrypt : MonoBehaviour {
 			{
 				if(modulyDoWymiany[i].GetComponent<Renderer>()){
 					modulyDoWymiany[i].GetComponent<MeshRenderer>().material = wybranyMaterial;
-				}else if(modulyDoWymiany[i].GetComponent<Image>()){
-					modulyDoWymiany[i].GetComponent<Image>().material = wybranyMaterial;
+				}else if(modulyDoWymiany[i].GetComponent<RawImage>()){
+					modulyDoWymiany[i].GetComponent<RawImage>().material = wybranyMaterial;
 				}
 			}
 		}
