@@ -11,9 +11,11 @@ public class KlawiszPoziomController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		if (CurrentImage != true) {
-			ikonaOff.enabled = true;
-			ikonaOn.SetActive (false);
+		if (CurrentImage == true) {
+			for( int i = 0; i < transform.childCount; ++i )
+			{
+				transform.GetChild(i).gameObject.SetActiveRecursively(true);
+			}
 //		tabOn.SetActive(false);
 		}
 	}
