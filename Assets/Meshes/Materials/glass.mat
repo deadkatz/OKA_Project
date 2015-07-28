@@ -79,6 +79,13 @@ Material:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
@@ -94,6 +101,18 @@ Material:
         second: .5
       data:
         first:
+          name: _Shininess
+        second: .078125
+      data:
+        first:
+          name: _Smoothness
+        second: .5
+      data:
+        first:
+          name: PixelSnap
+        second: 0
+      data:
+        first:
           name: _Parallax
         second: .0199999996
       data:
@@ -103,7 +122,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: .874000013
+        second: .524999976
       data:
         first:
           name: _BumpScale
@@ -132,6 +151,38 @@ Material:
         first:
           name: _EmissionScaleUI
         second: 0
+      data:
+        first:
+          name: _Stencil
+        second: 6.03000021
+      data:
+        first:
+          name: _StencilComp
+        second: 19.5799999
+      data:
+        first:
+          name: _StencilOp
+        second: 42.0699997
+      data:
+        first:
+          name: _StencilReadMask
+        second: 378.200012
+      data:
+        first:
+          name: _StencilWriteMask
+        second: 239.880005
+      data:
+        first:
+          name: _ColorMask
+        second: 312
+      data:
+        first:
+          name: _EdgeLength
+        second: 10
+      data:
+        first:
+          name: _BumpAmt
+        second: 48.9000015
     m_Colors:
       data:
         first:
@@ -140,8 +191,16 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .962068915, g: .962068915, b: .962068915, a: .0780000016}
+        second: {r: .522058845, g: .522058845, b: .522058845, a: .115999997}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
       data:
         first:
           name: _EmissionColorUI
         second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Specular
+        second: {r: 0, g: 0, b: 0, a: 0}
