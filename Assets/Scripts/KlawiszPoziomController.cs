@@ -16,6 +16,7 @@ public class KlawiszPoziomController : MonoBehaviour {
 			{
 				transform.GetChild(i).gameObject.SetActiveRecursively(true);
 			}
+			GetComponent<Button>().interactable = false;
 //		tabOn.SetActive(false);
 		}
 	}
