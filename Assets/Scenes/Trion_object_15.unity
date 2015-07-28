@@ -713,7 +713,7 @@ RectTransform:
   m_Children:
   - {fileID: 119012646}
   m_Father: {fileID: 1001786854}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -14.8431396, y: 0}
@@ -1998,6 +1998,10 @@ Prefab:
     - target: {fileID: 11479962, guid: ebec9a29e5cbdf14baad88f295e33158, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LadujScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458604, guid: ebec9a29e5cbdf14baad88f295e33158, type: 2}
+      propertyPath: CurrentImage
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ebec9a29e5cbdf14baad88f295e33158, type: 2}
