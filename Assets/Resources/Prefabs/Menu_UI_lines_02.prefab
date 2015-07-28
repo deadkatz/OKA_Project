@@ -66,6 +66,7 @@ GameObject:
   - 114: {fileID: 11429608}
   - 114: {fileID: 11434224}
   - 223: {fileID: 22362090}
+  - 114: {fileID: 11446240}
   m_Layer: 5
   m_Name: Line_05_on
   m_TagString: Bkg_Klawisz
@@ -203,6 +204,7 @@ GameObject:
   - 114: {fileID: 11435046}
   - 114: {fileID: 11453694}
   - 223: {fileID: 22306978}
+  - 114: {fileID: 11441590}
   m_Layer: 5
   m_Name: Line_04_on
   m_TagString: Bkg_Klawisz
@@ -445,6 +447,7 @@ GameObject:
   - 114: {fileID: 11477682}
   - 114: {fileID: 11413960}
   - 223: {fileID: 22358112}
+  - 114: {fileID: 11413352}
   m_Layer: 5
   m_Name: Line_01_on
   m_TagString: Bkg_Klawisz
@@ -1499,6 +1502,7 @@ GameObject:
   - 114: {fileID: 11430634}
   - 114: {fileID: 11462464}
   - 223: {fileID: 22399534}
+  - 114: {fileID: 11471530}
   m_Layer: 5
   m_Name: Line_03_on
   m_TagString: Bkg_Klawisz
@@ -1982,6 +1986,7 @@ GameObject:
   - 114: {fileID: 11457042}
   - 114: {fileID: 11461658}
   - 223: {fileID: 22330760}
+  - 114: {fileID: 11474772}
   m_Layer: 5
   m_Name: Line_10_on
   m_TagString: Bkg_Klawisz
@@ -2098,6 +2103,7 @@ GameObject:
   - 114: {fileID: 11408802}
   - 114: {fileID: 11481480}
   - 223: {fileID: 22329008}
+  - 114: {fileID: 11458020}
   m_Layer: 5
   m_Name: Line_02_on
   m_TagString: Bkg_Klawisz
@@ -2117,6 +2123,7 @@ GameObject:
   - 114: {fileID: 11482948}
   - 114: {fileID: 11476778}
   - 223: {fileID: 22318198}
+  - 114: {fileID: 11408128}
   m_Layer: 5
   m_Name: Line_08_on
   m_TagString: Bkg_Klawisz
@@ -2153,6 +2160,7 @@ GameObject:
   - 114: {fileID: 11402306}
   - 114: {fileID: 11449306}
   - 223: {fileID: 22385028}
+  - 114: {fileID: 11462904}
   m_Layer: 5
   m_Name: Line_09_on
   m_TagString: Bkg_Klawisz
@@ -2688,6 +2696,7 @@ GameObject:
   - 114: {fileID: 11434360}
   - 114: {fileID: 11417140}
   - 223: {fileID: 22388684}
+  - 114: {fileID: 11476416}
   m_Layer: 5
   m_Name: Line_06_on
   m_TagString: Bkg_Klawisz
@@ -3004,6 +3013,7 @@ GameObject:
   - 114: {fileID: 11482154}
   - 114: {fileID: 11451118}
   - 223: {fileID: 22352810}
+  - 114: {fileID: 11418212}
   m_Layer: 5
   m_Name: Line_07_on
   m_TagString: Bkg_Klawisz
@@ -3062,6 +3072,7 @@ GameObject:
   - 114: {fileID: 11477034}
   - 223: {fileID: 22321802}
   - 114: {fileID: 11426002}
+  - 114: {fileID: 11481078}
   m_Layer: 5
   m_Name: Katalog_selected
   m_TagString: Untagged
@@ -4708,6 +4719,18 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11408128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11408142
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4937,6 +4960,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   KlawiszWlaczony: {fileID: 184588}
+--- !u!114 &11413352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11413506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5703,6 +5738,18 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11418212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11418390
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8893,6 +8940,18 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11441590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11441796
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9602,6 +9661,18 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11446240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11446406
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11458,6 +11529,18 @@ MonoBehaviour:
   addony1: []
   addony2: []
   addony3: []
+--- !u!114 &11458020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11458090
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12350,6 +12433,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: I4 Metallgrau
+--- !u!114 &11462904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11463028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13246,6 +13341,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11471530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11472284
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13497,6 +13604,18 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11474772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 160936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11475316
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13697,6 +13816,18 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11476416
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11476528
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14131,6 +14262,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: G2 Buche Furnier Umleimer Multiplex
+--- !u!114 &11481078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11481148
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -18103,7 +18246,7 @@ Canvas:
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
-  m_OverrideSorting: 0
+  m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -18205,7 +18348,7 @@ Canvas:
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
-  m_OverrideSorting: 0
+  m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -18341,7 +18484,7 @@ Canvas:
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
-  m_OverrideSorting: 0
+  m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0

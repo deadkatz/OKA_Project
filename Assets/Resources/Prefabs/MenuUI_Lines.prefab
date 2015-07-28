@@ -161,6 +161,7 @@ GameObject:
   - 114: {fileID: 11412984}
   - 223: {fileID: 22388240}
   - 114: {fileID: 11490152}
+  - 114: {fileID: 11421786}
   m_Layer: 5
   m_Name: Line_02
   m_TagString: LinieKlawisz
@@ -183,6 +184,7 @@ GameObject:
   - 114: {fileID: 11491222}
   - 223: {fileID: 22372282}
   - 114: {fileID: 11499126}
+  - 114: {fileID: 11481534}
   m_Layer: 5
   m_Name: Line_04
   m_TagString: LinieKlawisz
@@ -403,6 +405,7 @@ GameObject:
   - 114: {fileID: 11489626}
   - 223: {fileID: 22341510}
   - 114: {fileID: 11481434}
+  - 114: {fileID: 11443996}
   m_Layer: 5
   m_Name: Line_08
   m_TagString: LinieKlawisz
@@ -577,6 +580,7 @@ GameObject:
   - 114: {fileID: 11455028}
   - 223: {fileID: 22341790}
   - 114: {fileID: 11433118}
+  - 114: {fileID: 11425936}
   m_Layer: 5
   m_Name: Line_05
   m_TagString: LinieKlawisz
@@ -618,6 +622,7 @@ GameObject:
   - 114: {fileID: 11487380}
   - 223: {fileID: 22370048}
   - 114: {fileID: 11436034}
+  - 114: {fileID: 11443164}
   m_Layer: 5
   m_Name: Line_03
   m_TagString: LinieKlawisz
@@ -1303,6 +1308,7 @@ GameObject:
   - 114: {fileID: 11458030}
   - 223: {fileID: 22300942}
   - 114: {fileID: 11484564}
+  - 114: {fileID: 11453422}
   m_Layer: 5
   m_Name: Line_09
   m_TagString: LinieKlawisz
@@ -1753,6 +1759,7 @@ GameObject:
   - 114: {fileID: 11449880}
   - 223: {fileID: 22345314}
   - 114: {fileID: 11430126}
+  - 114: {fileID: 11413332}
   m_Layer: 5
   m_Name: Katalog_selected
   m_TagString: Untagged
@@ -1794,6 +1801,7 @@ GameObject:
   - 114: {fileID: 11446674}
   - 223: {fileID: 22318476}
   - 114: {fileID: 11428774}
+  - 114: {fileID: 11490004}
   m_Layer: 5
   m_Name: Line_06
   m_TagString: LinieKlawisz
@@ -1816,6 +1824,7 @@ GameObject:
   - 114: {fileID: 11441652}
   - 223: {fileID: 22311742}
   - 114: {fileID: 11449206}
+  - 114: {fileID: 11410678}
   m_Layer: 5
   m_Name: Line_01
   m_TagString: LinieKlawisz
@@ -2023,6 +2032,7 @@ GameObject:
   - 114: {fileID: 11497816}
   - 223: {fileID: 22382126}
   - 114: {fileID: 11465984}
+  - 114: {fileID: 11494562}
   m_Layer: 5
   m_Name: Line_10
   m_TagString: LinieKlawisz
@@ -2119,6 +2129,7 @@ GameObject:
   - 114: {fileID: 11469598}
   - 223: {fileID: 22332876}
   - 114: {fileID: 11437510}
+  - 114: {fileID: 11477008}
   m_Layer: 5
   m_Name: Line_07
   m_TagString: LinieKlawisz
@@ -4087,6 +4098,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialNaKlawiszu: {fileID: 2100000, guid: 386d740de5d7ddf428467a624a8d0065, type: 2}
+--- !u!114 &11410678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11410682
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4474,6 +4497,18 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11413332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 0
 --- !u!114 &11413544
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5388,6 +5423,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &11421786
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11421860
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6214,6 +6261,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   KlawiszWlaczony: {fileID: 148230}
+--- !u!114 &11425936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11425938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9259,6 +9318,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11443164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 117550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11443200
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9415,6 +9486,18 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11443996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11444086
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10828,6 +10911,18 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11453422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11453486
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13900,6 +13995,18 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11477008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11477212
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14390,6 +14497,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &11481534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11481920
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15319,6 +15438,18 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11490004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11490104
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15979,6 +16110,18 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11494562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 160326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 1
 --- !u!114 &11494826
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17548,7 +17691,7 @@ Canvas:
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
-  m_OverrideSorting: 0
+  m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -18211,7 +18354,7 @@ Canvas:
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
-  m_OverrideSorting: 0
+  m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -18568,7 +18711,7 @@ Canvas:
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
-  m_OverrideSorting: 0
+  m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
