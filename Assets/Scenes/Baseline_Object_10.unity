@@ -45,7 +45,7 @@ LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
   m_GIWorkflowMode: 1
-  m_LightmapsMode: 1
+  m_LightmapsMode: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -59,7 +59,7 @@ LightmapSettings:
     serializedVersion: 3
     m_Resolution: 2
     m_BakeResolution: 60
-    m_TextureWidth: 512
+    m_TextureWidth: 256
     m_TextureHeight: 1024
     m_AOMaxDistance: 1
     m_Padding: 2
@@ -919,7 +919,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 208803135}
   m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106709}
-  m_LocalPosition: {x: -.810000002, y: 13.8400002, z: .569999993}
+  m_LocalPosition: {x: .0199999996, y: 13.8400002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1338264968}
@@ -1019,7 +1019,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 467288216}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.829999983, y: .379999995, z: .540000021}
+  m_LocalPosition: {x: -.0299999993, y: .379999995, z: .0199999996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1338264968}
@@ -2850,7 +2850,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 810893781}
   m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106709}
-  m_LocalPosition: {x: -.810000002, y: 9.19999981, z: .560000002}
+  m_LocalPosition: {x: .0199999996, y: 9.19999981, z: -.00999999978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1338264968}
@@ -3135,7 +3135,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: bf76a55a0230ba24faf4e678cf99e66d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: .680000007
+      value: 1.50999999
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf76a55a0230ba24faf4e678cf99e66d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3143,7 +3143,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf76a55a0230ba24faf4e678cf99e66d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -.0100002289
+      value: -.579999983
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf76a55a0230ba24faf4e678cf99e66d, type: 3}
       propertyPath: m_LocalRotation.x
