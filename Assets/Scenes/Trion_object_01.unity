@@ -4097,15 +4097,15 @@ Prefab:
       objectReference: {fileID: 2100000, guid: eb3e1076bd4977248ab380c67cdf2587, type: 2}
     - target: {fileID: 100000, guid: 28d3f00be2e150941aaed028cfc8beda, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 28d3f00be2e150941aaed028cfc8beda, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 28d3f00be2e150941aaed028cfc8beda, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 28d3f00be2e150941aaed028cfc8beda, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4143,6 +4143,10 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 28d3f00be2e150941aaed028cfc8beda, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d849bf0801f9ac949a7d22fed59f1e29, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 28d3f00be2e150941aaed028cfc8beda, type: 3}
   m_IsPrefabParent: 0
