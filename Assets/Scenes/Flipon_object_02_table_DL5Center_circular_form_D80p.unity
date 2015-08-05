@@ -59,7 +59,7 @@ LightmapSettings:
     serializedVersion: 3
     m_Resolution: 1
     m_BakeResolution: 60
-    m_TextureWidth: 512
+    m_TextureWidth: 256
     m_TextureHeight: 1024
     m_AOMaxDistance: 1.5
     m_Padding: 2
@@ -284,6 +284,14 @@ Prefab:
     - target: {fileID: 2300000, guid: 07711e6807d747c4abcd830d9463fc59, type: 3}
       propertyPath: m_PreserveUVs
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300010, guid: 07711e6807d747c4abcd830d9463fc59, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 2.52999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300010, guid: 07711e6807d747c4abcd830d9463fc59, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 63.4000015
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07711e6807d747c4abcd830d9463fc59, type: 3}
