@@ -764,11 +764,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 10
+      value: .800000012
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
       propertyPath: m_TagString
       value: Module1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: .800000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
@@ -870,7 +882,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 10
+      value: .800000012
       objectReference: {fileID: 0}
     - target: {fileID: 2300006, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
       propertyPath: m_PreserveUVs
@@ -878,11 +890,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2300006, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 5
+      value: .800000012
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
       propertyPath: m_TagString
       value: Module1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
@@ -1352,15 +1372,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 10
+      value: .800000012
       objectReference: {fileID: 0}
     - target: {fileID: 2300006, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 1.99000001
+      value: .800000012
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
       propertyPath: m_TagString
       value: Module1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
@@ -2897,6 +2925,26 @@ Prefab:
     - target: {fileID: 100000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
       propertyPath: m_TagString
       value: Module1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: .800000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: .800000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
+      propertyPath: m_ImportantGI
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 77e2adf9be021944c90ca6a813d53f47, type: 3}
