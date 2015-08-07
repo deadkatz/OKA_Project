@@ -395,27 +395,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: 3c9d611f6a507614996314eaba905f09, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 3c9d611f6a507614996314eaba905f09, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: 3c9d611f6a507614996314eaba905f09, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 3c9d611f6a507614996314eaba905f09, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 3c9d611f6a507614996314eaba905f09, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: 3c9d611f6a507614996314eaba905f09, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: 3c9d611f6a507614996314eaba905f09, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -423,15 +423,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 3c9d611f6a507614996314eaba905f09, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 3c9d611f6a507614996314eaba905f09, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 3c9d611f6a507614996314eaba905f09, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 3c9d611f6a507614996314eaba905f09, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -525,6 +525,10 @@ Prefab:
       propertyPath: m_ScaleInLightmap
       value: 1.76999998
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 3c9d611f6a507614996314eaba905f09, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6ce13ece560047542ae39dd6361c4035, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3c9d611f6a507614996314eaba905f09, type: 3}
   m_IsPrefabParent: 0
@@ -3283,12 +3287,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11427456, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11434012, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 7d85204cef031a349b17332e4d05d251, type: 3}
+      objectReference: {fileID: 2800000, guid: 97795585f3a0d8e4aa84bd04dcd88f75, type: 3}
     - target: {fileID: 11463874, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Baseline_Scene_01
@@ -3364,7 +3368,7 @@ Prefab:
     - target: {fileID: 11458880, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: movableObject
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1630532496}
     - target: {fileID: 147510, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_IsActive
       value: 0
@@ -5379,6 +5383,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 29d958f3e77544146882fec3cdd6c2a6, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1630532496 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 3c9d611f6a507614996314eaba905f09, type: 3}
+  m_PrefabInternal: {fileID: 236046128}
 --- !u!1 &1746131419
 GameObject:
   m_ObjectHideFlags: 0
