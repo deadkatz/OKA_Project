@@ -237,6 +237,34 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5d76cb2d56a4db340a24cf6f889fa702, type: 2}
+    - target: {fileID: 2300010, guid: 251071796a1497045a77bd7c6ed5c05a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 438568f9a4cd58649950992c9fdea9d1, type: 2}
+    - target: {fileID: 2300012, guid: 251071796a1497045a77bd7c6ed5c05a, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 438568f9a4cd58649950992c9fdea9d1, type: 2}
+    - target: {fileID: 2300012, guid: 251071796a1497045a77bd7c6ed5c05a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 438568f9a4cd58649950992c9fdea9d1, type: 2}
+    - target: {fileID: 100012, guid: 251071796a1497045a77bd7c6ed5c05a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300010, guid: 251071796a1497045a77bd7c6ed5c05a, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 3.36999989
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300010, guid: 251071796a1497045a77bd7c6ed5c05a, type: 3}
+      propertyPath: m_AutoUVMaxDistance
+      value: 15.8000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300010, guid: 251071796a1497045a77bd7c6ed5c05a, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 73.8000031
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 251071796a1497045a77bd7c6ed5c05a, type: 3}
   m_IsPrefabParent: 0
@@ -2224,10 +2252,6 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11410038, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
   m_IsPrefabParent: 0
@@ -2602,7 +2626,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: e4e39f52c99d4784c9c3f4e70e66910d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: .34799999
+      value: .335999995
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: e4e39f52c99d4784c9c3f4e70e66910d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3121,15 +3145,15 @@ Prefab:
       objectReference: {fileID: 2100000, guid: e8712b9000473ac4e9ff0523e3e358e1, type: 2}
     - target: {fileID: 2300016, guid: 132788feb11fd674a8f7cdfd99f3baee, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 3.68000007
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2300016, guid: 132788feb11fd674a8f7cdfd99f3baee, type: 3}
       propertyPath: m_AutoUVMaxDistance
-      value: 75.6999969
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300016, guid: 132788feb11fd674a8f7cdfd99f3baee, type: 3}
       propertyPath: m_AutoUVMaxAngle
-      value: 23
+      value: 38.5999985
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 132788feb11fd674a8f7cdfd99f3baee, type: 3}
@@ -3588,7 +3612,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 363a789c34f4fa3449be3ce91df282ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.26999998
+      value: 3.2579999
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 363a789c34f4fa3449be3ce91df282ba, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3933,6 +3957,38 @@ Prefab:
     - target: {fileID: 100032, guid: ba72df47cdd7e2e44b09da5ed9f78304, type: 3}
       propertyPath: m_TagString
       value: Module3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: ba72df47cdd7e2e44b09da5ed9f78304, type: 3}
+      propertyPath: m_AutoUVMaxDistance
+      value: 22.4200001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: ba72df47cdd7e2e44b09da5ed9f78304, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 40.4000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300012, guid: ba72df47cdd7e2e44b09da5ed9f78304, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 22.7000008
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300012, guid: ba72df47cdd7e2e44b09da5ed9f78304, type: 3}
+      propertyPath: m_AutoUVMaxDistance
+      value: 5.96999979
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300012, guid: ba72df47cdd7e2e44b09da5ed9f78304, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 65.9000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: ba72df47cdd7e2e44b09da5ed9f78304, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 55.7000008
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: ba72df47cdd7e2e44b09da5ed9f78304, type: 3}
+      propertyPath: m_AutoUVMaxDistance
+      value: 25.1000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: ba72df47cdd7e2e44b09da5ed9f78304, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 59
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ba72df47cdd7e2e44b09da5ed9f78304, type: 3}
@@ -4592,7 +4648,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: e4e39f52c99d4784c9c3f4e70e66910d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: .34799999
+      value: .335999995
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: e4e39f52c99d4784c9c3f4e70e66910d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4866,7 +4922,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba7c8daf3ee7e744cb1285cb9ec9aae8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: .342999995
+      value: .331
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba7c8daf3ee7e744cb1285cb9ec9aae8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4940,7 +4996,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 363a789c34f4fa3449be3ce91df282ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.26999998
+      value: 3.2579999
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 363a789c34f4fa3449be3ce91df282ba, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6894,7 +6950,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba7c8daf3ee7e744cb1285cb9ec9aae8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: .342999995
+      value: .331
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba7c8daf3ee7e744cb1285cb9ec9aae8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7411,11 +7467,11 @@ Prefab:
     - target: {fileID: 2300000, guid: e89b7606f593bb14cb43cc235700997e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e8712b9000473ac4e9ff0523e3e358e1, type: 2}
+      objectReference: {fileID: 2100000, guid: f1a7a8aea9cf4a84fa60a2fbf0ae7546, type: 2}
     - target: {fileID: 2300004, guid: e89b7606f593bb14cb43cc235700997e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a02eb250e0d00a440a703732dd91733e, type: 2}
+      objectReference: {fileID: 2100000, guid: 438568f9a4cd58649950992c9fdea9d1, type: 2}
     - target: {fileID: 100004, guid: e89b7606f593bb14cb43cc235700997e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -7444,6 +7500,14 @@ Prefab:
       propertyPath: m_ScaleInLightmap
       value: .119999997
       objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: e89b7606f593bb14cb43cc235700997e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: e89b7606f593bb14cb43cc235700997e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5d76cb2d56a4db340a24cf6f889fa702, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e89b7606f593bb14cb43cc235700997e, type: 3}
   m_IsPrefabParent: 0
@@ -7678,7 +7742,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba7c8daf3ee7e744cb1285cb9ec9aae8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: .342999995
+      value: .331
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba7c8daf3ee7e744cb1285cb9ec9aae8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8009,7 +8073,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba7c8daf3ee7e744cb1285cb9ec9aae8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: .342999995
+      value: .331
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba7c8daf3ee7e744cb1285cb9ec9aae8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9127,6 +9191,26 @@ Prefab:
       propertyPath: m_ScaleInLightmap
       value: 14.0900002
       objectReference: {fileID: 0}
+    - target: {fileID: 2300020, guid: 1d63992441c059c479dbb72ca52fe50d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f1a7a8aea9cf4a84fa60a2fbf0ae7546, type: 2}
+    - target: {fileID: 100028, guid: 1d63992441c059c479dbb72ca52fe50d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300020, guid: 1d63992441c059c479dbb72ca52fe50d, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 26.2999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300020, guid: 1d63992441c059c479dbb72ca52fe50d, type: 3}
+      propertyPath: m_AutoUVMaxDistance
+      value: 8.43999958
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300020, guid: 1d63992441c059c479dbb72ca52fe50d, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 42.0999985
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d63992441c059c479dbb72ca52fe50d, type: 3}
   m_IsPrefabParent: 0
@@ -10018,6 +10102,34 @@ Prefab:
     - target: {fileID: 100014, guid: a1b08e6264ba78e41ad0f123df99bccb, type: 3}
       propertyPath: m_TagString
       value: Module3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: a1b08e6264ba78e41ad0f123df99bccb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 438568f9a4cd58649950992c9fdea9d1, type: 2}
+    - target: {fileID: 2300000, guid: a1b08e6264ba78e41ad0f123df99bccb, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 7.86999989
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: a1b08e6264ba78e41ad0f123df99bccb, type: 3}
+      propertyPath: m_AutoUVMaxDistance
+      value: 34.2000008
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: a1b08e6264ba78e41ad0f123df99bccb, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 67.4000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: a1b08e6264ba78e41ad0f123df99bccb, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 19.2999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: a1b08e6264ba78e41ad0f123df99bccb, type: 3}
+      propertyPath: m_AutoUVMaxDistance
+      value: 9.80000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: a1b08e6264ba78e41ad0f123df99bccb, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 65.5999985
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1b08e6264ba78e41ad0f123df99bccb, type: 3}
