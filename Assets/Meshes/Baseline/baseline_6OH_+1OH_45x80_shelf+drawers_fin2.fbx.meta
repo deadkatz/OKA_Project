@@ -9,22 +9,32 @@ ModelImporter:
     100002: body_mesh1
     100004: front_dol_mesh
     100006: podstawa_mesh
+    100008: body_mesh
+    100010: hyandle_mesh
     400000: //RootNode
     400002: body_mesh1
     400004: front_dol_mesh
     400006: podstawa_mesh
+    400008: body_mesh
+    400010: hyandle_mesh
     2300000: body_mesh1
     2300002: front_dol_mesh
     2300004: podstawa_mesh
+    2300006: body_mesh
+    2300008: hyandle_mesh
     3300000: body_mesh1
     3300002: front_dol_mesh
     3300004: podstawa_mesh
+    3300006: body_mesh
+    3300008: hyandle_mesh
     4300000: front_dol_mesh
     4300002: podstawa_mesh
     4300004: body_mesh1
+    4300006: body_mesh
+    4300008: hyandle_mesh
     9500000: //RootNode
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
@@ -51,7 +61,7 @@ ModelImporter:
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
