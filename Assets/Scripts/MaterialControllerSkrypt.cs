@@ -10,7 +10,7 @@ public class MaterialControllerSkrypt : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+//		NazwaMaterial = GetComponent<Text> ();
 	}
 	
 	// Update is called once per frame
@@ -18,8 +18,9 @@ public class MaterialControllerSkrypt : MonoBehaviour {
 		//Debug.Log ("numer Modulu = " + numerModulu);
 	}
 
-	public void zmienMaterial1Modulu()
+	public void zmienMaterial1Modulu(string Nowypodpis = "")
 	{
+//		Debug.Log (Nowypodpis);
 		//Debug.Log ("Wywolanie zmien material modulu");
 		if (numerModulu == 1)
 		{
@@ -31,6 +32,8 @@ public class MaterialControllerSkrypt : MonoBehaviour {
 				modulyDoWymiany[i].GetComponent<MeshRenderer>().material = wybranyMaterial;
 				}else if(modulyDoWymiany[i].GetComponent<RawImage>()){
 					modulyDoWymiany[i].GetComponent<RawImage>().texture = wybranaTekstura;
+				}else if(modulyDoWymiany[i].GetComponent<Text>()){
+					modulyDoWymiany[i].GetComponent<Text>().text = Nowypodpis;
 				}
 			}
 		}
@@ -45,6 +48,8 @@ public class MaterialControllerSkrypt : MonoBehaviour {
 					modulyDoWymiany[i].GetComponent<MeshRenderer>().material = wybranyMaterial;
 				}else if(modulyDoWymiany[i].GetComponent<RawImage>()){
 					modulyDoWymiany[i].GetComponent<RawImage>().texture = wybranaTekstura;
+				}else if(modulyDoWymiany[i].GetComponent<Text>()){
+					modulyDoWymiany[i].GetComponent<Text>().text = Nowypodpis;
 				}
 			}
 		}
@@ -59,6 +64,8 @@ public class MaterialControllerSkrypt : MonoBehaviour {
 					modulyDoWymiany[i].GetComponent<MeshRenderer>().material = wybranyMaterial;
 				}else if(modulyDoWymiany[i].GetComponent<RawImage>()){
 					modulyDoWymiany[i].GetComponent<RawImage>().texture = wybranaTekstura;
+				}else if(modulyDoWymiany[i].GetComponent<Text>()){
+					modulyDoWymiany[i].GetComponent<Text>().text = Nowypodpis;
 				}
 			}
 		}
