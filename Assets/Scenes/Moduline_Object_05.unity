@@ -558,12 +558,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11427456, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11434012, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 7d85204cef031a349b17332e4d05d251, type: 3}
+      objectReference: {fileID: 2800000, guid: 97795585f3a0d8e4aa84bd04dcd88f75, type: 3}
+    - target: {fileID: 11458880, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
+      propertyPath: movableObject
+      value: 
+      objectReference: {fileID: 1015797314}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
   m_IsPrefabParent: 0
@@ -676,7 +680,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8332f4f8b0780744d99f550fa9bacf90, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 8332f4f8b0780744d99f550fa9bacf90, type: 3}
       propertyPath: m_TagString
@@ -690,6 +694,38 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7fb1892ca0fc2914b87f8733b3131a2d, type: 2}
+    - target: {fileID: 400008, guid: 8332f4f8b0780744d99f550fa9bacf90, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 8332f4f8b0780744d99f550fa9bacf90, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 8332f4f8b0780744d99f550fa9bacf90, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 8332f4f8b0780744d99f550fa9bacf90, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 8332f4f8b0780744d99f550fa9bacf90, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fb1892ca0fc2914b87f8733b3131a2d, type: 2}
+    - target: {fileID: 100012, guid: 8332f4f8b0780744d99f550fa9bacf90, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 8332f4f8b0780744d99f550fa9bacf90, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8332f4f8b0780744d99f550fa9bacf90, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 39381c62d6bee214fbfe2c7f771951eb, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8332f4f8b0780744d99f550fa9bacf90, type: 3}
   m_IsPrefabParent: 0
@@ -909,6 +945,10 @@ LightProbeGroup:
   - {x: -1, y: 1, z: -1}
   - {x: -1, y: -1, z: 1}
   - {x: -1, y: -1, z: -1}
+--- !u!1 &1015797314 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 8332f4f8b0780744d99f550fa9bacf90, type: 3}
+  m_PrefabInternal: {fileID: 576545173}
 --- !u!1001 &1304996767
 Prefab:
   m_ObjectHideFlags: 0
