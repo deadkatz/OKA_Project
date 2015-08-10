@@ -3283,12 +3283,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11427456, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11434012, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 7d85204cef031a349b17332e4d05d251, type: 3}
+      objectReference: {fileID: 2800000, guid: 97795585f3a0d8e4aa84bd04dcd88f75, type: 3}
     - target: {fileID: 11463874, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Baseline_Scene_01
@@ -3364,7 +3364,7 @@ Prefab:
     - target: {fileID: 11458880, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: movableObject
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1721959498}
     - target: {fileID: 147510, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_IsActive
       value: 0
@@ -5141,6 +5141,27 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1592563184}
+--- !u!1 &1721959498 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 6ee5b62144e3c174e886f2ec18eced4e, type: 3}
+  m_PrefabInternal: {fileID: 1784420607}
+--- !u!95 &1721959499
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1721959498}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3cc6fbb3ee9aa024da9ad168979b39b0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1746131419
 GameObject:
   m_ObjectHideFlags: 0
@@ -5435,7 +5456,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 6ee5b62144e3c174e886f2ec18eced4e, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 6ee5b62144e3c174e886f2ec18eced4e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5477,6 +5498,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 365a34f7fb21404488877dde5796e8a9, type: 2}
+    - target: {fileID: 2300010, guid: 6ee5b62144e3c174e886f2ec18eced4e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b68528e96a1f804288be4e46055ae46, type: 2}
+    - target: {fileID: 2300008, guid: 6ee5b62144e3c174e886f2ec18eced4e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b68528e96a1f804288be4e46055ae46, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ee5b62144e3c174e886f2ec18eced4e, type: 3}
   m_IsPrefabParent: 0
