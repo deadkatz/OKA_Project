@@ -141,39 +141,39 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100030, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -181,19 +181,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100028, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100026, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -307,6 +307,10 @@ Prefab:
       propertyPath: m_TagString
       value: Module2
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 63597e4270a257d4d816ffdbe8ef1b1d, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
   m_IsPrefabParent: 0
@@ -403,12 +407,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11427456, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11434012, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 7d85204cef031a349b17332e4d05d251, type: 3}
+      objectReference: {fileID: 2800000, guid: 97795585f3a0d8e4aa84bd04dcd88f75, type: 3}
     - target: {fileID: 140498, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_IsActive
       value: 0
@@ -441,6 +445,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Flexline_Scene_01
       objectReference: {fileID: 0}
+    - target: {fileID: 11458880, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
+      propertyPath: movableObject
+      value: 
+      objectReference: {fileID: 248339523}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
   m_IsPrefabParent: 0
@@ -526,6 +534,10 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!1 &248339523 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: fe3c42b9f62f00749b770efd1415e161, type: 3}
+  m_PrefabInternal: {fileID: 44441296}
 --- !u!1001 &390138710
 Prefab:
   m_ObjectHideFlags: 0
