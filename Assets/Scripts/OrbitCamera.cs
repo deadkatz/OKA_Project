@@ -21,6 +21,9 @@ public class OrbitCamera : MonoBehaviour
 	public float yMaxLimit = 40f;
 
 	public bool ObslugaMyszki;
+
+//	public bool SetForAndroid;
+	private float SpeedMultiplier;
 	
 	private float pinchSpeed;
 	private float distanceMin = .5f;
@@ -59,7 +62,10 @@ public class OrbitCamera : MonoBehaviour
 		rotationXAxis = angles.x;
 
 		target = watchTarget;
-		
+		if (Application.platform == RuntimePlatform.Android) {
+			xSpeed = xSpeed * 2;
+			ySpeed = ySpeed * 2;
+		}
 		// Make the rigid body not change rotation
 		if (GetComponent<Rigidbody>())
 		{
