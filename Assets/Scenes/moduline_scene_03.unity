@@ -2506,19 +2506,43 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 419800, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3.48000002
+      value: 3.50999999
       objectReference: {fileID: 0}
     - target: {fileID: 419800, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -6.11999989
+      value: 9.56999969
       objectReference: {fileID: 0}
     - target: {fileID: 419800, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 14.6700001
+      value: 23.4599991
       objectReference: {fileID: 0}
     - target: {fileID: 498798, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
       propertyPath: m_LocalPosition.z
       value: 7.26000023
+      objectReference: {fileID: 0}
+    - target: {fileID: 419800, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: .00839810446
+      objectReference: {fileID: 0}
+    - target: {fileID: 419800, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .987242997
+      objectReference: {fileID: 0}
+    - target: {fileID: 419800, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.148911312
+      objectReference: {fileID: 0}
+    - target: {fileID: 419800, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .0557334572
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086636, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
+      propertyPath: field of view
+      value: 75.1490173
+      objectReference: {fileID: 0}
+    - target: {fileID: 498798, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.14999998
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
@@ -3253,7 +3277,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: 132788feb11fd674a8f7cdfd99f3baee, type: 3}
       propertyPath: m_TagString
-      value: Module3
+      value: Module2
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 132788feb11fd674a8f7cdfd99f3baee, type: 3}
       propertyPath: m_ScaleInLightmap
@@ -3269,15 +3293,15 @@ Prefab:
       objectReference: {fileID: 2100000, guid: f1a7a8aea9cf4a84fa60a2fbf0ae7546, type: 2}
     - target: {fileID: 2300016, guid: 132788feb11fd674a8f7cdfd99f3baee, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 1
+      value: 2.99000001
       objectReference: {fileID: 0}
     - target: {fileID: 2300016, guid: 132788feb11fd674a8f7cdfd99f3baee, type: 3}
       propertyPath: m_AutoUVMaxDistance
-      value: 0
+      value: 103.199997
       objectReference: {fileID: 0}
     - target: {fileID: 2300016, guid: 132788feb11fd674a8f7cdfd99f3baee, type: 3}
       propertyPath: m_AutoUVMaxAngle
-      value: 38.5999985
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: 132788feb11fd674a8f7cdfd99f3baee, type: 3}
       propertyPath: m_ScaleInLightmap
@@ -5321,7 +5345,7 @@ GameObject:
   m_TagString: Module2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &981237404
 Transform:
@@ -7013,7 +7037,7 @@ GameObject:
   m_TagString: Module2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1143283814
 Transform:
@@ -9486,7 +9510,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 1d63992441c059c479dbb72ca52fe50d, type: 3}
       propertyPath: m_TagString
-      value: Item1
+      value: Module1
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 1d63992441c059c479dbb72ca52fe50d, type: 3}
       propertyPath: m_TagString
@@ -9502,7 +9526,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100026, guid: 1d63992441c059c479dbb72ca52fe50d, type: 3}
       propertyPath: m_TagString
-      value: Module3
+      value: Module2
       objectReference: {fileID: 0}
     - target: {fileID: 2300010, guid: 1d63992441c059c479dbb72ca52fe50d, type: 3}
       propertyPath: m_ScaleInLightmap
@@ -9518,7 +9542,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2300020, guid: 1d63992441c059c479dbb72ca52fe50d, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: .270000011
+      value: 3.23000002
       objectReference: {fileID: 0}
     - target: {fileID: 2300020, guid: 1d63992441c059c479dbb72ca52fe50d, type: 3}
       propertyPath: m_AutoUVMaxDistance
@@ -9780,7 +9804,7 @@ GameObject:
   m_TagString: Module3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1984807798
 Transform:
@@ -10394,7 +10418,7 @@ GameObject:
   m_TagString: Module2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2114224239
 Transform:
