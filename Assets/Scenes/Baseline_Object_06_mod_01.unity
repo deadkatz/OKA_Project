@@ -1019,8 +1019,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 467288216}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .589999974, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalScale: {x: 1, y: .388746738, z: 1}
   m_Children: []
   m_Father: {fileID: 1338264968}
   m_RootOrder: 3
@@ -2725,6 +2725,23 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a02eb250e0d00a440a703732dd91733e, type: 2}
+    - target: {fileID: 2300002, guid: 88b6e3631e26bb64e9b1a0ae1ae260d1, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 17.6000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 88b6e3631e26bb64e9b1a0ae1ae260d1, type: 3}
+      propertyPath: m_AutoUVMaxDistance
+      value: 18.2000008
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 88b6e3631e26bb64e9b1a0ae1ae260d1, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 80.6999969
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 88b6e3631e26bb64e9b1a0ae1ae260d1, type: 3}
+      propertyPath: m_LightmapParameters
+      value: 
+      objectReference: {fileID: 111300000, guid: 7a657c9e3333fcf46b9ec1a212c615ba,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 88b6e3631e26bb64e9b1a0ae1ae260d1, type: 3}
   m_IsPrefabParent: 0
