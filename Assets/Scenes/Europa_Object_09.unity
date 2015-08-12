@@ -933,11 +933,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2300010, guid: c65ccd95f7afe3245bb6dff6d0f42286, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: .5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2300010, guid: c65ccd95f7afe3245bb6dff6d0f42286, type: 3}
       propertyPath: m_AutoUVMaxAngle
-      value: 130
+      value: 89
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: c65ccd95f7afe3245bb6dff6d0f42286, type: 3}
       propertyPath: m_IsActive
@@ -970,6 +970,10 @@ Prefab:
     - target: {fileID: 400012, guid: c65ccd95f7afe3245bb6dff6d0f42286, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300010, guid: c65ccd95f7afe3245bb6dff6d0f42286, type: 3}
+      propertyPath: m_AutoUVMaxDistance
+      value: .5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c65ccd95f7afe3245bb6dff6d0f42286, type: 3}
