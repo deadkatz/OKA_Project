@@ -713,7 +713,7 @@ RectTransform:
   m_Children:
   - {fileID: 119012646}
   m_Father: {fileID: 1001786854}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -14.8431396, y: 0}
@@ -3210,7 +3210,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 9bcd9ad4f7d511b44b5846951f148efb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7fb1892ca0fc2914b87f8733b3131a2d, type: 2}
+      objectReference: {fileID: 2100000, guid: bdc84fbc2ef2e60478efd4254a9b0f97, type: 2}
     - target: {fileID: 100020, guid: 9bcd9ad4f7d511b44b5846951f148efb, type: 3}
       propertyPath: m_Name
       value: counter_color_mesh
@@ -3314,6 +3314,10 @@ Prefab:
     - target: {fileID: 100022, guid: 9bcd9ad4f7d511b44b5846951f148efb, type: 3}
       propertyPath: m_TagString
       value: Module1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 9bcd9ad4f7d511b44b5846951f148efb, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9bcd9ad4f7d511b44b5846951f148efb, type: 3}
