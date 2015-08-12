@@ -15,9 +15,13 @@ public class Zoom : MonoBehaviour {
 
 	public float zoomMin = 30.0f;
 	public float zoomMax = 70.0f;
+//	public bool SetForAndroid;
 
 	// Use this for initialization
 	void Start () {
+		if (Application.platform == RuntimePlatform.Android) {
+			perspectiveZoomSpeed = perspectiveZoomSpeed *2;
+		}
 	}
 	
 	// Update is called once per frame
