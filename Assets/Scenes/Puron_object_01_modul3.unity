@@ -962,6 +962,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 365a34f7fb21404488877dde5796e8a9, type: 2}
+    - target: {fileID: 2300002, guid: ddd5f63135611e84c8257d9daab8a6e2, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: .800000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: ddd5f63135611e84c8257d9daab8a6e2, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 14.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ddd5f63135611e84c8257d9daab8a6e2, type: 3}
   m_IsPrefabParent: 0
@@ -1297,7 +1305,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 149698, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11463874, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -1393,7 +1401,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11411144, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
-      value: Puron_object_01_modul1
+      value: Puron_object_01
       objectReference: {fileID: 0}
     - target: {fileID: 11432740, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
@@ -1405,7 +1413,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11469338, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
-      value: Puron_object_01
+      value: Puron_object_01_modul1
       objectReference: {fileID: 0}
     - target: {fileID: 165834, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_IsActive
@@ -1526,6 +1534,10 @@ Prefab:
     - target: {fileID: 22455226, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_SizeDelta.x
       value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: 11451294, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
@@ -2096,6 +2108,10 @@ Prefab:
     - target: {fileID: 2300000, guid: 7d38bec2e34698945a5a77a9cf8c7f13, type: 3}
       propertyPath: m_ScaleInLightmap
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 7d38bec2e34698945a5a77a9cf8c7f13, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: .800000012
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d38bec2e34698945a5a77a9cf8c7f13, type: 3}
