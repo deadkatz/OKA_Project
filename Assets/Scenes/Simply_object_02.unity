@@ -417,7 +417,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 188ea7f8adf499445a097cedcbd61c85, type: 2}
+      objectReference: {fileID: 2100000, guid: d849bf0801f9ac949a7d22fed59f1e29, type: 2}
     - target: {fileID: 2300002, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -444,19 +444,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
       propertyPath: m_AutoUVMaxAngle
-      value: 70
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
       propertyPath: m_AutoUVMaxDistance
-      value: .140000001
+      value: .100000001
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 1.5
+      value: .899999976
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
       propertyPath: m_PreserveUVs
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2e2620dc53ba3f949a89d2b128ad4a05, type: 3}
       propertyPath: m_TagString
@@ -1059,7 +1059,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 344afc4eafa6e5b429b73704fb3b0b1f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 188ea7f8adf499445a097cedcbd61c85, type: 2}
+      objectReference: {fileID: 2100000, guid: d849bf0801f9ac949a7d22fed59f1e29, type: 2}
     - target: {fileID: 2300004, guid: 344afc4eafa6e5b429b73704fb3b0b1f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1107,6 +1107,10 @@ Prefab:
     - target: {fileID: 100008, guid: 344afc4eafa6e5b429b73704fb3b0b1f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 344afc4eafa6e5b429b73704fb3b0b1f, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 344afc4eafa6e5b429b73704fb3b0b1f, type: 3}
