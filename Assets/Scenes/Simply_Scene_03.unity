@@ -423,7 +423,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 4f88ec8cbd3736544a38e3c633d52ad2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.67743206
+      value: 2.66799998
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f88ec8cbd3736544a38e3c633d52ad2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -431,7 +431,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f88ec8cbd3736544a38e3c633d52ad2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.55999994
+      value: -2.5250001
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f88ec8cbd3736544a38e3c633d52ad2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -497,6 +497,10 @@ Prefab:
       propertyPath: m_Name
       value: PC_Masterrace_FINALW (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 4f88ec8cbd3736544a38e3c633d52ad2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 438568f9a4cd58649950992c9fdea9d1, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f88ec8cbd3736544a38e3c633d52ad2, type: 3}
   m_IsPrefabParent: 0
@@ -2392,7 +2396,7 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_ImportantGI: 0
   m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
+  m_AutoUVMaxAngle: 75
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -4335,7 +4339,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 4f88ec8cbd3736544a38e3c633d52ad2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: .0794421434
+      value: .0829999968
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f88ec8cbd3736544a38e3c633d52ad2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4343,7 +4347,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f88ec8cbd3736544a38e3c633d52ad2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.71000004
+      value: 6.69799995
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f88ec8cbd3736544a38e3c633d52ad2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4414,6 +4418,10 @@ Prefab:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2300004, guid: 4f88ec8cbd3736544a38e3c633d52ad2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 438568f9a4cd58649950992c9fdea9d1, type: 2}
+    - target: {fileID: 2300008, guid: 4f88ec8cbd3736544a38e3c633d52ad2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 438568f9a4cd58649950992c9fdea9d1, type: 2}
@@ -4755,7 +4763,7 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_ImportantGI: 0
   m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
+  m_AutoUVMaxAngle: 75
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -5603,7 +5611,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11428068, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 138954, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_IsActive
@@ -6240,6 +6248,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5d76cb2d56a4db340a24cf6f889fa702, type: 2}
+    - target: {fileID: 2300004, guid: 9807a7b0e030f144c860e65e5572f22d, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: 9807a7b0e030f144c860e65e5572f22d, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 75
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9807a7b0e030f144c860e65e5572f22d, type: 3}
   m_IsPrefabParent: 0
