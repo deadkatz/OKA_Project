@@ -1386,6 +1386,10 @@ RectTransform:
   m_AnchoredPosition: {x: -20, y: 3.6239624e-05}
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: .5, y: .5}
+--- !u!1 &675294962 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: e19aa40e67ce0234599df5983d2a2bcb, type: 3}
+  m_PrefabInternal: {fileID: 1589567771}
 --- !u!1 &753222201
 GameObject:
   m_ObjectHideFlags: 0
@@ -3335,7 +3339,7 @@ Prefab:
     - target: {fileID: 11458880, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: movableObject
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 675294962}
     - target: {fileID: 147510, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_IsActive
       value: 0
@@ -4920,7 +4924,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: e19aa40e67ce0234599df5983d2a2bcb, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: e19aa40e67ce0234599df5983d2a2bcb, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4928,11 +4932,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: e19aa40e67ce0234599df5983d2a2bcb, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: e19aa40e67ce0234599df5983d2a2bcb, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: e19aa40e67ce0234599df5983d2a2bcb, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4997,6 +5001,14 @@ Prefab:
     - target: {fileID: 2300002, guid: e19aa40e67ce0234599df5983d2a2bcb, type: 3}
       propertyPath: m_AutoUVMaxAngle
       value: 89
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: e19aa40e67ce0234599df5983d2a2bcb, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e7f99532590b707479d801f19a998e0e, type: 2}
+    - target: {fileID: 100012, guid: e19aa40e67ce0234599df5983d2a2bcb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e19aa40e67ce0234599df5983d2a2bcb, type: 3}
