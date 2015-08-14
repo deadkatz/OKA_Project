@@ -20,7 +20,7 @@ public class OrbitCamera : MonoBehaviour
 	public float yMinLimit = 5f;
 	public float yMaxLimit = 40f;
 
-	public bool ObslugaMyszki;
+	private bool ObslugaMyszki;
 
 //	public bool SetForAndroid;
 	private float SpeedMultiplier;
@@ -57,6 +57,11 @@ public class OrbitCamera : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
+		if (Application.platform == RuntimePlatform.Android ||Application.platform ==  RuntimePlatform.IPhonePlayer) {
+			ObslugaMyszki = false;
+		} else {
+			ObslugaMyszki = true;
+		}
 		Vector3 angles = transform.eulerAngles;
 		rotationYAxis = angles.y;
 		rotationXAxis = angles.x;
