@@ -6,6 +6,7 @@ public class WlaczAnimacje : MonoBehaviour {
 
 	public RawImage ikonaOff;
 	public GameObject movableObject;
+	private bool AnimState = false;
 
 	// Use this for initialization
 	void Start () {
@@ -19,14 +20,24 @@ public class WlaczAnimacje : MonoBehaviour {
 
 	public void AnimacjaOnOff ()
 	{
-		if (ikonaOff.enabled == false)
+		AnimState = movableObject.GetComponent<Animator> ().GetBool ("Animuj");
+		Debug.Log (AnimState);
+		if (AnimState == false)
 		{
-			GetComponent<KlawiszPoziomController>().Kliknij();
+			if(ikonaOff.enabled == false){
+				GetComponent<KlawiszPoziomController>().Kliknij();
+			}else{
+				GetComponent<KlawiszPoziomController>().Wylacz();
+			}
 			movableObject.GetComponent<Animator>().SetBool("Animuj", true);
 		}
-		else if (ikonaOff.enabled == true)
+		else if (AnimState == true)
 		{
-			GetComponent<KlawiszPoziomController>().Wylacz();
+			if(ikonaOff.enabled == false){
+				GetComponent<KlawiszPoziomController>().Kliknij();
+			}else{
+				GetComponent<KlawiszPoziomController>().Wylacz();
+			}
 			movableObject.GetComponent<Animator>().SetBool("Animuj", false);
 		}
 	}
