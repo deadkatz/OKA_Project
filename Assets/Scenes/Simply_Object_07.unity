@@ -88,6 +88,11 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!224 &38387590 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 22411662, guid: 225c7e4ab0579c34da68a53968d691a6,
+    type: 2}
+  m_PrefabInternal: {fileID: 2001472067}
 --- !u!4 &158735341 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: bb2d92992e71e014daca25e9643a36e0, type: 3}
@@ -689,7 +694,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2001472070}
+    m_TransformParent: {fileID: 38387590}
     m_Modifications:
     - target: {fileID: 22499412, guid: da86c91941375ef40bdc12ab320d1e5d, type: 2}
       propertyPath: m_LocalPosition.x
@@ -721,7 +726,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22499412, guid: da86c91941375ef40bdc12ab320d1e5d, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 22499412, guid: da86c91941375ef40bdc12ab320d1e5d, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -1213,7 +1218,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2001472070}
+    m_TransformParent: {fileID: 38387590}
     m_Modifications:
     - target: {fileID: 22499412, guid: 66987e814b9e01e4b9267927ef45186b, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1245,7 +1250,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22499412, guid: 66987e814b9e01e4b9267927ef45186b, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22499412, guid: 66987e814b9e01e4b9267927ef45186b, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -1491,11 +1496,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 2001472067}
   m_Script: {fileID: 11500000, guid: c5dd5389514e7544986866991aac9009, type: 3}
---- !u!224 &2001472070 stripped
-RectTransform:
-  m_PrefabParentObject: {fileID: 22443332, guid: 225c7e4ab0579c34da68a53968d691a6,
-    type: 2}
-  m_PrefabInternal: {fileID: 2001472067}
 --- !u!224 &2001472071 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22471408, guid: 225c7e4ab0579c34da68a53968d691a6,
@@ -1506,7 +1506,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2001472070}
+    m_TransformParent: {fileID: 38387590}
     m_Modifications:
     - target: {fileID: 22463374, guid: 08ecade6bf0ea5744b758b3b72497c82, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1538,7 +1538,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22463374, guid: 08ecade6bf0ea5744b758b3b72497c82, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22463374, guid: 08ecade6bf0ea5744b758b3b72497c82, type: 2}
       propertyPath: m_AnchoredPosition.x
