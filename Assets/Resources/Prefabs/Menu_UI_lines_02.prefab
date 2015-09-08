@@ -9254,7 +9254,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 198048}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -9287,15 +9287,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11467108}
-        m_MethodName: PrzejdzDoStory
+      - m_Target: {fileID: 0}
+        m_MethodName: LadujStory
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Story
           m_BoolArgument: 0
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -9709,6 +9709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69f51ce891bc02b42948fced670aeae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blenda: {fileID: 0}
 --- !u!114 &11468140
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11482,6 +11483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nazwaSceny: 
+  Storyback: 0
   blenda: {fileID: 135594}
 --- !u!114 &11490908
 MonoBehaviour:

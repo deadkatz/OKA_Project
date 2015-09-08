@@ -20,7 +20,7 @@ public class PrzesuwajContent : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		position = new Vector3 (777, 0, 0);
+		position = new Vector3 (884, 0, 0);
 	}
 	
 	// Update is called once per frame
@@ -103,16 +103,16 @@ public class PrzesuwajContent : MonoBehaviour {
 			//swipe w prawo
 
 			float aktualPoz = Content.transform.localPosition.x + 200;
-			if (aktualPoz > 777)
-				aktualPoz = 777;
+			if (aktualPoz > 884)
+				aktualPoz = 884;
 
 			position = new Vector3 (aktualPoz, Content.transform.localPosition.y, Content.transform.localPosition.z);
 		}
 		if (horizontal == -1) {
 			//swipe w lewo
 			float aktualPoz = Content.transform.localPosition.x - 200;
-			if (aktualPoz < -777)
-				aktualPoz = -777;
+			if (aktualPoz < -884)
+				aktualPoz = -884;
 			position = new Vector3 (aktualPoz, Content.transform.localPosition.y, Content.transform.localPosition.z);
 		}
 		if (vertical == 1)
@@ -126,7 +126,7 @@ public class PrzesuwajContent : MonoBehaviour {
 
 		//Content.transform.localPosition = Vector3.Lerp (Content.transform.localPosition, position, cameraSpeed);
 		Content.transform.localPosition = Vector3.SmoothDamp(Content.transform.localPosition, position, ref velocity, smoothTime);
-		float pozZnacznikX = -334 - ((-777 + Content.transform.localPosition.x) * 0.42f);
+		float pozZnacznikX = -334 - ((-884 + Content.transform.localPosition.x) * 0.42f);
 		pozZnacznikX = Mathf.Clamp (pozZnacznikX, -334, 314);
 		znacznik.transform.localPosition = new Vector3 (pozZnacznikX, znacznik.transform.localPosition.y, znacznik.transform.localPosition.z);
 

@@ -6,6 +6,10 @@ public class SceneController : MonoBehaviour {
 
 	public string nazwaSceny;
 
+	static string aktualnaScena = "Firstline_Scene_01NEW";
+
+	public bool Storyback = false;
+
 	public GameObject blenda;
 
 	// Use this for initialization
@@ -21,7 +25,19 @@ public class SceneController : MonoBehaviour {
 
 	public void LadujScene (string NowaScena)
 	{
-		nazwaSceny = NowaScena;
+			nazwaSceny = NowaScena;
+		aktualnaScena = NowaScena;
+		blenda.GetComponent<Animator> ().SetTrigger ("Wyjdz");
+		//zmienScene ();
+	}
+
+	public void LadujStory ()
+	{
+		if (Storyback == false) {
+			nazwaSceny = "Story";
+		} else {
+			nazwaSceny = aktualnaScena;
+		}
 		blenda.GetComponent<Animator> ().SetTrigger ("Wyjdz");
 		//zmienScene ();
 	}
