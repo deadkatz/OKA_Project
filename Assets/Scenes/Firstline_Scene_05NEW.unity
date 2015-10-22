@@ -982,12 +982,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11441616, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11443846, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
-      propertyPath: m_Texture
-      value: 
-      objectReference: {fileID: 2800000, guid: 0ce0cbf7005e70f45b8bfdf2583e744a, type: 3}
     - target: {fileID: 147510, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_IsActive
       value: 0
@@ -1488,6 +1484,18 @@ Prefab:
       propertyPath: m_AnchoredPosition.x
       value: -22
       objectReference: {fileID: 0}
+    - target: {fileID: 11443846, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: a44758b2eaa852e41b3c6097193a9d93, type: 3}
+    - target: {fileID: 9502412, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f908864fbc2c77b4aaa2d6455b87c7df, type: 2}
+    - target: {fileID: 22339718, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
   m_IsPrefabParent: 0
@@ -1585,7 +1593,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!223 &402170614
 Canvas:
   m_ObjectHideFlags: 0
@@ -1602,7 +1610,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!223 &402170615
 Canvas:
   m_ObjectHideFlags: 0
@@ -1636,7 +1644,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!223 &402170618
 Canvas:
   m_ObjectHideFlags: 0
@@ -1687,7 +1695,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!223 &402170621
 Canvas:
   m_ObjectHideFlags: 0
@@ -1704,7 +1712,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!223 &402170622
 Canvas:
   m_ObjectHideFlags: 0
@@ -1738,7 +1746,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!223 &402170625
 Canvas:
   m_ObjectHideFlags: 0
@@ -1755,7 +1763,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!223 &402170626
 Canvas:
   m_ObjectHideFlags: 0
@@ -1772,7 +1780,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!223 &402170627
 Canvas:
   m_ObjectHideFlags: 0
@@ -1806,7 +1814,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!223 &402170629
 Canvas:
   m_ObjectHideFlags: 0

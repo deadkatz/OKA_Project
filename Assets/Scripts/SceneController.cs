@@ -14,7 +14,7 @@ public class SceneController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		nazwaSceny = "Firstline_Scene_01";
+		nazwaSceny = "Firstline_Scene_01NEW";
 		//zmienScene ();
 	}
 	

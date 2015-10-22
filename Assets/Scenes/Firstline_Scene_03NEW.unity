@@ -329,7 +329,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!1 &121870652
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,7 +481,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!4 &158735341
 Transform:
   m_ObjectHideFlags: 0
@@ -754,7 +754,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!1 &202452601
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,7 +885,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!224 &348401593 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22438818, guid: 4ea34ecfea046f84d837c63de17e405a,
@@ -1497,7 +1497,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!1 &649966776
 GameObject:
   m_ObjectHideFlags: 0
@@ -2266,7 +2266,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!1 &882988704
 GameObject:
   m_ObjectHideFlags: 0
@@ -2349,7 +2349,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!1 &896551171 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 162286, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
@@ -3135,7 +3135,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!1 &1284440411
 GameObject:
   m_ObjectHideFlags: 0
@@ -3932,7 +3932,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11441616, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 138954, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_IsActive
@@ -3958,10 +3958,6 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11443846, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
-      propertyPath: m_Texture
-      value: 
-      objectReference: {fileID: 2800000, guid: 0ce0cbf7005e70f45b8bfdf2583e744a, type: 3}
     - target: {fileID: 11484584, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_Enabled
       value: 1
@@ -4358,6 +4354,14 @@ Prefab:
       propertyPath: m_AnchoredPosition.y
       value: 149
       objectReference: {fileID: 0}
+    - target: {fileID: 11443846, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: a44758b2eaa852e41b3c6097193a9d93, type: 3}
+    - target: {fileID: 9502412, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f908864fbc2c77b4aaa2d6455b87c7df, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
   m_IsPrefabParent: 0
@@ -4487,7 +4491,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!4 &1623137724
 Transform:
   m_ObjectHideFlags: 0
@@ -5310,7 +5314,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
 --- !u!1 &1843207701
 GameObject:
   m_ObjectHideFlags: 0
