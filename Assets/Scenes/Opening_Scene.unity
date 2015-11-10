@@ -125,7 +125,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 450048, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11464182, guid: 5bd779e5292dbaf4cb99a9f46037a7a6, type: 2}
       propertyPath: target
@@ -395,7 +395,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 474256, guid: 1788d8495307ace4eb92458af31ec21c, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1788d8495307ace4eb92458af31ec21c, type: 2}
@@ -437,7 +437,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 498634, guid: 8226c6eef0daca546a6b344e7a096883, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8226c6eef0daca546a6b344e7a096883, type: 2}
@@ -533,6 +533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnabled: 1
+  CanvasOrder: 0
 --- !u!1 &1480360255
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,6 +586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnabled: 1
+  CanvasOrder: 0
 --- !u!114 &1480360258
 MonoBehaviour:
   m_ObjectHideFlags: 0

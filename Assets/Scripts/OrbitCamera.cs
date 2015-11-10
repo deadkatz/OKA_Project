@@ -112,7 +112,8 @@ public class OrbitCamera : MonoBehaviour
 		}
 
 		
-		if (!EventSystem.current.IsPointerOverGameObject () && !CamAnim) {
+		if (!CamAnim) {
+//			!EventSystem.current.IsPointerOverGameObject () && 
 			//print (transform.rotation.eulerAngles);
 			
 			// allow/rotate your camera
