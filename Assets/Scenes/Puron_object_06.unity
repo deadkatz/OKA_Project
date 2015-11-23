@@ -1158,7 +1158,7 @@ Prefab:
   m_IsPrefabParent: 0
 --- !u!4 &1286373573 stripped
 Transform:
-  m_PrefabParentObject: {fileID: 400006, guid: d6441066a8c72764895064dd4fc7ffb8, type: 3}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1286373572}
 --- !u!1001 &1342776797
 Prefab:
@@ -1442,6 +1442,30 @@ Prefab:
     - target: {fileID: 11431732, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11486966, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: ba4e574fec0985d4b9f1f9d1fd26941b, type: 3}
+    - target: {fileID: 22438176, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 594
+      objectReference: {fileID: 0}
+    - target: {fileID: 22438176, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 176
+      objectReference: {fileID: 0}
+    - target: {fileID: 22438176, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 49.2999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 22438176, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 187
+      objectReference: {fileID: 0}
+    - target: {fileID: 11435138, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
+      propertyPath: m_Text
+      value: Puron
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
