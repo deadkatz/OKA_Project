@@ -28,8 +28,8 @@ public class Zoom : MonoBehaviour {
 	void Update () {
 	
 
-		if (Input.touchCount == 2 || Input.anyKey)
-		{
+//		if (Input.touchCount == 2 || Input.anyKey)
+//		{
 			if (Input.touchCount == 2)
 			{
 				Touch touchZero = Input.GetTouch(0);
@@ -46,15 +46,17 @@ public class Zoom : MonoBehaviour {
 				FOVdocelowy = Mathf.Round(FOVpoprzedni + deltaMagnitudediff);
 			}
 
-			if (Input.GetKey(KeyCode.A))
+			if (Input.GetAxis("Mouse ScrollWheel") > 0f)
 			{
 				FOVpoprzedni = kameraGlowna.GetComponent<Camera>().fieldOfView;
 				FOVdocelowy = Mathf.Round(FOVpoprzedni - perspectiveVelocity * zoomSpeedKlawiatury);
+				Debug.Log ("SCrollup");
 			}
-			else if (Input.GetKey(KeyCode.Z))
+			else if (Input.GetAxis("Mouse ScrollWheel") < 0f)
 			{
 				FOVpoprzedni = kameraGlowna.GetComponent<Camera>().fieldOfView;
 				FOVdocelowy = Mathf.Round(FOVpoprzedni + perspectiveVelocity *  zoomSpeedKlawiatury);
+				Debug.Log ("SCrolldown");
 			}
 				
 
@@ -71,7 +73,7 @@ public class Zoom : MonoBehaviour {
 //			kameraGlowna.GetComponent<Camera>().fieldOfView = Mathf.SmoothDamp (FOVpoprzedni, FOVdocelowy, ref perspectiveVelocity, perspectiveZoomSpeed);
 			kameraGlowna.GetComponent<Camera>().fieldOfView = Mathf.Lerp (FOVpoprzedni, FOVdocelowy, perspectiveVelocity * perspectiveZoomSpeed);
 			//FOVdocelowy = Mathf.Clamp(FOVdocelowy, 30, 70);
-		}
+//		}
 
 		//kameraGlowna.GetComponent<Camera>().fieldOfView = Mathf.SmoothDamp (FOVpoprzedni, FOVdocelowy, ref perspectiveVelocity, perspectiveZoomSpeed);
 
