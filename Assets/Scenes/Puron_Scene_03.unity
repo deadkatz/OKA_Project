@@ -757,7 +757,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22453968, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22453968, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -983,10 +983,6 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Puron_Scene_01
       objectReference: {fileID: 0}
-    - target: {fileID: 11432218, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Jump_Scene_01
-      objectReference: {fileID: 0}
     - target: {fileID: 11469152, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Moduline_Scene_01
@@ -1002,10 +998,6 @@ Prefab:
     - target: {fileID: 11414536, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_Enabled
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11432218, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11469152, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_Enabled
@@ -1064,10 +1056,6 @@ Prefab:
       value: klawiszliniiWlacz
       objectReference: {fileID: 0}
     - target: {fileID: 11469152, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: klawiszliniiWlacz
-      objectReference: {fileID: 0}
-    - target: {fileID: 11432218, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: klawiszliniiWlacz
       objectReference: {fileID: 0}
@@ -1311,10 +1299,6 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 174901453}
-    - target: {fileID: 11432218, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 174901452}
     - target: {fileID: 11469152, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -1835,12 +1819,6 @@ Canvas:
 --- !u!114 &174901451 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11435754, guid: 4ea34ecfea046f84d837c63de17e405a,
-    type: 2}
-  m_PrefabInternal: {fileID: 174901409}
-  m_Script: {fileID: 11500000, guid: 00be6b5c52efdbf4eb8eb9446281a8e0, type: 3}
---- !u!114 &174901452 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11483928, guid: 4ea34ecfea046f84d837c63de17e405a,
     type: 2}
   m_PrefabInternal: {fileID: 174901409}
   m_Script: {fileID: 11500000, guid: 00be6b5c52efdbf4eb8eb9446281a8e0, type: 3}
