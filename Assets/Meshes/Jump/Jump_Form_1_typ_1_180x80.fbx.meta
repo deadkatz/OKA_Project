@@ -9,19 +9,29 @@ ModelImporter:
     100002: drewno
     100004: //RootNode
     100006: metal_mesh
+    100008: dark_mesh
+    100010: wood_mesh
     400000: dark_metal
     400002: drewno
     400004: //RootNode
     400006: metal_mesh
+    400008: dark_mesh
+    400010: wood_mesh
     2300000: dark_metal
     2300002: drewno
     2300004: metal_mesh
+    2300006: dark_mesh
+    2300008: wood_mesh
     3300000: dark_metal
     3300002: drewno
     3300004: metal_mesh
+    3300006: dark_mesh
+    3300008: wood_mesh
     4300000: drewno
     4300002: dark_metal
     4300004: metal_mesh
+    4300006: wood_mesh
+    4300008: dark_mesh
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -51,7 +61,7 @@ ModelImporter:
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
