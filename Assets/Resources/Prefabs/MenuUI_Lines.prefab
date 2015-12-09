@@ -590,7 +590,7 @@ GameObject:
   m_IsActive: 0
 --- !u!1 &122884
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -604,7 +604,7 @@ GameObject:
   - 114: {fileID: 11441030}
   m_Layer: 5
   m_Name: LanguageDE
-  m_TagString: Untagged
+  m_TagString: de
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1049,12 +1049,12 @@ GameObject:
   - 222: {fileID: 22292582}
   - 114: {fileID: 11430402}
   m_Layer: 5
-  m_Name: RawImageEN
-  m_TagString: en
+  m_Name: RawImageDE
+  m_TagString: de
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &137538
 GameObject:
   m_ObjectHideFlags: 1
@@ -1114,7 +1114,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &139310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,8 +1432,8 @@ GameObject:
   - 222: {fileID: 22289408}
   - 114: {fileID: 11406160}
   m_Layer: 5
-  m_Name: RawImageDE
-  m_TagString: de
+  m_Name: RawImageEN
+  m_TagString: en
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2028,13 +2028,14 @@ GameObject:
   - 114: {fileID: 11433012}
   - 223: {fileID: 22344078}
   - 114: {fileID: 11455202}
+  - 114: {fileID: 11492582}
   m_Layer: 5
   m_Name: LanguageEN
-  m_TagString: Untagged
+  m_TagString: en
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &178616
 GameObject:
   m_ObjectHideFlags: 1
@@ -5267,8 +5268,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: ManageInfoSettings
+      - m_Target: {fileID: 11490104}
+        m_MethodName: set_interactable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 11441030}
+        m_MethodName: Wylacz
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5278,19 +5290,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: FadeIn
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: FadeOut
+      - m_Target: {fileID: 11446206}
+        m_MethodName: SetNewLanguange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6107,7 +6108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Texture: {fileID: 2800000, guid: 35fd2048147c5fc42a71518bdd16a827, type: 3}
+  m_Texture: {fileID: 2800000, guid: 1dea6a7ed8baf2f4893408df0e7d973c, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -6184,7 +6185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Texture: {fileID: 2800000, guid: 4d35dae7fc714c24385e9d66f7c744ed, type: 3}
+  m_Texture: {fileID: 2800000, guid: 9b5e38e70e5739146807cd13a83b6959, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -6731,7 +6732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Texture: {fileID: 2800000, guid: 4b44d0eeabe1f0341aa9d10a0b56018d, type: 3}
+  m_Texture: {fileID: 2800000, guid: 0e3baf1461b37e348b8ed9d401f2ac6c, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -7912,6 +7913,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11446206}
+        m_MethodName: UpdateLanguage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &11443140
@@ -8833,6 +8845,17 @@ MonoBehaviour:
       - m_Target: {fileID: 158552}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11446206}
+        m_MethodName: UpdateLanguage
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -12947,6 +12970,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11490104}
+        m_MethodName: set_interactable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &11490108
@@ -13320,6 +13354,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEnabled: 1
   CanvasOrder: 0
+--- !u!114 &11492582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 178368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13857e5a13bba64aa4ffd36a42811a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 0
+  CanvasOrder: 0
 --- !u!114 &11492806
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13488,6 +13535,17 @@ MonoBehaviour:
       - m_Target: {fileID: 158552}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 11446206}
+        m_MethodName: UpdateLanguage
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -16768,11 +16826,11 @@ RectTransform:
   m_LocalScale: {x: .400000036, y: .400000036, z: 1}
   m_Children:
   - {fileID: 22404756}
-  m_Father: {fileID: 22450970}
-  m_RootOrder: 6
+  m_Father: {fileID: 22453968}
+  m_RootOrder: 13
   m_AnchorMin: {x: 1, y: .5}
   m_AnchorMax: {x: 1, y: .5}
-  m_AnchoredPosition: {x: -93, y: 282.299988}
+  m_AnchoredPosition: {x: -92.9900131, y: 282.299988}
   m_SizeDelta: {x: 76, y: 76}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22425402
@@ -17372,7 +17430,6 @@ RectTransform:
   - {fileID: 22458472}
   - {fileID: 22415426}
   - {fileID: 22400006}
-  - {fileID: 22423730}
   m_Father: {fileID: 22453968}
   m_RootOrder: 5
   m_AnchorMin: {x: 1, y: .5}
@@ -17509,6 +17566,7 @@ RectTransform:
   - {fileID: 22423402}
   - {fileID: 22411198}
   - {fileID: 22453076}
+  - {fileID: 22423730}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
