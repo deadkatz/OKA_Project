@@ -1303,10 +1303,10 @@ Transform:
   - {fileID: 991039575}
   - {fileID: 1879095141}
   - {fileID: 1783898554}
-  - {fileID: 803161247}
   - {fileID: 1993385317}
   - {fileID: 1959176920}
   - {fileID: 1999512953}
+  - {fileID: 803161247}
   m_Father: {fileID: 585063377}
   m_RootOrder: 0
 --- !u!114 &198472739
@@ -2158,6 +2158,10 @@ Prefab:
       value: -100.999969
       objectReference: {fileID: 0}
     - target: {fileID: 149096, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 137058, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -5059,7 +5063,7 @@ Transform:
   m_Children:
   - {fileID: 620791537}
   m_Father: {fileID: 198472738}
-  m_RootOrder: 33
+  m_RootOrder: 36
 --- !u!1 &807206450
 GameObject:
   m_ObjectHideFlags: 0
