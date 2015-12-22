@@ -328,13 +328,14 @@ GameObject:
   - 225: {fileID: 22596798}
   - 223: {fileID: 22336312}
   - 114: {fileID: 11422288}
+  - 114: {fileID: 11407634}
   m_Layer: 0
   m_Name: ScrollView_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &117696
 GameObject:
   m_ObjectHideFlags: 1
@@ -1361,13 +1362,14 @@ GameObject:
   - 225: {fileID: 22530806}
   - 223: {fileID: 22381662}
   - 114: {fileID: 11423270}
+  - 114: {fileID: 11411020}
   m_Layer: 0
   m_Name: ScrollView_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &182708
 GameObject:
   m_ObjectHideFlags: 1
@@ -2035,6 +2037,17 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11407634
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 115592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28714dc18a822ce4d8ff7fe96eea5f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11408448
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2148,6 +2161,17 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11411020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28714dc18a822ce4d8ff7fe96eea5f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11411144
 MonoBehaviour:
   m_ObjectHideFlags: 1
