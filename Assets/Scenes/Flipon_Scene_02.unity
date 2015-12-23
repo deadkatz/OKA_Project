@@ -1444,7 +1444,7 @@ Prefab:
     - target: {fileID: 2300018, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5d76cb2d56a4db340a24cf6f889fa702, type: 2}
+      objectReference: {fileID: 2100000, guid: 0d33dddf08f40584d896bc1997248377, type: 2}
     - target: {fileID: 2300010, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1452,7 +1452,7 @@ Prefab:
     - target: {fileID: 2300002, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e8712b9000473ac4e9ff0523e3e358e1, type: 2}
+      objectReference: {fileID: 2100000, guid: f1a7a8aea9cf4a84fa60a2fbf0ae7546, type: 2}
     - target: {fileID: 100004, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_Name
       value: Flipon_dl5_120X80_FINALW 1 (2)
@@ -1602,6 +1602,14 @@ Prefab:
     - target: {fileID: 22499412, guid: 9a1e40a76ed1a1048ac485739e6ce614, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495916, guid: 9a1e40a76ed1a1048ac485739e6ce614, type: 2}
+      propertyPath: StartColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495916, guid: 9a1e40a76ed1a1048ac485739e6ce614, type: 2}
+      propertyPath: Modul
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9a1e40a76ed1a1048ac485739e6ce614, type: 2}
@@ -2131,7 +2139,7 @@ Prefab:
     - target: {fileID: 2300018, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5d76cb2d56a4db340a24cf6f889fa702, type: 2}
+      objectReference: {fileID: 2100000, guid: 0d33dddf08f40584d896bc1997248377, type: 2}
     - target: {fileID: 2300010, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2139,7 +2147,7 @@ Prefab:
     - target: {fileID: 2300002, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e8712b9000473ac4e9ff0523e3e358e1, type: 2}
+      objectReference: {fileID: 2100000, guid: f1a7a8aea9cf4a84fa60a2fbf0ae7546, type: 2}
     - target: {fileID: 100004, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_Name
       value: Flipon_dl5_120X80_FINALW 1 (3)
@@ -2723,7 +2731,7 @@ Prefab:
     - target: {fileID: 2300018, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5d76cb2d56a4db340a24cf6f889fa702, type: 2}
+      objectReference: {fileID: 2100000, guid: 0d33dddf08f40584d896bc1997248377, type: 2}
     - target: {fileID: 2300010, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2731,7 +2739,7 @@ Prefab:
     - target: {fileID: 2300002, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e8712b9000473ac4e9ff0523e3e358e1, type: 2}
+      objectReference: {fileID: 2100000, guid: f1a7a8aea9cf4a84fa60a2fbf0ae7546, type: 2}
     - target: {fileID: 100048, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
@@ -5122,6 +5130,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11427182, guid: 66987e814b9e01e4b9267927ef45186b, type: 2}
+      propertyPath: StartColor
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66987e814b9e01e4b9267927ef45186b, type: 2}
   m_IsPrefabParent: 0
@@ -5420,6 +5432,10 @@ Prefab:
     - target: {fileID: 22435614, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
       propertyPath: m_AnchoredPosition.x
       value: 59.1999969
+      objectReference: {fileID: 0}
+    - target: {fileID: 158552, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
@@ -6045,7 +6061,7 @@ Prefab:
     - target: {fileID: 2300018, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5d76cb2d56a4db340a24cf6f889fa702, type: 2}
+      objectReference: {fileID: 2100000, guid: 0d33dddf08f40584d896bc1997248377, type: 2}
     - target: {fileID: 2300010, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -6053,7 +6069,7 @@ Prefab:
     - target: {fileID: 2300002, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e8712b9000473ac4e9ff0523e3e358e1, type: 2}
+      objectReference: {fileID: 2100000, guid: f1a7a8aea9cf4a84fa60a2fbf0ae7546, type: 2}
     - target: {fileID: 100004, guid: 407fbcda9c17ba64da37e1fbf8a74827, type: 3}
       propertyPath: m_Name
       value: Flipon_dl5_120X80_FINALW 1 (1)
