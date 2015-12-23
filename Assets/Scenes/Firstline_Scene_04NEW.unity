@@ -1500,6 +1500,14 @@ Prefab:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 2800000, guid: 7a0661a8879bdce4399d119726e7e55c, type: 3}
+    - target: {fileID: 102380, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 158552, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ea34ecfea046f84d837c63de17e405a, type: 2}
   m_IsPrefabParent: 0
@@ -2395,7 +2403,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 00c4abff1232f6d408b99afd4c170fa3, type: 2}
+  - {fileID: 2100000, guid: f2761babb4dcf294aa36b4b33c719614, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -2896,7 +2904,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 00c4abff1232f6d408b99afd4c170fa3, type: 2}
+  - {fileID: 2100000, guid: f2761babb4dcf294aa36b4b33c719614, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -3109,6 +3117,10 @@ Prefab:
     - target: {fileID: 22499412, guid: f4bf62ad8ed95a74db7c4f4d6c5fba9e, type: 2}
       propertyPath: m_Pivot.y
       value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441270, guid: f4bf62ad8ed95a74db7c4f4d6c5fba9e, type: 2}
+      propertyPath: StartColor
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f4bf62ad8ed95a74db7c4f4d6c5fba9e, type: 2}
@@ -3602,7 +3614,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 00c4abff1232f6d408b99afd4c170fa3, type: 2}
+  - {fileID: 2100000, guid: f2761babb4dcf294aa36b4b33c719614, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
