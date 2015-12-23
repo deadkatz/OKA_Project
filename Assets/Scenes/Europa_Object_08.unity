@@ -1379,8 +1379,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialNaKlawiszu: {fileID: 2100000, guid: 0d33dddf08f40584d896bc1997248377, type: 2}
-  StartColor: 0
-  Modul: 1
+  StartColor: 1
+  Modul: 2
 --- !u!114 &654921935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4126,7 +4126,7 @@ Prefab:
     - target: {fileID: 2300002, guid: ca9dfca26475e9848afa9ae1702355b1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5d76cb2d56a4db340a24cf6f889fa702, type: 2}
+      objectReference: {fileID: 2100000, guid: 0d33dddf08f40584d896bc1997248377, type: 2}
     - target: {fileID: 2300002, guid: ca9dfca26475e9848afa9ae1702355b1, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -4499,6 +4499,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22463374, guid: 08ecade6bf0ea5744b758b3b72497c82, type: 2}
       propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11401680, guid: 08ecade6bf0ea5744b758b3b72497c82, type: 2}
+      propertyPath: StartColor
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
