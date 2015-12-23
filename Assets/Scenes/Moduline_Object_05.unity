@@ -700,7 +700,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 182192, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22429866, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -903,6 +903,10 @@ Prefab:
     - target: {fileID: 22463374, guid: 08ecade6bf0ea5744b758b3b72497c82, type: 2}
       propertyPath: m_Pivot.y
       value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11438984, guid: 08ecade6bf0ea5744b758b3b72497c82, type: 2}
+      propertyPath: StartColor
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08ecade6bf0ea5744b758b3b72497c82, type: 2}
@@ -1970,6 +1974,14 @@ Prefab:
     - target: {fileID: 22463374, guid: 08ecade6bf0ea5744b758b3b72497c82, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11438984, guid: 08ecade6bf0ea5744b758b3b72497c82, type: 2}
+      propertyPath: StartColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11438984, guid: 08ecade6bf0ea5744b758b3b72497c82, type: 2}
+      propertyPath: Modul
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08ecade6bf0ea5744b758b3b72497c82, type: 2}
