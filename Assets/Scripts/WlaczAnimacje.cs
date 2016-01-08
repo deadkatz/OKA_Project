@@ -22,7 +22,7 @@ public class WlaczAnimacje : MonoBehaviour {
 	public void AnimacjaOnOff ()
 	{
 		AnimState = movableObject.GetComponent<Animator> ().GetBool ("Animuj");
-		Debug.Log (AnimState);
+//		Debug.Log (AnimState);
 		if (AnimState == false)
 		{
 			if(mail == false){

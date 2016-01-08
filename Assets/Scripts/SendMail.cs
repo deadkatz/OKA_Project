@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class SendMail : MonoBehaviour {
 
-	private string email;
+	public string email;
 
 	[SerializeField]
 	private InputField nameInputField = null; // Assign in editor
@@ -26,13 +26,12 @@ public class SendMail : MonoBehaviour {
 	private void SubmitName(string name)
 	{
 		//What to do with the value from input field
-		Debug.Log (name);
-		email = name;
+//		email = name;
 //		}
 	}
 
 	public void UpdateEMail(){
-//		Debug.Log (name);
+//		Debug.Log (email);
 		email = nameInputField.text;
 	}
 
@@ -43,7 +42,8 @@ public class SendMail : MonoBehaviour {
 
 	public void SendMailTo() {
 
-//		Debug.Log ("cokolwiek");
+		email = nameInputField.text;
+		Debug.Log (email);
 
 		MailMessage mail = new MailMessage("kuba@3monkeys.pl", email);
 		Attachment a = new Attachment ("Screenshot.png", MediaTypeNames.Application.Octet);
