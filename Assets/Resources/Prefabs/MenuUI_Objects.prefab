@@ -1152,6 +1152,8 @@ GameObject:
   - 224: {fileID: 22495820}
   - 225: {fileID: 22544240}
   - 95: {fileID: 9558150}
+  - 223: {fileID: 22390882}
+  - 114: {fileID: 11445798}
   m_Layer: 5
   m_Name: Mail
   m_TagString: Untagged
@@ -1351,7 +1353,6 @@ GameObject:
   - 224: {fileID: 22423552}
   - 222: {fileID: 22222784}
   - 114: {fileID: 11493522}
-  - 225: {fileID: 22581868}
   - 223: {fileID: 22378660}
   - 114: {fileID: 11492664}
   - 114: {fileID: 11479382}
@@ -5781,6 +5782,22 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11445798
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 160740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &11446386
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10566,7 +10583,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
 --- !u!223 &22306088
 Canvas:
   m_ObjectHideFlags: 1
@@ -10804,7 +10821,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
 --- !u!223 &22334320
 Canvas:
   m_ObjectHideFlags: 1
@@ -10974,7 +10991,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
 --- !u!223 &22355098
 Canvas:
   m_ObjectHideFlags: 1
@@ -11195,7 +11212,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
 --- !u!223 &22378988
 Canvas:
   m_ObjectHideFlags: 1
@@ -11434,6 +11451,23 @@ Canvas:
   m_OverridePixelPerfect: 1
   m_SortingLayerID: 0
   m_SortingOrder: 100
+--- !u!223 &22390882
+Canvas:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 160740}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!223 &22392840
 Canvas:
   m_ObjectHideFlags: 1
@@ -11881,7 +11915,7 @@ RectTransform:
   m_GameObject: {fileID: 176944}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.70882046, y: 1.70881987, z: 1.70881987}
   m_Children: []
   m_Father: {fileID: 22495820}
   m_RootOrder: 3
@@ -13350,17 +13384,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 1
---- !u!225 &22581868
-CanvasGroup:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 176944}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
 --- !u!225 &22588416
 CanvasGroup:
   m_ObjectHideFlags: 1

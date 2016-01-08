@@ -4,6 +4,7 @@ using UnityEngine.Networking.Match;
 using System.Net.Mail;
 using System.Net.Mime;
 using UnityEngine.UI;
+using System.Threading;
 
 public class SendMail : MonoBehaviour {
 
@@ -41,22 +42,9 @@ public class SendMail : MonoBehaviour {
 	}
 
 	public void SendMailTo() {
+		ThreadPool.QueueUserWorkItem(x => ThreadMail());
 
-		email = nameInputField.text;
-		Debug.Log (email);
 
-		MailMessage mail = new MailMessage("kuba@3monkeys.pl", email);
-		Attachment a = new Attachment ("Screenshot.png", MediaTypeNames.Application.Octet);
-		mail.Attachments.Add (a);
-		SmtpClient client = new SmtpClient("smtp.3monkeys.pl", 587);
-		//client.Port = 587;
-		client.DeliveryMethod = SmtpDeliveryMethod.Network;
-		client.UseDefaultCredentials = false;
-		client.Credentials = new System.Net.NetworkCredential ("kuba@3monkeys.pl", "cieslIK_15");
-		//client.Host = "smtp.3monkeys.pl";
-		mail.Subject = "OKA Configuration";
-		mail.Body = "";
-		client.Send(mail);
 
 //		SmtpClient smtpClient = new SmtpClient();
 //		NetworkCredential basicCredential = 
@@ -85,6 +73,23 @@ public class SendMail : MonoBehaviour {
 //			Debug.Log (ex.Message);
 //		}
 
+	}
+	void ThreadMail(){
+		email = nameInputField.text;
+		Debug.Log (email);
+		
+		MailMessage mail = new MailMessage("kuba@3monkeys.pl", email);
+		Attachment a = new Attachment ("Screenshot.png", MediaTypeNames.Application.Octet);
+		mail.Attachments.Add (a);
+		SmtpClient client = new SmtpClient("smtp.3monkeys.pl", 587);
+		//client.Port = 587;
+		client.DeliveryMethod = SmtpDeliveryMethod.Network;
+		client.UseDefaultCredentials = false;
+		client.Credentials = new System.Net.NetworkCredential ("kuba@3monkeys.pl", "cieslIK_15");
+		//client.Host = "smtp.3monkeys.pl";
+		mail.Subject = "OKA Configuration";
+		mail.Body = "";
+		client.Send(mail);
 	}
 	
 	// Update is called once per frame
