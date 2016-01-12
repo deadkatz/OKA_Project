@@ -9,6 +9,7 @@ using System.Threading;
 public class SendMail : MonoBehaviour {
 
 	public string email;
+	private string Screen_Shot_File_Name;
 
 	[SerializeField]
 	private InputField nameInputField = null; // Assign in editor
@@ -37,8 +38,12 @@ public class SendMail : MonoBehaviour {
 	}
 
 	public void CaptureScreenShot() {
-		System.IO.File.Delete ("Screenshot.png");
-		Application.CaptureScreenshot("Screenshot.png");
+//		Screen_Shot_File_Name = "Screenshot__" + System.DateTime.Now.ToString("__yyyy-MM-dd") + ".png";
+
+		System.IO.File.Delete ("Assets/Resources/UnityScreenshot.png");
+		Application.CaptureScreenshot("Assets/Resources/UnityScreenshot.png");
+		
+		print(Application.persistentDataPath);
 	}
 
 	public void SendMailTo() {
@@ -79,7 +84,7 @@ public class SendMail : MonoBehaviour {
 		Debug.Log (email);
 		
 		MailMessage mail = new MailMessage("kuba@3monkeys.pl", email);
-		Attachment a = new Attachment ("Screenshot.png", MediaTypeNames.Application.Octet);
+		Attachment a = new Attachment ("Assets/Resources/UnityScreenshot.png", MediaTypeNames.Application.Octet);
 		mail.Attachments.Add (a);
 		SmtpClient client = new SmtpClient("smtp.3monkeys.pl", 587);
 		//client.Port = 587;
