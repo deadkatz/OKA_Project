@@ -1,20 +1,24 @@
 ﻿using UnityEngine;
 using System;
+using System.IO;
 using UnityEngine.Networking.Match;
 using System.Net.Mail;
 using System.Net.Mime;
 using UnityEngine.UI;
 using System.Threading;
+using System.Net;
+using System.Security.Cryptography.X509Certificates;
+using System.Net.Security;
 
 public class SendMail : MonoBehaviour {
 
 	public string email;
-	private string Screen_Shot_File_Name;
-
+	private string path = (Application.persistentDataPath + "/Screenshot.png");
+	
 	[SerializeField]
 	private InputField nameInputField = null; // Assign in editor
 
-	private void Start()
+	void Start()
 	{
 		// Add listener to catch the submit
 		InputField.SubmitEvent submitEvent = new InputField.SubmitEvent();
@@ -23,6 +27,13 @@ public class SendMail : MonoBehaviour {
 		
 		// Add validation
 		nameInputField.characterValidation = InputField.CharacterValidation.EmailAddress;
+
+		if (Application.platform == RuntimePlatform.IPhonePlayer) {
+		
+			path = (Application.persistentDataPath + "/Screenshot.png");
+		} else {
+			path = (Application.persistentDataPath + "/Screenshot.png");
+		}
 	}
 	
 	private void SubmitName(string name)
@@ -38,17 +49,17 @@ public class SendMail : MonoBehaviour {
 	}
 
 	public void CaptureScreenShot() {
-//		Screen_Shot_File_Name = "Screenshot__" + System.DateTime.Now.ToString("__yyyy-MM-dd") + ".png";
 
-		System.IO.File.Delete ("Assets/Resources/UnityScreenshot.png");
-		Application.CaptureScreenshot("Assets/Resources/UnityScreenshot.png");
+//		System.IO.File.Delete (path);
+		Application.CaptureScreenshot(path);
+
 		
-		print(Application.persistentDataPath);
+		print(path);
 	}
 
 	public void SendMailTo() {
 		ThreadPool.QueueUserWorkItem(x => ThreadMail());
-
+//		ThreadMail ();
 
 
 //		SmtpClient smtpClient = new SmtpClient();
@@ -84,13 +95,18 @@ public class SendMail : MonoBehaviour {
 		Debug.Log (email);
 		
 		MailMessage mail = new MailMessage("kuba@3monkeys.pl", email);
-		Attachment a = new Attachment ("Assets/Resources/UnityScreenshot.png", MediaTypeNames.Application.Octet);
+		Attachment a = new Attachment (path, MediaTypeNames.Application.Octet);
 		mail.Attachments.Add (a);
-		SmtpClient client = new SmtpClient("smtp.3monkeys.pl", 587);
-		//client.Port = 587;
+		SmtpClient client = new SmtpClient();
+		client.Host = "smtp.3monkeys.pl";
+		client.Port = 587;
 		client.DeliveryMethod = SmtpDeliveryMethod.Network;
 		client.UseDefaultCredentials = false;
-		client.Credentials = new System.Net.NetworkCredential ("kuba@3monkeys.pl", "cieslIK_15");
+		client.Credentials = new System.Net.NetworkCredential ("kuba@3monkeys.pl", "cieslIK_15") as ICredentialsByHost;
+		client.EnableSsl = true;
+		ServicePointManager.ServerCertificateValidationCallback =
+			delegate(object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+		{ return true; };
 		//client.Host = "smtp.3monkeys.pl";
 		mail.Subject = "OKA Configuration";
 		mail.Body = "";
