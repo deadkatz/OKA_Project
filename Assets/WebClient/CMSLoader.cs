@@ -7,7 +7,7 @@ public class CMSLoader : MonoBehaviour
 	void Start()
 	{
 		MyService service = new MyService();
-		string n = service.test (9, 10, "wynik: ");
+		string n = service.test (9, 10, "wynik: +");
 		Debug.Log(n);
 	}
 }
