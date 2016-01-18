@@ -7,7 +7,7 @@
 //     kod zostanie ponownie wygenerowany.
 // </auto-generated>
 //------------------------------------------------------------------------------
-
+using UnityEngine;
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -25,12 +25,12 @@ using System.Xml.Serialization;
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
 [System.Web.Services.WebServiceBindingAttribute(Name="TestServiceImplSoapBinding", Namespace="http://goto10.pl")]
-public partial class TestServiceImplService : System.Web.Services.Protocols.SoapHttpClientProtocol {
+public partial class MyService : System.Web.Services.Protocols.SoapHttpClientProtocol {
     
     private System.Threading.SendOrPostCallback testOperationCompleted;
     
     /// <remarks/>
-    public TestServiceImplService() {
+    public MyService() {
         this.Url = "http://52.28.65.193:8080/DataProvider/services/TestServiceImpl";
     }
     
@@ -65,6 +65,7 @@ public partial class TestServiceImplService : System.Web.Services.Protocols.Soap
     /// <remarks/>
     public void testAsync(int x, int y, string s) {
         this.testAsync(x, y, s, null);
+		UnityEngine.Debug.Log ("test");
     }
     
     /// <remarks/>

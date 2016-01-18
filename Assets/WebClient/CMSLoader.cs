@@ -2,12 +2,12 @@
 using System;
 using System.Collections;
 
-public class CMSObject : MonoBehaviour
+public class CMSLoader : MonoBehaviour
 {
 	void Start()
 	{
 		MyService service = new MyService();
-//		int n = service.
-//		Debug.Log(n);
+		string n = service.test (9, 10, "wynik: ");
+		Debug.Log(n);
 	}
 }
