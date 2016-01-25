@@ -19,9 +19,9 @@ public class ObslugaCamery : MonoBehaviour {
 	
 	public float pinchSpeed;
 	
-	private float lastDist = 10f;
+//	private float lastDist = 10f;
 	
-	private float curDist = 10f;
+//	private float curDist = 10f;
 	
 	
 	
@@ -53,7 +53,7 @@ public class ObslugaCamery : MonoBehaviour {
 	private Vector3 velocity = Vector3.zero;
 
 	public float smoothTimeRot = 0.3F;
-	private Vector3 velocityRot = Vector3.zero;
+//	private Vector3 velocityRot = Vector3.zero;
 	
 	
 	void  Start (){

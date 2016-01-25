@@ -20,8 +20,8 @@ public class CMSLoader : MonoBehaviour
 	public void GetInfo(){
 
 		MyService service = new MyService ();
-
-		if (service.Timeout < 10000) {
+		service.Timeout = 1000;
+//		print(service.);
 			//mamy lacznosc...
 			if (ScenaObiekt == true) {
 				//jesli jestesmy w scenie
@@ -38,9 +38,9 @@ public class CMSLoader : MonoBehaviour
 			} else if (transform.CompareTag ("de")) {
 				transform.GetComponent<Text> ().text = InfoContentDE;
 			}
-		} else {
-			//jesli nie mozemy sie polaczyc
-			print("Timeout");
-		}
+//		} else {
+//			//jesli nie mozemy sie polaczyc
+//			print("Timeout");
+//		}
 	}
 }

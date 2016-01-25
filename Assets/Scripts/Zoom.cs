@@ -50,13 +50,13 @@ public class Zoom : MonoBehaviour {
 			{
 				FOVpoprzedni = kameraGlowna.GetComponent<Camera>().fieldOfView;
 				FOVdocelowy = Mathf.Round(FOVpoprzedni - perspectiveVelocity * zoomSpeedKlawiatury);
-				Debug.Log ("SCrollup");
+//				Debug.Log ("SCrollup");
 			}
 			else if (Input.GetAxis("Mouse ScrollWheel") < 0f)
 			{
 				FOVpoprzedni = kameraGlowna.GetComponent<Camera>().fieldOfView;
 				FOVdocelowy = Mathf.Round(FOVpoprzedni + perspectiveVelocity *  zoomSpeedKlawiatury);
-				Debug.Log ("SCrolldown");
+//				Debug.Log ("SCrolldown");
 			}
 				
 
