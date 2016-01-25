@@ -7,7 +7,7 @@
 //     kod zostanie ponownie wygenerowany.
 // </auto-generated>
 //------------------------------------------------------------------------------
-using UnityEngine;
+
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -24,65 +24,205 @@ using System.Xml.Serialization;
 [System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Web.Services.WebServiceBindingAttribute(Name="TestServiceImplSoapBinding", Namespace="http://goto10.pl")]
+[System.Web.Services.WebServiceBindingAttribute(Name="DataProviderServiceImplSoapBinding", Namespace="http://oka.goto10.pl")]
 public partial class MyService : System.Web.Services.Protocols.SoapHttpClientProtocol {
     
-    private System.Threading.SendOrPostCallback testOperationCompleted;
+    private System.Threading.SendOrPostCallback getScenaTextENOperationCompleted;
+    
+    private System.Threading.SendOrPostCallback getScenaTextDEOperationCompleted;
+    
+    private System.Threading.SendOrPostCallback getObiektTextENOperationCompleted;
+    
+    private System.Threading.SendOrPostCallback getObiektTextDEOperationCompleted;
     
     /// <remarks/>
-    public MyService() {
-        this.Url = "http://52.28.65.193:8080/DataProvider/services/TestServiceImpl";
+	public MyService() {
+		this.Url = "http://52.28.65.193:8080/DataProvider/services/DataProviderServiceImpl";
     }
     
     /// <remarks/>
-    public event testCompletedEventHandler testCompleted;
+    public event getScenaTextENCompletedEventHandler getScenaTextENCompleted;
     
     /// <remarks/>
-    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", RequestNamespace="http://goto10.pl", ResponseNamespace="http://goto10.pl", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
-    [return: System.Xml.Serialization.XmlElementAttribute("testReturn")]
-    public string test(int x, int y, string s) {
-        object[] results = this.Invoke("test", new object[] {
-                    x,
-                    y,
-                    s});
+    public event getScenaTextDECompletedEventHandler getScenaTextDECompleted;
+    
+    /// <remarks/>
+    public event getObiektTextENCompletedEventHandler getObiektTextENCompleted;
+    
+    /// <remarks/>
+    public event getObiektTextDECompletedEventHandler getObiektTextDECompleted;
+    
+    /// <remarks/>
+    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", RequestNamespace="http://oka.goto10.pl", ResponseNamespace="http://oka.goto10.pl", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+    [return: System.Xml.Serialization.XmlElementAttribute("getScenaTextENReturn")]
+    public string getScenaTextEN(string linia, int scena) {
+        object[] results = this.Invoke("getScenaTextEN", new object[] {
+                    linia,
+                    scena});
         return ((string)(results[0]));
     }
     
     /// <remarks/>
-    public System.IAsyncResult Begintest(int x, int y, string s, System.AsyncCallback callback, object asyncState) {
-        return this.BeginInvoke("test", new object[] {
-                    x,
-                    y,
-                    s}, callback, asyncState);
+    public System.IAsyncResult BegingetScenaTextEN(string linia, int scena, System.AsyncCallback callback, object asyncState) {
+        return this.BeginInvoke("getScenaTextEN", new object[] {
+                    linia,
+                    scena}, callback, asyncState);
     }
     
     /// <remarks/>
-    public string Endtest(System.IAsyncResult asyncResult) {
+    public string EndgetScenaTextEN(System.IAsyncResult asyncResult) {
         object[] results = this.EndInvoke(asyncResult);
         return ((string)(results[0]));
     }
     
     /// <remarks/>
-    public void testAsync(int x, int y, string s) {
-        this.testAsync(x, y, s, null);
-		UnityEngine.Debug.Log ("test");
+    public void getScenaTextENAsync(string linia, int scena) {
+        this.getScenaTextENAsync(linia, scena, null);
     }
     
     /// <remarks/>
-    public void testAsync(int x, int y, string s, object userState) {
-        if ((this.testOperationCompleted == null)) {
-            this.testOperationCompleted = new System.Threading.SendOrPostCallback(this.OntestOperationCompleted);
+    public void getScenaTextENAsync(string linia, int scena, object userState) {
+        if ((this.getScenaTextENOperationCompleted == null)) {
+            this.getScenaTextENOperationCompleted = new System.Threading.SendOrPostCallback(this.OngetScenaTextENOperationCompleted);
         }
-        this.InvokeAsync("test", new object[] {
-                    x,
-                    y,
-                    s}, this.testOperationCompleted, userState);
+        this.InvokeAsync("getScenaTextEN", new object[] {
+                    linia,
+                    scena}, this.getScenaTextENOperationCompleted, userState);
     }
     
-    private void OntestOperationCompleted(object arg) {
-        if ((this.testCompleted != null)) {
+    private void OngetScenaTextENOperationCompleted(object arg) {
+        if ((this.getScenaTextENCompleted != null)) {
             System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
-            this.testCompleted(this, new testCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            this.getScenaTextENCompleted(this, new getScenaTextENCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+        }
+    }
+    
+    /// <remarks/>
+    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", RequestNamespace="http://oka.goto10.pl", ResponseNamespace="http://oka.goto10.pl", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+    [return: System.Xml.Serialization.XmlElementAttribute("getScenaTextDEReturn")]
+    public string getScenaTextDE(string linia, int scena) {
+        object[] results = this.Invoke("getScenaTextDE", new object[] {
+                    linia,
+                    scena});
+        return ((string)(results[0]));
+    }
+    
+    /// <remarks/>
+    public System.IAsyncResult BegingetScenaTextDE(string linia, int scena, System.AsyncCallback callback, object asyncState) {
+        return this.BeginInvoke("getScenaTextDE", new object[] {
+                    linia,
+                    scena}, callback, asyncState);
+    }
+    
+    /// <remarks/>
+    public string EndgetScenaTextDE(System.IAsyncResult asyncResult) {
+        object[] results = this.EndInvoke(asyncResult);
+        return ((string)(results[0]));
+    }
+    
+    /// <remarks/>
+    public void getScenaTextDEAsync(string linia, int scena) {
+        this.getScenaTextDEAsync(linia, scena, null);
+    }
+    
+    /// <remarks/>
+    public void getScenaTextDEAsync(string linia, int scena, object userState) {
+        if ((this.getScenaTextDEOperationCompleted == null)) {
+            this.getScenaTextDEOperationCompleted = new System.Threading.SendOrPostCallback(this.OngetScenaTextDEOperationCompleted);
+        }
+        this.InvokeAsync("getScenaTextDE", new object[] {
+                    linia,
+                    scena}, this.getScenaTextDEOperationCompleted, userState);
+    }
+    
+    private void OngetScenaTextDEOperationCompleted(object arg) {
+        if ((this.getScenaTextDECompleted != null)) {
+            System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+            this.getScenaTextDECompleted(this, new getScenaTextDECompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+        }
+    }
+    
+    /// <remarks/>
+    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", RequestNamespace="http://oka.goto10.pl", ResponseNamespace="http://oka.goto10.pl", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+    [return: System.Xml.Serialization.XmlElementAttribute("getObiektTextENReturn")]
+    public string getObiektTextEN(string linia) {
+        object[] results = this.Invoke("getObiektTextEN", new object[] {
+                    linia});
+        return ((string)(results[0]));
+    }
+    
+    /// <remarks/>
+    public System.IAsyncResult BegingetObiektTextEN(string linia, System.AsyncCallback callback, object asyncState) {
+        return this.BeginInvoke("getObiektTextEN", new object[] {
+                    linia}, callback, asyncState);
+    }
+    
+    /// <remarks/>
+    public string EndgetObiektTextEN(System.IAsyncResult asyncResult) {
+        object[] results = this.EndInvoke(asyncResult);
+        return ((string)(results[0]));
+    }
+    
+    /// <remarks/>
+    public void getObiektTextENAsync(string linia) {
+        this.getObiektTextENAsync(linia, null);
+    }
+    
+    /// <remarks/>
+    public void getObiektTextENAsync(string linia, object userState) {
+        if ((this.getObiektTextENOperationCompleted == null)) {
+            this.getObiektTextENOperationCompleted = new System.Threading.SendOrPostCallback(this.OngetObiektTextENOperationCompleted);
+        }
+        this.InvokeAsync("getObiektTextEN", new object[] {
+                    linia}, this.getObiektTextENOperationCompleted, userState);
+    }
+    
+    private void OngetObiektTextENOperationCompleted(object arg) {
+        if ((this.getObiektTextENCompleted != null)) {
+            System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+            this.getObiektTextENCompleted(this, new getObiektTextENCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+        }
+    }
+    
+    /// <remarks/>
+    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", RequestNamespace="http://oka.goto10.pl", ResponseNamespace="http://oka.goto10.pl", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+    [return: System.Xml.Serialization.XmlElementAttribute("getObiektTextDEReturn")]
+    public string getObiektTextDE(string linia) {
+        object[] results = this.Invoke("getObiektTextDE", new object[] {
+                    linia});
+        return ((string)(results[0]));
+    }
+    
+    /// <remarks/>
+    public System.IAsyncResult BegingetObiektTextDE(string linia, System.AsyncCallback callback, object asyncState) {
+        return this.BeginInvoke("getObiektTextDE", new object[] {
+                    linia}, callback, asyncState);
+    }
+    
+    /// <remarks/>
+    public string EndgetObiektTextDE(System.IAsyncResult asyncResult) {
+        object[] results = this.EndInvoke(asyncResult);
+        return ((string)(results[0]));
+    }
+    
+    /// <remarks/>
+    public void getObiektTextDEAsync(string linia) {
+        this.getObiektTextDEAsync(linia, null);
+    }
+    
+    /// <remarks/>
+    public void getObiektTextDEAsync(string linia, object userState) {
+        if ((this.getObiektTextDEOperationCompleted == null)) {
+            this.getObiektTextDEOperationCompleted = new System.Threading.SendOrPostCallback(this.OngetObiektTextDEOperationCompleted);
+        }
+        this.InvokeAsync("getObiektTextDE", new object[] {
+                    linia}, this.getObiektTextDEOperationCompleted, userState);
+    }
+    
+    private void OngetObiektTextDEOperationCompleted(object arg) {
+        if ((this.getObiektTextDECompleted != null)) {
+            System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+            this.getObiektTextDECompleted(this, new getObiektTextDECompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
         }
     }
     
@@ -94,17 +234,95 @@ public partial class MyService : System.Web.Services.Protocols.SoapHttpClientPro
 
 /// <remarks/>
 [System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
-public delegate void testCompletedEventHandler(object sender, testCompletedEventArgs e);
+public delegate void getScenaTextENCompletedEventHandler(object sender, getScenaTextENCompletedEventArgs e);
 
 /// <remarks/>
 [System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-public partial class testCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+public partial class getScenaTextENCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
     
     private object[] results;
     
-    internal testCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+    internal getScenaTextENCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+            base(exception, cancelled, userState) {
+        this.results = results;
+    }
+    
+    /// <remarks/>
+    public string Result {
+        get {
+            this.RaiseExceptionIfNecessary();
+            return ((string)(this.results[0]));
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
+public delegate void getScenaTextDECompletedEventHandler(object sender, getScenaTextDECompletedEventArgs e);
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+public partial class getScenaTextDECompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+    
+    private object[] results;
+    
+    internal getScenaTextDECompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+            base(exception, cancelled, userState) {
+        this.results = results;
+    }
+    
+    /// <remarks/>
+    public string Result {
+        get {
+            this.RaiseExceptionIfNecessary();
+            return ((string)(this.results[0]));
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
+public delegate void getObiektTextENCompletedEventHandler(object sender, getObiektTextENCompletedEventArgs e);
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+public partial class getObiektTextENCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+    
+    private object[] results;
+    
+    internal getObiektTextENCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+            base(exception, cancelled, userState) {
+        this.results = results;
+    }
+    
+    /// <remarks/>
+    public string Result {
+        get {
+            this.RaiseExceptionIfNecessary();
+            return ((string)(this.results[0]));
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
+public delegate void getObiektTextDECompletedEventHandler(object sender, getObiektTextDECompletedEventArgs e);
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+public partial class getObiektTextDECompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+    
+    private object[] results;
+    
+    internal getObiektTextDECompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
             base(exception, cancelled, userState) {
         this.results = results;
     }

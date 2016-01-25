@@ -32,8 +32,8 @@ public class KameraKontrollerNEW : MonoBehaviour {
 		else
 			buttonPressed = false;
 		
-		int horizontal = 0;
-		int vertical = 0;
+//		int horizontal = 0;
+//		int vertical = 0;
 		PrzesX = 0;
 		PrzesY = 0;
 		
