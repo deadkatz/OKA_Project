@@ -14,7 +14,7 @@ public class CMSLoader : MonoBehaviour
 	void Start()
 	{
 
-		GetInfo ();
+//		GetInfo ();
 	}
 
 	public void GetInfo(){
