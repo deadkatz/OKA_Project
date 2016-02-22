@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
@@ -9,393 +9,393 @@ public class Color_Shelf : MonoBehaviour {
 	ArrayList ButtonList;
 
 	//Melamin Holz-Dekor // Melamine wood-laminate
-	/*0*/public bool A9_Ahorn; // Maple done
-	/*1*/public bool W1_Eiche_hell; // Oak light done
-	/*2*/public bool B8_Buche; // Beech done
-	/*3*/public bool L8_Birnbaum; // Pear done
-	/*4*/public bool WM_Kirschbaum_Romana; // Cherry romana done
-	/*5*/public bool B6_Buche_gedämpft; // Beech cushioned done
-	/*6*/public bool C2_Kirschbaum; // Cherry done
-	/*7*/public bool YN_Esche_Cappuccino; // Ash cappuccino done
-	/*8*/public bool C7_Nussbaum; // Walnut done
-	/*9*/public bool LD_Eiche_Mokka; // Oak Mokka done
+	/*0*/public bool _0_A9_Ahorn; // Maple done
+	/*1*/public bool _1_W1_Eiche_hell; // Oak light done
+	/*2*/public bool _2_B8_Buche; // Beech done
+	/*3*/public bool _3_L8_Birnbaum; // Pear done
+	/*4*/public bool _4_WM_Kirschbaum_Romana; // Cherry romana done
+	/*5*/public bool _5_B6_Buche_gedampft; // Beech cushioned done
+	/*6*/public bool _6_C2_Kirschbaum; // Cherry done
+	/*7*/public bool _7_YN_Esche_Cappuccino; // Ash cappuccino done
+	/*8*/public bool _8_C7_Nussbaum; // Walnut done
+	/*9*/public bool _9_LD_Eiche_Mokka; // Oak Mokka done
 
 	//Melamin Uni-Dekor // Melamine uni-laminate
-	/*10*/public bool W3_Perlweiß; // Perl white
-	/*11*/public bool A1_Lichtgrau; // Light grey
-	/*12*/public bool W9_Vulkangrau; // Vulcan grey
-	/*13*/public bool B5_Sandgrau; // Sand grey
-	/*14*/public bool DV_Oliv; // Oliv
-	/*15*/public bool W6_Rubinrot; // Ruby Red
-	/*16*/public bool I4_Metallgrau; // Metal grey
-	/*17*/public bool A0_Tiefschwarz; // Dark black
-	/*18*/public bool Pastellorange;
-	/*19*/public bool Samtgelb;
-	/*20*/public bool Taubenblau;
-	/*21*/public bool D0_Alusilber; // Alusilver
+	/*10*/public bool _10_W3_Perlweiss; // Perl white
+	/*11*/public bool _11_A1_Lichtgrau; // Light grey
+	/*12*/public bool _12_V9_Vulkangrau; // Vulcan grey
+	/*13*/public bool _13_B5_Sandgrau; // Sand grey
+	/*14*/public bool _14_DV_Oliv; // Oliv
+	/*15*/public bool _15_W6_Rubinrot; // Ruby Red
+	/*16*/public bool _16_I4_Metallgrau; // Metal grey
+	/*17*/public bool _17_A0_Tiefschwarz; // Dark black
+	/*18*/public bool _18_Pastellorange;
+	/*19*/public bool _19_Samtgelb;
+	/*20*/public bool _20_Taubenblau;
+	/*21*/public bool _21_D0_Alusilber; // Alusilver
 	
 	//Echtholz Furnier // Real wood veneer
-	/*22*/public bool G0_Weißer_Ahorn; // White maple
-	/*23*/public bool I9_Eiche_hell; // Oak light
-	/*24*/public bool I5_Nussbaum; // Walnut
-	/*25*/public bool TM_Mooreiche; // Bog Oak
-	/*26*/public bool H6_Buche; // Beech
-	/*27*/public bool H1_Birnbaum; // Pear
-	/*28*/public bool H0_Esche_tiefschwarz; // Ash deep black
+	/*22*/public bool _22_G0_Weisser_Ahorn; // White maple
+	/*23*/public bool _23_I9_Eiche_hell; // Oak light
+	/*24*/public bool _24_I5_Nussbaum; // Walnut
+	/*25*/public bool _25_TM_Mooreiche; // Bog Oak
+	/*26*/public bool _26_H6_Buche; // Beech
+	/*27*/public bool _27_H1_Birnbaum; // Pear
+	/*28*/public bool _28_H0_Esche_tiefschwarz; // Ash deep black
 
 	//Vollkernplatte 13mm // Compact top 13mm
-	/*--*/public bool I8_Weiß; // White
+	/*--*/public bool I8_Weiss; // White
 	/*--*/public bool I3_Lichtgrau; // Light grey
 	/*--*/public bool I7_Grau; // Grey
 
 	//MDF glatt // MDF smooth
-	/*29*/public bool DQ_Metallgrau; // Metal grey
-	/*30*/public bool DT_Alusilber; // Alusilver
-	/*31*/public bool E3_Graphitschwarz; // Graphite black
-	/*32*/public bool J2_Reinweiß; // Pure white
-	/*33*/public bool CZ_Bordeaux_Rot; // Bordeaux red
-	/*34*/public bool CW_Citrus_Grün; // Citrus Green
-	/*35*/public bool CY_Indigo_Blau; // Indigo Blue
+	/*29*/public bool _29_DQ_Metallgrau; // Metal grey
+	/*30*/public bool _30_DT_Alusilber; // Alusilver
+	/*31*/public bool _31_E3_Graphitschwarz; // Graphite black
+	/*32*/public bool _32_J2_Reinweiss; // Pure white
+	/*33*/public bool _33_CZ_Bordeaux_Rot; // Bordeaux red
+	/*34*/public bool _34_CW_Citrus_Grun; // Citrus Green
+	/*35*/public bool _35_CY_Indigo_Blau; // Indigo Blue
 
 	//Metall glatt // Metal smooth
 //	public bool D0_Alusilber; // Alusilver
 //	public bool E3_Graphitschwarz; // Graphite black
-	/*--*/public bool K5_Chrom_glänzend; // Chrome glossy
+	/*--*/public bool K5_Chrom_glanzend; // Chrome glossy
 	/*--*/public bool E1_Anthrazit_metallic; // Anthrazit metallic
 //	public bool I4_Metallgrau; // Metal grey
-	/*36*/public bool E2_Tiefschwarz_Feinstruktur; // Dark black textured
+	/*36*/public bool _36_E2_Tiefschwarz_Feinstruktur; // Dark black textured
 
 	//Glas lackiert // Painted glass
 //	/*--*/public bool DT_Alusilber; // Alusilver
-	/*37*/public bool GQ_Metallgrau; // Metal grey
-	/*38*/public bool GC_Reinweiß; // Pure white
-	/*39*/public bool GN_Graphitschwarz; // Graphite black
-	/*40*/public bool GL_Bordeaux_Rot; // Bordeaux red
-	/*41*/public bool GM_Indigo_Blau; // Indigo Blue
-	/*42*/public bool GK_Citrus_Grün; // Citrus Green
+	/*37*/public bool _37_GQ_Metallgrau; // Metal grey
+	/*38*/public bool _38_GC_Reinweiss; // Pure white
+	/*39*/public bool _39_GN_Graphitschwarz; // Graphite black
+	/*40*/public bool _40_GL_Bordeaux_Rot; // Bordeaux red
+	/*41*/public bool _41_GM_Indigo_Blau; // Indigo Blue
+	/*42*/public bool _42_GK_Citrus_Grun; // Citrus Green
 
 	//Stoff Lucia (YB) // Fabric Lucia (YB)
-	/*43*/public bool BA_Oyster_YB107;
-	/*44*/public bool BB_Rum_YB086;
-	/*45*/public bool BR_Jamaica_YB027;
-	/*46*/public bool BC_Slip_YB094;
-	/*47*/public bool BD_Paseo_YB019;
-	/*48*/public bool BG_Lobster_YB087;
-	/*49*/public bool BI_Tobago_YB030;
-	/*50*/public bool BH_Calypso_YB106;
-	/*51*/public bool BE_Havanna_YB009;
-	/*52*/public bool BF_Solano_YB088;
-	/*53*/public bool BT_Taboo_YB045;
-	/*54*/public bool BJ_Apple_YB096;
-	/*55*/public bool BK_Costa_YB026;
-	/*56*/public bool BL_Steel_YB095;
-	/*57*/public bool CH_Magdalena_CUZ21;
-	/*58*/public bool Oxford_CUZ09;
-	/*59*/public bool CB_Bryanstone_CUZ53;
+	/*43*/public bool _43_BA_Oyster_YB107;
+	/*44*/public bool _44_BB_Rum_YB086;
+	/*45*/public bool _45_BR_Jamaica_YB027;
+	/*46*/public bool _46_BC_Slip_YB094;
+	/*47*/public bool _47_BD_Paseo_YB019;
+	/*48*/public bool _48_BG_Lobster_YB087;
+	/*49*/public bool _49_BI_Tobago_YB030;
+	/*50*/public bool _50_BH_Calypso_YB106;
+	/*51*/public bool _51_BE_Havanna_YB009;
+	/*52*/public bool _52_BF_Solano_YB088;
+	/*53*/public bool _53_BT_Taboo_YB045;
+	/*54*/public bool _54_BJ_Apple_YB096;
+	/*55*/public bool _55_BK_Costa_YB026;
+	/*56*/public bool _56_BL_Steel_YB095;
+	/*57*/public bool _57_CH_Magdalena_CUZ21;
+	/*58*/public bool _58_Oxford_CUZ09;
+	/*59*/public bool _59_CB_Bryanstone_CUZ53;
 
 	//Metall glatt // Feinstruktur
-	/*60*/public bool Fresh_Yellow; // Fresh Yellow
-	/*61*/public bool Fresh_Orange; // Fresh Orange
-	/*62*/public bool Fresh_Red; // Fresh Red
-	/*63*/public bool Fresh_Blue; // Fresh Blue
-	/*64*/public bool Fresh_Green; // Fresh Green
-	/*65*/public bool Reinweiß; // Pure white
-	/*66*/public bool Silber_Feinstruktur; // Silver textured
-	/*67*/public bool Graphitgrau; // Graphite grey
-	/*68*/public bool Alusilber_glatt;// Alusilver smooth
-	/*69*/public bool Schwarz_metallic_glatt; // Black metallic smooth
+	/*60*/public bool _60_Fresh_Yellow; // Fresh Yellow
+	/*61*/public bool _61_Fresh_Orange; // Fresh Orange
+	/*62*/public bool _62_Fresh_Red; // Fresh Red
+	/*63*/public bool _63_Fresh_Blue; // Fresh Blue
+	/*64*/public bool _64_Fresh_Green; // Fresh Green
+	/*65*/public bool _65_Reinweiss; // Pure white
+	/*66*/public bool _66_Silber_Feinstruktur; // Silver textured
+	/*67*/public bool _67_Graphitgrau; // Graphite grey
+	/*68*/public bool _68_Alusilber_glatt;// Alusilver smooth
+	/*69*/public bool _69_Schwarz_metallic_glatt; // Black metallic smooth
 	
 	// Use this for initialization
 	void Start () {
 
 		ButtonList = new ArrayList();
 
-		if(A9_Ahorn == true){
+		if(_0_A9_Ahorn == true){
 
 			ButtonList.Add(Color_Buttons.GetValue(0));
 		}
 
-		if(W1_Eiche_hell == true){
+		if(_1_W1_Eiche_hell == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(1));
 		}
 		
-		if(B8_Buche== true){
+		if(_2_B8_Buche== true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(2));
 		}
 		
-		if(L8_Birnbaum == true){
+		if(_3_L8_Birnbaum == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(3));
 		}
 		
-		if(WM_Kirschbaum_Romana == true){
+		if(_4_WM_Kirschbaum_Romana == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(4));
 		}
 		
-		if(B6_Buche_gedämpft == true){
+		if(_5_B6_Buche_gedampft == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(5));
 		}
 		
-		if(C2_Kirschbaum == true){
+		if(_6_C2_Kirschbaum == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(6));
 		}
 		
-		if(YN_Esche_Cappuccino == true){
+		if(_7_YN_Esche_Cappuccino == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(7));
 		}
 		
-		if(C7_Nussbaum == true){
+		if(_8_C7_Nussbaum == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(8));
 		}
-		if(LD_Eiche_Mokka == true){
+		if(_9_LD_Eiche_Mokka == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(9));
 		}
 		
-		if(W3_Perlweiß == true){
+		if(_10_W3_Perlweiss == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(10));
 		}
-		if(A1_Lichtgrau == true){
+		if(_11_A1_Lichtgrau == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(11));
 		}
-		if(W9_Vulkangrau == true){
+		if(_12_V9_Vulkangrau == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(12));
 		}
-		if(B5_Sandgrau == true){
+		if(_13_B5_Sandgrau == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(13));
 		}
-		if(DV_Oliv == true){
+		if(_14_DV_Oliv == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(14));
 		}
-		if(W6_Rubinrot == true){
+		if(_15_W6_Rubinrot == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(15));
 		}
-		if(I4_Metallgrau == true){
+		if(_16_I4_Metallgrau == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(16));
 		}
-		if(A0_Tiefschwarz == true){
+		if(_17_A0_Tiefschwarz == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(17));
 		}
-		if(Pastellorange == true){
+		if(_18_Pastellorange == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(18));
 		}
-		if(Samtgelb == true){
+		if(_19_Samtgelb == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(19));
 		}
-		if(Taubenblau == true){
+		if(_20_Taubenblau == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(20));
 		}
-		if(D0_Alusilber == true){
+		if(_21_D0_Alusilber == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(21));
 		}
-		if(G0_Weißer_Ahorn == true){
+		if(_22_G0_Weisser_Ahorn == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(22));
 		}
-		if(I9_Eiche_hell == true){
+		if(_23_I9_Eiche_hell == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(23));
 		}
-		if(I5_Nussbaum == true){
+		if(_24_I5_Nussbaum == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(24));
 		}
-		if(TM_Mooreiche == true){
+		if(_25_TM_Mooreiche == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(25));
 		}
-		if(H6_Buche == true){
+		if(_26_H6_Buche == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(26));
 		}
-		if(H1_Birnbaum == true){
+		if(_27_H1_Birnbaum == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(27));
 		}
-		if(H0_Esche_tiefschwarz == true){
+		if(_28_H0_Esche_tiefschwarz == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(28));
 		}
-		if(DQ_Metallgrau == true){
+		if(_29_DQ_Metallgrau == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(29));
 		}
-		if(DT_Alusilber == true){
+		if(_30_DT_Alusilber == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(30));
 		}
-		if(E3_Graphitschwarz == true){
+		if(_31_E3_Graphitschwarz == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(31));
 		}
-		if(J2_Reinweiß == true){
+		if(_32_J2_Reinweiss == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(32));
 		}
-		if(CZ_Bordeaux_Rot == true){
+		if(_33_CZ_Bordeaux_Rot == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(33));
 		}
-		if(CW_Citrus_Grün == true){
+		if(_34_CW_Citrus_Grun == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(34));
 		}
-		if(CY_Indigo_Blau == true){
+		if(_35_CY_Indigo_Blau == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(35));
 		}
-		if(E2_Tiefschwarz_Feinstruktur == true){
+		if(_36_E2_Tiefschwarz_Feinstruktur == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(36));
 		}
-		if(GQ_Metallgrau == true){
+		if(_37_GQ_Metallgrau == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(37));
 		}
-		if(GC_Reinweiß == true){
+		if(_38_GC_Reinweiss == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(38));
 		}
-		if(GN_Graphitschwarz == true){
+		if(_39_GN_Graphitschwarz == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(39));
 		}
-		if(GL_Bordeaux_Rot == true){
+		if(_40_GL_Bordeaux_Rot == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(40));
 		}
-		if(GM_Indigo_Blau == true){
+		if(_41_GM_Indigo_Blau == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(41));
 		}
-		if(GK_Citrus_Grün == true){
+		if(_42_GK_Citrus_Grun == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(42));
 		}
-		if(BA_Oyster_YB107 == true){
+		if(_43_BA_Oyster_YB107 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(43));
 		}
-		if(BB_Rum_YB086 == true){
+		if(_44_BB_Rum_YB086 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(44));
 		}
-		if(BR_Jamaica_YB027 == true){
+		if(_45_BR_Jamaica_YB027 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(45));
 		}
-		if(BC_Slip_YB094 == true){
+		if(_46_BC_Slip_YB094 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(46));
 		}
-		if(BD_Paseo_YB019 == true){
+		if(_47_BD_Paseo_YB019 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(47));
 		}
-		if(BG_Lobster_YB087 == true){
+		if(_48_BG_Lobster_YB087 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(48));
 		}
-		if(BI_Tobago_YB030 == true){
+		if(_49_BI_Tobago_YB030 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(49));
 		}
-		if(BH_Calypso_YB106== true){
+		if(_50_BH_Calypso_YB106== true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(50));
 		}
-		if(BE_Havanna_YB009 == true){
+		if(_51_BE_Havanna_YB009 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(51));
 		}
-		if(BF_Solano_YB088 == true){
+		if(_52_BF_Solano_YB088 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(52));
 		}
-		if(BT_Taboo_YB045 == true){
+		if(_53_BT_Taboo_YB045 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(53));
 		}
-		if(BJ_Apple_YB096 == true){
+		if(_54_BJ_Apple_YB096 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(54));
 		}
-		if(BK_Costa_YB026 == true){
+		if(_55_BK_Costa_YB026 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(55));
 		}
-		if(BL_Steel_YB095 == true){
+		if(_56_BL_Steel_YB095 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(56));
 		}
-		if(CH_Magdalena_CUZ21 == true){
+		if(_57_CH_Magdalena_CUZ21 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(57));
 		}
-		if(Oxford_CUZ09 == true){
+		if(_58_Oxford_CUZ09 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(58));
 		}
-		if(CB_Bryanstone_CUZ53 == true){
+		if(_59_CB_Bryanstone_CUZ53 == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(59));
 		}
-		if(Fresh_Yellow == true){
+		if(_60_Fresh_Yellow == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(60));
 		}
-		if(Fresh_Orange == true){
+		if(_61_Fresh_Orange == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(61));
 		}
-		if(Fresh_Red == true){
+		if(_62_Fresh_Red == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(62));
 		}
-		if(Fresh_Blue == true){
+		if(_63_Fresh_Blue == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(63));
 		}
-		if(Fresh_Green == true){
+		if(_64_Fresh_Green == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(64));
 		}
-		if(Reinweiß == true){
+		if(_65_Reinweiss == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(65));
 		}
-		if(Silber_Feinstruktur == true){
+		if(_66_Silber_Feinstruktur == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(66));
 		}
-		if(Graphitgrau == true){
+		if(_67_Graphitgrau == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(67));
 		}
-		if(Alusilber_glatt == true){
+		if(_68_Alusilber_glatt == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(68));
 		}
-		if(Schwarz_metallic_glatt == true){
+		if(_69_Schwarz_metallic_glatt == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(69));
 		}
