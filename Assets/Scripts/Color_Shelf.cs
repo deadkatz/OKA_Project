@@ -105,6 +105,7 @@ public class Color_Shelf : MonoBehaviour {
 	/*70*/public bool _70_K5_Chrom_glanzend; // Chrome glossy
 	/*71*/public bool _71_E1_Anthrazit_metallic; // Anthrazit metallic
 	/*72*/public bool _72_E2_Tiefschwarz_Feinstruktur; // Dark black textured
+	/*73*/public bool _73_DT_GJ_Silber; // Silver
 	
 	// Use this for initialization
 	void Start () {
@@ -411,6 +412,10 @@ public class Color_Shelf : MonoBehaviour {
 		if(_72_E2_Tiefschwarz_Feinstruktur == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(72));
+		}
+		if(_73_DT_GJ_Silber == true){
+			
+			ButtonList.Add(Color_Buttons.GetValue(73));
 		}
 
 		Debug.Log (ButtonList.Count);
