@@ -44,9 +44,9 @@ public class Color_Shelf : MonoBehaviour {
 	/*28*/public bool _28_H0_Esche_tiefschwarz; // Ash deep black
 
 	//Vollkernplatte 13mm // Compact top 13mm
-	/*--*/public bool I8_Weiss; // White
-	/*--*/public bool I3_Lichtgrau; // Light grey
-	/*--*/public bool I7_Grau; // Grey
+//	/*--*/public bool I8_Weiss; // White
+//	/*--*/public bool I3_Lichtgrau; // Light grey
+//	/*--*/public bool I7_Grau; // Grey
 
 	//MDF glatt // MDF smooth
 	/*29*/public bool _29_DQ_Metallgrau; // Metal grey
@@ -60,8 +60,8 @@ public class Color_Shelf : MonoBehaviour {
 	//Metall glatt // Metal smooth
 //	public bool D0_Alusilber; // Alusilver
 //	public bool E3_Graphitschwarz; // Graphite black
-	/*--*/public bool K5_Chrom_glanzend; // Chrome glossy
-	/*--*/public bool E1_Anthrazit_metallic; // Anthrazit metallic
+//	/*--*/public bool K5_Chrom_glanzend; // Chrome glossy
+//	/*--*/public bool E1_Anthrazit_metallic; // Anthrazit metallic
 //	public bool I4_Metallgrau; // Metal grey
 	/*36*/public bool _36_E2_Tiefschwarz_Feinstruktur; // Dark black textured
 
