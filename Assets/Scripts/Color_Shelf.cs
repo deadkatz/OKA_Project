@@ -109,6 +109,7 @@ public class Color_Shelf : MonoBehaviour {
 	/*74*/public bool _74_Delphingrau; // Dolphin grey
 	/*75*/public bool _75_Zebrano_dunkel; // Zebrano dark laminate
 	/*76*/public bool _76_Wenge; // Wenge laminate
+	/*77*/public bool _77_Alu_eloxiert; // Anodised aluminium
 	
 	// Use this for initialization
 	void Start () {
@@ -432,7 +433,11 @@ public class Color_Shelf : MonoBehaviour {
 			
 			ButtonList.Add(Color_Buttons.GetValue(76));
 		}
-		
+		if(_77_Alu_eloxiert == true){
+			
+			ButtonList.Add(Color_Buttons.GetValue(77));
+		}
+
 		Debug.Log (ButtonList.Count);
 		AddObjects();
 	}
