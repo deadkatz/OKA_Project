@@ -107,6 +107,8 @@ public class Color_Shelf : MonoBehaviour {
 	/*72*/public bool _72_E2_Tiefschwarz_Feinstruktur; // Dark black textured
 	/*73*/public bool _73_DT_GJ_Silber; // Silver
 	/*74*/public bool _74_Delphingrau; // Dolphin grey
+	/*75*/public bool _75_Zebrano_dunkel; // Zebrano dark laminate
+	/*76*/public bool _76_Wenge; // Wenge laminate
 	
 	// Use this for initialization
 	void Start () {
@@ -422,7 +424,15 @@ public class Color_Shelf : MonoBehaviour {
 			
 			ButtonList.Add(Color_Buttons.GetValue(74));
 		}
-
+		if(_75_Zebrano_dunkel == true){
+			
+			ButtonList.Add(Color_Buttons.GetValue(75));
+		}
+		if(_76_Wenge == true){
+			
+			ButtonList.Add(Color_Buttons.GetValue(76));
+		}
+		
 		Debug.Log (ButtonList.Count);
 		AddObjects();
 	}
