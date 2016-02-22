@@ -60,8 +60,6 @@ public class Color_Shelf : MonoBehaviour {
 	//Metall glatt // Metal smooth
 //	public bool D0_Alusilber; // Alusilver
 //	public bool E3_Graphitschwarz; // Graphite black
-//	/*--*/public bool K5_Chrom_glanzend; // Chrome glossy
-//	/*--*/public bool E1_Anthrazit_metallic; // Anthrazit metallic
 //	public bool I4_Metallgrau; // Metal grey
 	/*36*/public bool _36_E2_Tiefschwarz_Feinstruktur; // Dark black textured
 
@@ -104,6 +102,9 @@ public class Color_Shelf : MonoBehaviour {
 	/*67*/public bool _67_Graphitgrau; // Graphite grey
 	/*68*/public bool _68_Alusilber_glatt;// Alusilver smooth
 	/*69*/public bool _69_Schwarz_metallic_glatt; // Black metallic smooth
+	/*70*/public bool _70_K5_Chrom_glanzend; // Chrome glossy
+	/*71*/public bool _71_E1_Anthrazit_metallic; // Anthrazit metallic
+	/*72*/public bool _72_E2_Tiefschwarz_Feinstruktur; // Dark black textured
 	
 	// Use this for initialization
 	void Start () {
@@ -398,6 +399,18 @@ public class Color_Shelf : MonoBehaviour {
 		if(_69_Schwarz_metallic_glatt == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(69));
+		}		
+		if(_70_K5_Chrom_glanzend == true){
+			
+			ButtonList.Add(Color_Buttons.GetValue(70));
+		}
+		if(_71_E1_Anthrazit_metallic == true){
+			
+			ButtonList.Add(Color_Buttons.GetValue(71));
+		}
+		if(_72_E2_Tiefschwarz_Feinstruktur == true){
+			
+			ButtonList.Add(Color_Buttons.GetValue(72));
 		}
 
 		Debug.Log (ButtonList.Count);
