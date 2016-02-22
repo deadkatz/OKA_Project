@@ -106,6 +106,7 @@ public class Color_Shelf : MonoBehaviour {
 	/*71*/public bool _71_E1_Anthrazit_metallic; // Anthrazit metallic
 	/*72*/public bool _72_E2_Tiefschwarz_Feinstruktur; // Dark black textured
 	/*73*/public bool _73_DT_GJ_Silber; // Silver
+	/*74*/public bool _74_Delphingrau; // Dolphin grey
 	
 	// Use this for initialization
 	void Start () {
@@ -416,6 +417,10 @@ public class Color_Shelf : MonoBehaviour {
 		if(_73_DT_GJ_Silber == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(73));
+		}
+		if(_74_Delphingrau == true){
+			
+			ButtonList.Add(Color_Buttons.GetValue(74));
 		}
 
 		Debug.Log (ButtonList.Count);
