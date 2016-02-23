@@ -1092,7 +1092,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f16615e14eb55054ea0f09cb0493c56f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialNaKlawiszu: {fileID: 2100000, guid: fed5cfde46394c640973bfe9ba736d7f, type: 2}
+  materialNaKlawiszu: {fileID: 2100000, guid: b28f51113d25cb04c8c47388587b8f00, type: 2}
   StartColor: 0
   Modul: 1
 --- !u!114 &11418868
@@ -3995,6 +3995,10 @@ Prefab:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 2800000, guid: 839a8e4d68822fa4bae0713150f40344, type: 3}
+    - target: {fileID: 0}
+      propertyPath: materialNaKlawiszu
+      value: 
+      objectReference: {fileID: 2100000, guid: b28f51113d25cb04c8c47388587b8f00, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 133204}
