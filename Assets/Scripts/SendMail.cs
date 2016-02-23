@@ -94,15 +94,15 @@ public class SendMail : MonoBehaviour {
 		email = nameInputField.text;
 		Debug.Log (email);
 		
-		MailMessage mail = new MailMessage("kuba@3monkeys.pl", email);
+		MailMessage mail = new MailMessage("app@oka.de", email);
 		Attachment a = new Attachment (path, MediaTypeNames.Application.Octet);
 		mail.Attachments.Add (a);
 		SmtpClient client = new SmtpClient();
-		client.Host = "smtp.3monkeys.pl";
+		client.Host = "okangs9.ngdf.oka.de";
 		client.Port = 587;
 		client.DeliveryMethod = SmtpDeliveryMethod.Network;
 		client.UseDefaultCredentials = false;
-		client.Credentials = new System.Net.NetworkCredential ("kuba@3monkeys.pl", "cieslIK_15") as ICredentialsByHost;
+		client.Credentials = new System.Net.NetworkCredential ("app@oka.de", "oka") as ICredentialsByHost;
 		client.EnableSsl = true;
 		ServicePointManager.ServerCertificateValidationCallback =
 			delegate(object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
