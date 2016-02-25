@@ -438,7 +438,7 @@ public class Color_Shelf : MonoBehaviour {
 			ButtonList.Add(Color_Buttons.GetValue(77));
 		}
 
-		Debug.Log (ButtonList.Count);
+//		Debug.Log (ButtonList.Count);
 		AddObjects();
 	}
 

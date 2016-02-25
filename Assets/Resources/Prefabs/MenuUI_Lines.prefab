@@ -1114,6 +1114,7 @@ GameObject:
   - 224: {fileID: 22419488}
   - 222: {fileID: 22278826}
   - 114: {fileID: 11437696}
+  - 114: {fileID: 11423386}
   m_Layer: 5
   m_Name: modul_kolor_01
   m_TagString: Module1
@@ -1184,6 +1185,7 @@ GameObject:
   - 224: {fileID: 22454282}
   - 222: {fileID: 22210754}
   - 114: {fileID: 11438070}
+  - 114: {fileID: 11464732}
   m_Layer: 5
   m_Name: modul_kolor_02
   m_TagString: Module2
@@ -2881,6 +2883,7 @@ GameObject:
   - 224: {fileID: 22443122}
   - 222: {fileID: 22224960}
   - 114: {fileID: 11492806}
+  - 114: {fileID: 11403418}
   m_Layer: 5
   m_Name: modul_kolor_03
   m_TagString: Module3
@@ -3349,6 +3352,18 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11403418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 196780}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdbc79cf62130574a87cbe3c6825c91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Przycisk: {fileID: 0}
 --- !u!114 &11403832
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5759,6 +5774,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11423386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 135554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdbc79cf62130574a87cbe3c6825c91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Przycisk: {fileID: 0}
 --- !u!114 &11423390
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11303,6 +11330,18 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11464732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137538}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdbc79cf62130574a87cbe3c6825c91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Przycisk: {fileID: 0}
 --- !u!114 &11464992
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -200,6 +200,7 @@ GameObject:
   - 224: {fileID: 22452936}
   - 222: {fileID: 22296176}
   - 114: {fileID: 11419190}
+  - 114: {fileID: 11499000}
   m_Layer: 5
   m_Name: modul_kolor_03
   m_TagString: Module3
@@ -1102,6 +1103,7 @@ GameObject:
   - 224: {fileID: 22406064}
   - 222: {fileID: 22206152}
   - 114: {fileID: 11462570}
+  - 114: {fileID: 11432642}
   m_Layer: 5
   m_Name: modul_kolor_02
   m_TagString: Module2
@@ -1504,6 +1506,7 @@ GameObject:
   - 224: {fileID: 22462376}
   - 222: {fileID: 22212812}
   - 114: {fileID: 11445452}
+  - 114: {fileID: 11468120}
   m_Layer: 5
   m_Name: modul_kolor_01
   m_TagString: Module1
@@ -4821,6 +4824,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   email: 
   nameInputField: {fileID: 11417530}
+--- !u!114 &11432642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdbc79cf62130574a87cbe3c6825c91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Przycisk: {fileID: 0}
 --- !u!114 &11432740
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7878,6 +7893,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEnabled: 0
   CanvasOrder: 3
+--- !u!114 &11468120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdbc79cf62130574a87cbe3c6825c91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Przycisk: {fileID: 0}
 --- !u!114 &11468786
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10625,6 +10652,18 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &11499000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdbc79cf62130574a87cbe3c6825c91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Przycisk: {fileID: 0}
 --- !u!114 &11499780
 MonoBehaviour:
   m_ObjectHideFlags: 1
