@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 0
+  m_CurrentQuality: 1
   m_QualitySettings:
   - serializedVersion: 2
     name: Fantastic
@@ -28,5 +28,48 @@ QualitySettings:
     lodBias: 2
     maximumLODLevel: 0
     particleRaycastBudget: 1024
-    excludedTargetPlatforms: []
-  m_PerPlatformDefaultQuality: {}
+    excludedTargetPlatforms:
+    - WebGL
+  - serializedVersion: 2
+    name: HTML5
+    pixelLightCount: 1
+    shadows: 0
+    shadowResolution: 0
+    shadowProjection: 0
+    shadowCascades: 1
+    shadowDistance: 32
+    shadowCascade2Split: .333333343
+    shadowCascade4Split: {x: .0666666701, y: .197297275, z: .466666609}
+    blendWeights: 1
+    textureQuality: 1
+    anisotropicTextures: 1
+    antiAliasing: 0
+    softParticles: 0
+    softVegetation: 1
+    realtimeReflectionProbes: 0
+    billboardsFaceCameraPosition: 0
+    vSyncCount: 0
+    lodBias: 2
+    maximumLODLevel: 0
+    particleRaycastBudget: 32
+    excludedTargetPlatforms:
+    - Web
+    - Standalone
+    - iPhone
+    - Samsung TV
+    - WP8
+    - Windows Store Apps
+    - Tizen
+    - BlackBerry
+    - Android
+  m_PerPlatformDefaultQuality:
+    Android: 0
+    BlackBerry: 0
+    Samsung TV: 0
+    Standalone: 0
+    Tizen: 0
+    WP8: 0
+    Web: 0
+    WebGL: 1
+    Windows Store Apps: 0
+    iPhone: 0
