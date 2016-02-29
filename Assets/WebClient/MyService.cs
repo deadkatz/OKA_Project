@@ -27,30 +27,172 @@ using System.Xml.Serialization;
 [System.Web.Services.WebServiceBindingAttribute(Name="DataProviderServiceImplSoapBinding", Namespace="http://oka.goto10.pl")]
 public partial class MyService : System.Web.Services.Protocols.SoapHttpClientProtocol {
     
-    private System.Threading.SendOrPostCallback getScenaTextENOperationCompleted;
+    private System.Threading.SendOrPostCallback getLiniaPictureBase64bytesOperationCompleted;
     
-    private System.Threading.SendOrPostCallback getScenaTextDEOperationCompleted;
-    
-    private System.Threading.SendOrPostCallback getObiektTextENOperationCompleted;
+    private System.Threading.SendOrPostCallback getLiniaPictureBase64StringOperationCompleted;
     
     private System.Threading.SendOrPostCallback getObiektTextDEOperationCompleted;
     
+    private System.Threading.SendOrPostCallback getScenaTextENOperationCompleted;
+    
+    private System.Threading.SendOrPostCallback getObiektTextENOperationCompleted;
+    
+    private System.Threading.SendOrPostCallback getScenaTextDEOperationCompleted;
+    
     /// <remarks/>
-	public MyService() {
-		this.Url = "http://52.28.65.193:8080/DataProvider/services/DataProviderServiceImpl";
+    public MyService() {
+		this.Url = "http://52.28.65.193:8080//DataProvider/services/DataProviderServiceImpl";
     }
+    
+    /// <remarks/>
+    public event getLiniaPictureBase64bytesCompletedEventHandler getLiniaPictureBase64bytesCompleted;
+    
+    /// <remarks/>
+    public event getLiniaPictureBase64StringCompletedEventHandler getLiniaPictureBase64StringCompleted;
+    
+    /// <remarks/>
+    public event getObiektTextDECompletedEventHandler getObiektTextDECompleted;
     
     /// <remarks/>
     public event getScenaTextENCompletedEventHandler getScenaTextENCompleted;
     
     /// <remarks/>
-    public event getScenaTextDECompletedEventHandler getScenaTextDECompleted;
-    
-    /// <remarks/>
     public event getObiektTextENCompletedEventHandler getObiektTextENCompleted;
     
     /// <remarks/>
-    public event getObiektTextDECompletedEventHandler getObiektTextDECompleted;
+    public event getScenaTextDECompletedEventHandler getScenaTextDECompleted;
+    
+    /// <remarks/>
+    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", RequestNamespace="http://oka.goto10.pl", ResponseNamespace="http://oka.goto10.pl", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+    [return: System.Xml.Serialization.XmlElementAttribute("getLiniaPictureBase64bytesReturn", DataType="base64Binary")]
+    public byte[] getLiniaPictureBase64bytes(string nazwaLinii, int pictureNo) {
+        object[] results = this.Invoke("getLiniaPictureBase64bytes", new object[] {
+                    nazwaLinii,
+                    pictureNo});
+        return ((byte[])(results[0]));
+    }
+    
+    /// <remarks/>
+    public System.IAsyncResult BegingetLiniaPictureBase64bytes(string nazwaLinii, int pictureNo, System.AsyncCallback callback, object asyncState) {
+        return this.BeginInvoke("getLiniaPictureBase64bytes", new object[] {
+                    nazwaLinii,
+                    pictureNo}, callback, asyncState);
+    }
+    
+    /// <remarks/>
+    public byte[] EndgetLiniaPictureBase64bytes(System.IAsyncResult asyncResult) {
+        object[] results = this.EndInvoke(asyncResult);
+        return ((byte[])(results[0]));
+    }
+    
+    /// <remarks/>
+    public void getLiniaPictureBase64bytesAsync(string nazwaLinii, int pictureNo) {
+        this.getLiniaPictureBase64bytesAsync(nazwaLinii, pictureNo, null);
+    }
+    
+    /// <remarks/>
+    public void getLiniaPictureBase64bytesAsync(string nazwaLinii, int pictureNo, object userState) {
+        if ((this.getLiniaPictureBase64bytesOperationCompleted == null)) {
+            this.getLiniaPictureBase64bytesOperationCompleted = new System.Threading.SendOrPostCallback(this.OngetLiniaPictureBase64bytesOperationCompleted);
+        }
+        this.InvokeAsync("getLiniaPictureBase64bytes", new object[] {
+                    nazwaLinii,
+                    pictureNo}, this.getLiniaPictureBase64bytesOperationCompleted, userState);
+    }
+    
+    private void OngetLiniaPictureBase64bytesOperationCompleted(object arg) {
+        if ((this.getLiniaPictureBase64bytesCompleted != null)) {
+            System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+            this.getLiniaPictureBase64bytesCompleted(this, new getLiniaPictureBase64bytesCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+        }
+    }
+    
+    /// <remarks/>
+    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", RequestNamespace="http://oka.goto10.pl", ResponseNamespace="http://oka.goto10.pl", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+    [return: System.Xml.Serialization.XmlElementAttribute("getLiniaPictureBase64StringReturn")]
+    public string getLiniaPictureBase64String(string nazwaLinii, int pictureNo) {
+        object[] results = this.Invoke("getLiniaPictureBase64String", new object[] {
+                    nazwaLinii,
+                    pictureNo});
+        return ((string)(results[0]));
+    }
+    
+    /// <remarks/>
+    public System.IAsyncResult BegingetLiniaPictureBase64String(string nazwaLinii, int pictureNo, System.AsyncCallback callback, object asyncState) {
+        return this.BeginInvoke("getLiniaPictureBase64String", new object[] {
+                    nazwaLinii,
+                    pictureNo}, callback, asyncState);
+    }
+    
+    /// <remarks/>
+    public string EndgetLiniaPictureBase64String(System.IAsyncResult asyncResult) {
+        object[] results = this.EndInvoke(asyncResult);
+        return ((string)(results[0]));
+    }
+    
+    /// <remarks/>
+    public void getLiniaPictureBase64StringAsync(string nazwaLinii, int pictureNo) {
+        this.getLiniaPictureBase64StringAsync(nazwaLinii, pictureNo, null);
+    }
+    
+    /// <remarks/>
+    public void getLiniaPictureBase64StringAsync(string nazwaLinii, int pictureNo, object userState) {
+        if ((this.getLiniaPictureBase64StringOperationCompleted == null)) {
+            this.getLiniaPictureBase64StringOperationCompleted = new System.Threading.SendOrPostCallback(this.OngetLiniaPictureBase64StringOperationCompleted);
+        }
+        this.InvokeAsync("getLiniaPictureBase64String", new object[] {
+                    nazwaLinii,
+                    pictureNo}, this.getLiniaPictureBase64StringOperationCompleted, userState);
+    }
+    
+    private void OngetLiniaPictureBase64StringOperationCompleted(object arg) {
+        if ((this.getLiniaPictureBase64StringCompleted != null)) {
+            System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+            this.getLiniaPictureBase64StringCompleted(this, new getLiniaPictureBase64StringCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+        }
+    }
+    
+    /// <remarks/>
+    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", RequestNamespace="http://oka.goto10.pl", ResponseNamespace="http://oka.goto10.pl", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+    [return: System.Xml.Serialization.XmlElementAttribute("getObiektTextDEReturn")]
+    public string getObiektTextDE(string linia) {
+        object[] results = this.Invoke("getObiektTextDE", new object[] {
+                    linia});
+        return ((string)(results[0]));
+    }
+    
+    /// <remarks/>
+    public System.IAsyncResult BegingetObiektTextDE(string linia, System.AsyncCallback callback, object asyncState) {
+        return this.BeginInvoke("getObiektTextDE", new object[] {
+                    linia}, callback, asyncState);
+    }
+    
+    /// <remarks/>
+    public string EndgetObiektTextDE(System.IAsyncResult asyncResult) {
+        object[] results = this.EndInvoke(asyncResult);
+        return ((string)(results[0]));
+    }
+    
+    /// <remarks/>
+    public void getObiektTextDEAsync(string linia) {
+        this.getObiektTextDEAsync(linia, null);
+    }
+    
+    /// <remarks/>
+    public void getObiektTextDEAsync(string linia, object userState) {
+        if ((this.getObiektTextDEOperationCompleted == null)) {
+            this.getObiektTextDEOperationCompleted = new System.Threading.SendOrPostCallback(this.OngetObiektTextDEOperationCompleted);
+        }
+        this.InvokeAsync("getObiektTextDE", new object[] {
+                    linia}, this.getObiektTextDEOperationCompleted, userState);
+    }
+    
+    private void OngetObiektTextDEOperationCompleted(object arg) {
+        if ((this.getObiektTextDECompleted != null)) {
+            System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+            this.getObiektTextDECompleted(this, new getObiektTextDECompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+        }
+    }
     
     /// <remarks/>
     [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", RequestNamespace="http://oka.goto10.pl", ResponseNamespace="http://oka.goto10.pl", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
@@ -94,6 +236,48 @@ public partial class MyService : System.Web.Services.Protocols.SoapHttpClientPro
         if ((this.getScenaTextENCompleted != null)) {
             System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
             this.getScenaTextENCompleted(this, new getScenaTextENCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+        }
+    }
+    
+    /// <remarks/>
+    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", RequestNamespace="http://oka.goto10.pl", ResponseNamespace="http://oka.goto10.pl", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+    [return: System.Xml.Serialization.XmlElementAttribute("getObiektTextENReturn")]
+    public string getObiektTextEN(string linia) {
+        object[] results = this.Invoke("getObiektTextEN", new object[] {
+                    linia});
+        return ((string)(results[0]));
+    }
+    
+    /// <remarks/>
+    public System.IAsyncResult BegingetObiektTextEN(string linia, System.AsyncCallback callback, object asyncState) {
+        return this.BeginInvoke("getObiektTextEN", new object[] {
+                    linia}, callback, asyncState);
+    }
+    
+    /// <remarks/>
+    public string EndgetObiektTextEN(System.IAsyncResult asyncResult) {
+        object[] results = this.EndInvoke(asyncResult);
+        return ((string)(results[0]));
+    }
+    
+    /// <remarks/>
+    public void getObiektTextENAsync(string linia) {
+        this.getObiektTextENAsync(linia, null);
+    }
+    
+    /// <remarks/>
+    public void getObiektTextENAsync(string linia, object userState) {
+        if ((this.getObiektTextENOperationCompleted == null)) {
+            this.getObiektTextENOperationCompleted = new System.Threading.SendOrPostCallback(this.OngetObiektTextENOperationCompleted);
+        }
+        this.InvokeAsync("getObiektTextEN", new object[] {
+                    linia}, this.getObiektTextENOperationCompleted, userState);
+    }
+    
+    private void OngetObiektTextENOperationCompleted(object arg) {
+        if ((this.getObiektTextENCompleted != null)) {
+            System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+            this.getObiektTextENCompleted(this, new getObiektTextENCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
         }
     }
     
@@ -143,92 +327,86 @@ public partial class MyService : System.Web.Services.Protocols.SoapHttpClientPro
     }
     
     /// <remarks/>
-    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", RequestNamespace="http://oka.goto10.pl", ResponseNamespace="http://oka.goto10.pl", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
-    [return: System.Xml.Serialization.XmlElementAttribute("getObiektTextENReturn")]
-    public string getObiektTextEN(string linia) {
-        object[] results = this.Invoke("getObiektTextEN", new object[] {
-                    linia});
-        return ((string)(results[0]));
-    }
-    
-    /// <remarks/>
-    public System.IAsyncResult BegingetObiektTextEN(string linia, System.AsyncCallback callback, object asyncState) {
-        return this.BeginInvoke("getObiektTextEN", new object[] {
-                    linia}, callback, asyncState);
-    }
-    
-    /// <remarks/>
-    public string EndgetObiektTextEN(System.IAsyncResult asyncResult) {
-        object[] results = this.EndInvoke(asyncResult);
-        return ((string)(results[0]));
-    }
-    
-    /// <remarks/>
-    public void getObiektTextENAsync(string linia) {
-        this.getObiektTextENAsync(linia, null);
-    }
-    
-    /// <remarks/>
-    public void getObiektTextENAsync(string linia, object userState) {
-        if ((this.getObiektTextENOperationCompleted == null)) {
-            this.getObiektTextENOperationCompleted = new System.Threading.SendOrPostCallback(this.OngetObiektTextENOperationCompleted);
-        }
-        this.InvokeAsync("getObiektTextEN", new object[] {
-                    linia}, this.getObiektTextENOperationCompleted, userState);
-    }
-    
-    private void OngetObiektTextENOperationCompleted(object arg) {
-        if ((this.getObiektTextENCompleted != null)) {
-            System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
-            this.getObiektTextENCompleted(this, new getObiektTextENCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
-        }
-    }
-    
-    /// <remarks/>
-    [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", RequestNamespace="http://oka.goto10.pl", ResponseNamespace="http://oka.goto10.pl", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
-    [return: System.Xml.Serialization.XmlElementAttribute("getObiektTextDEReturn")]
-    public string getObiektTextDE(string linia) {
-        object[] results = this.Invoke("getObiektTextDE", new object[] {
-                    linia});
-        return ((string)(results[0]));
-    }
-    
-    /// <remarks/>
-    public System.IAsyncResult BegingetObiektTextDE(string linia, System.AsyncCallback callback, object asyncState) {
-        return this.BeginInvoke("getObiektTextDE", new object[] {
-                    linia}, callback, asyncState);
-    }
-    
-    /// <remarks/>
-    public string EndgetObiektTextDE(System.IAsyncResult asyncResult) {
-        object[] results = this.EndInvoke(asyncResult);
-        return ((string)(results[0]));
-    }
-    
-    /// <remarks/>
-    public void getObiektTextDEAsync(string linia) {
-        this.getObiektTextDEAsync(linia, null);
-    }
-    
-    /// <remarks/>
-    public void getObiektTextDEAsync(string linia, object userState) {
-        if ((this.getObiektTextDEOperationCompleted == null)) {
-            this.getObiektTextDEOperationCompleted = new System.Threading.SendOrPostCallback(this.OngetObiektTextDEOperationCompleted);
-        }
-        this.InvokeAsync("getObiektTextDE", new object[] {
-                    linia}, this.getObiektTextDEOperationCompleted, userState);
-    }
-    
-    private void OngetObiektTextDEOperationCompleted(object arg) {
-        if ((this.getObiektTextDECompleted != null)) {
-            System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
-            this.getObiektTextDECompleted(this, new getObiektTextDECompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
-        }
-    }
-    
-    /// <remarks/>
     public new void CancelAsync(object userState) {
         base.CancelAsync(userState);
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
+public delegate void getLiniaPictureBase64bytesCompletedEventHandler(object sender, getLiniaPictureBase64bytesCompletedEventArgs e);
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+public partial class getLiniaPictureBase64bytesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+    
+    private object[] results;
+    
+    internal getLiniaPictureBase64bytesCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+            base(exception, cancelled, userState) {
+        this.results = results;
+    }
+    
+    /// <remarks/>
+    public byte[] Result {
+        get {
+            this.RaiseExceptionIfNecessary();
+            return ((byte[])(this.results[0]));
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
+public delegate void getLiniaPictureBase64StringCompletedEventHandler(object sender, getLiniaPictureBase64StringCompletedEventArgs e);
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+public partial class getLiniaPictureBase64StringCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+    
+    private object[] results;
+    
+    internal getLiniaPictureBase64StringCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+            base(exception, cancelled, userState) {
+        this.results = results;
+    }
+    
+    /// <remarks/>
+    public string Result {
+        get {
+            this.RaiseExceptionIfNecessary();
+            return ((string)(this.results[0]));
+        }
+    }
+}
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
+public delegate void getObiektTextDECompletedEventHandler(object sender, getObiektTextDECompletedEventArgs e);
+
+/// <remarks/>
+[System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+public partial class getObiektTextDECompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+    
+    private object[] results;
+    
+    internal getObiektTextDECompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+            base(exception, cancelled, userState) {
+        this.results = results;
+    }
+    
+    /// <remarks/>
+    public string Result {
+        get {
+            this.RaiseExceptionIfNecessary();
+            return ((string)(this.results[0]));
+        }
     }
 }
 
@@ -245,32 +423,6 @@ public partial class getScenaTextENCompletedEventArgs : System.ComponentModel.As
     private object[] results;
     
     internal getScenaTextENCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
-            base(exception, cancelled, userState) {
-        this.results = results;
-    }
-    
-    /// <remarks/>
-    public string Result {
-        get {
-            this.RaiseExceptionIfNecessary();
-            return ((string)(this.results[0]));
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
-public delegate void getScenaTextDECompletedEventHandler(object sender, getScenaTextDECompletedEventArgs e);
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-public partial class getScenaTextDECompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
-    
-    private object[] results;
-    
-    internal getScenaTextDECompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
             base(exception, cancelled, userState) {
         this.results = results;
     }
@@ -312,17 +464,17 @@ public partial class getObiektTextENCompletedEventArgs : System.ComponentModel.A
 
 /// <remarks/>
 [System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
-public delegate void getObiektTextDECompletedEventHandler(object sender, getObiektTextDECompletedEventArgs e);
+public delegate void getScenaTextDECompletedEventHandler(object sender, getScenaTextDECompletedEventArgs e);
 
 /// <remarks/>
 [System.CodeDom.Compiler.GeneratedCodeAttribute("wsdl", "4.6.1055.0")]
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
-public partial class getObiektTextDECompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+public partial class getScenaTextDECompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
     
     private object[] results;
     
-    internal getObiektTextDECompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+    internal getScenaTextDECompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
             base(exception, cancelled, userState) {
         this.results = results;
     }

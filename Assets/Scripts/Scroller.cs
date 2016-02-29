@@ -34,7 +34,7 @@ public class Scroller : MonoBehaviour
 		
 		_positions = new List<Vector3>();
 
-		Debug.Log (Scrolled);
+//		Debug.Log (Scrolled);
 
 		if (Screens > 0) {
 			for (int i = 0; i < Screens; ++i) {
@@ -90,7 +90,7 @@ public class Scroller : MonoBehaviour
 //				NewLerpTaget = new Vector3 (0, 0, 0);
 //			}
 			_lerp_target = FindClosestFrom (ScreensContainer.localPosition, _positions);
-			Debug.Log (ScreensContainer.localPosition);
+//			Debug.Log (ScreensContainer.localPosition);
 			}
 	}
 	
