@@ -25,7 +25,7 @@ public class FotoLoader : MonoBehaviour {
 
 		byte[] bytes = System.Text.Encoding.Default.GetBytes(FotoString);
 
-//		NewFoto01 = System.Convert.FromBase64CharArray (bytes);
+//		NewFoto01 = System.Convert.FromBase64String (bytes);
 
 //		File.WriteAllBytes ("data.png", bytes);
 
@@ -35,7 +35,7 @@ public class FotoLoader : MonoBehaviour {
 
 //		NewFoto01 = (Texture2D) Resources.Load(bytes);
 
-//		Foto01.GetComponent<RawImage>().texture = NewFoto01;
+		Foto01.GetComponent<RawImage>().texture = NewFoto01;
 
 		Debug.Log (FotoString);
 }

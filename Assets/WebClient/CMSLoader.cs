@@ -13,13 +13,13 @@ public class CMSLoader : MonoBehaviour
 
 	void Start()
 	{
-//		GetInfo ();
+		GetInfo ();
 	}
 
 	public void GetInfo(){
 
 		MyService service = new MyService ();
-		service.Timeout = 3000;
+		service.Timeout = 1500;
 //		print(service.);
 
 			//mamy lacznosc...
