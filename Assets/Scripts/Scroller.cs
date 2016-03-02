@@ -21,7 +21,18 @@ public class Scroller : MonoBehaviour
 	private bool _lerp;
 	private Vector3 vec;
 	private Vector3 NewLerpTaget;
+
 	static bool Scrolled;
+	static bool Line01 = false;
+	static bool Line02 = false;
+	static bool Line03 = false;
+	static bool Line04 = false;
+	static bool Line05 = false;
+	static bool Line06 = false;
+	static bool Line07 = false;
+	static bool Line08 = false;
+	static bool Line09 = false;
+	static bool Line10 = false;
 	
 	// Use this for initialization
 	void Start()
@@ -41,11 +52,43 @@ public class Scroller : MonoBehaviour
 				_scroll_rect.horizontalNormalizedPosition = (float)i / (float)(Screens - 1);
 				_positions.Add (ScreensContainer.localPosition);
 			}
+		
 
-		if (Scrolled == true) {
-			DisableScrollbar();
+			string CurrentLevelName = "";
 
-		}
+			CurrentLevelName = Application.loadedLevelName;
+//		Debug.Log (CurrentLevelName);
+
+			if (Line02 == true && CurrentLevelName == "Baseline_Scene_01") {
+				DisableScrollbar ();
+			}
+			if (Line02 == true && CurrentLevelName == "Trion_Scene_01") {
+				DisableScrollbar ();
+			}
+			if (Line03 == true && CurrentLevelName == "Flexline_Scene_01") {
+				DisableScrollbar ();
+			}
+			if (Line04 == true && CurrentLevelName == "Simply_Scene_01") {
+				DisableScrollbar ();
+			}
+			if (Line05 == true && CurrentLevelName == "Flipon_Scene_01") {
+				DisableScrollbar ();
+			}
+			if (Line06 == true && CurrentLevelName == "Puron_Scene_01") {
+				DisableScrollbar ();
+			}
+			if (Line07 == true && CurrentLevelName == "Firstline_Scene_01NEW") {
+				DisableScrollbar ();
+			}
+			if (Line08 == true && CurrentLevelName == "Jump_Scene_01") {
+				DisableScrollbar ();
+			}
+			if (Line09 == true && CurrentLevelName == "moduline_scene_01") {
+				DisableScrollbar ();
+			}
+			if (Line10 == true && CurrentLevelName == "Europa_Scene_01") {
+				DisableScrollbar ();
+			}
 		}
 		
 		_scroll_rect.horizontalNormalizedPosition = (float)(StartingScreen - 1) / (float)(Screens - 1);
@@ -53,14 +96,49 @@ public class Scroller : MonoBehaviour
 	
 	void Update()
 	{
-		if (Scrolled == false) {
+
 //		
 			if (_lerp) {
 				ScreensContainer.localPosition = Vector3.Lerp (ScreensContainer.localPosition, _lerp_target, 5 * Time.deltaTime);
 				if (ScreensContainer.localPosition.x < -799) {
+
+
 					DisableScrollbar();
+
+				string CurrentLevelName = "";
 				
-					Scrolled = true;
+				CurrentLevelName = Application.loadedLevelName;
+
+				if (CurrentLevelName == "Baseline_Scene_01") {
+					Line01 = true;
+				}
+				if (CurrentLevelName == "Trion_Scene_01") {
+					Line02 = true;
+				}
+				if (CurrentLevelName == "Flexline_Scene_01") {
+					Line03 = true;
+				}
+				if (CurrentLevelName == "Simply_Scene_01") {
+					Line04 = true;
+				}
+				if (CurrentLevelName == "Flipon_Scene_01") {
+					Line05 = true;
+				}
+				if (CurrentLevelName == "Puron_Scene_01") {
+					Line06 = true;
+				}
+				if (CurrentLevelName == "Firstline_Scene_01NEW") {
+					Line07 = true;
+				}
+				if (CurrentLevelName == "Jump_Scene_01") {
+					Line08 = true;
+				}
+				if (CurrentLevelName == "moduline_scene_01") {
+					Line09 = true;
+				}
+				if (CurrentLevelName == "Europa_Scene_01") {
+					Line10 = true;
+				}
 				}
 
 				if (Vector3.Distance (ScreensContainer.localPosition, _lerp_target) < 0.01f) {
@@ -69,7 +147,7 @@ public class Scroller : MonoBehaviour
 				}
 			}
 		}
-	}
+
 
 	void DisableScrollbar(){
 		vec = new Vector3 (-800, 0, 0);

@@ -99,7 +99,7 @@ public class SendMail : MonoBehaviour {
 		mail.Attachments.Add (a);
 		SmtpClient client = new SmtpClient();
 		client.Host = "w0062da6.kasserver.com";
-		client.Port = 587;
+		client.Port = 25;
 		client.DeliveryMethod = SmtpDeliveryMethod.Network;
 		client.UseDefaultCredentials = false;
 		client.Credentials = new System.Net.NetworkCredential ("m037d95d", "3mVEVGT7wKwKDb5X") as ICredentialsByHost;

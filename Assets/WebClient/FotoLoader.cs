@@ -12,31 +12,36 @@ public class FotoLoader : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		GetPictures();
+//		GetPictures();
 	}
 
 	public void GetPictures(){
 
 		MyService service = new MyService ();
 //		service.Timeout = 3000;
-	 	byte[] nBytes = new byte[]{48,64,69,92,0};
+//	 	byte[] nBytes = new byte[]{48,64,69,92,0};
 
 		FotoString = service.getLiniaPictureBase64String ("BaseLine", 1);
 
-		byte[] bytes = System.Text.Encoding.Default.GetBytes(FotoString);
+		byte[] bytes = System.Convert.FromBase64String (FotoString);
+		Debug.Log (FotoString);
 
-//		NewFoto01 = System.Convert.FromBase64String (bytes);
+//		using (var ms = new MemoryStream(bytes, 0, bytes.Length))
+//		{
+//			Texture2D image = Texture2D.FromStream(ms, true);
+//			return image;
+
+//		NewFoto01 = System.Convert.FromBase64String (FotoString);
 
 //		File.WriteAllBytes ("data.png", bytes);
 
-//		NewFoto01.LoadImage(bytes);
-
-//		NewFoto01 = System.Convert.FromBase64String (FotoString);
+		NewFoto01.LoadImage(bytes);
 
 //		NewFoto01 = (Texture2D) Resources.Load(bytes);
 
 		Foto01.GetComponent<RawImage>().texture = NewFoto01;
 
 		Debug.Log (FotoString);
+//}
 }
 }
