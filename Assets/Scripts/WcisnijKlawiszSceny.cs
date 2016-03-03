@@ -40,8 +40,8 @@ public class WcisnijKlawiszSceny : MonoBehaviour {
 		GameObject[] BKG_klawisze = GameObject.FindGameObjectsWithTag ("Bkg_Klawisz");
 		foreach (GameObject CurrentKlawisz in BKG_klawisze) {
 			CurrentKlawisz.SetActive (false);
-			
-		}
+			}
+
 
 	}
 }

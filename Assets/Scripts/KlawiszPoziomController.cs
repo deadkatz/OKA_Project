@@ -8,6 +8,7 @@ public class KlawiszPoziomController : MonoBehaviour {
 	public GameObject ikonaOn;
 	public GameObject tabOn;
 	public bool CurrentImage;
+	public bool Lines;
 
 	// Use this for initialization
 	void Start () {
@@ -30,7 +31,9 @@ public class KlawiszPoziomController : MonoBehaviour {
 	{
 		if (ikonaOff.enabled == true)
 		{
+			if(Lines == false){
 			ikonaOff.enabled = false;
+			}
 			tabOn.SetActive(true);
 			ikonaOn.SetActive(true);
 		}
