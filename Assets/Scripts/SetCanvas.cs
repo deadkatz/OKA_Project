@@ -8,6 +8,11 @@ public class SetCanvas : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		SetCanvasSorting ();
+	}
+
+	public void SetCanvasSorting(){
+
 		if (isEnabled == true) {
 			GetComponent<Canvas> ().sortingOrder = CanvasOrder;
 		} else if (CanvasOrder != 0) {
