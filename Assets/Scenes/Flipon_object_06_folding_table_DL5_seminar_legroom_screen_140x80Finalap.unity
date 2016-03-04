@@ -934,6 +934,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 999822262}
   tabOn: {fileID: 999822262}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &999822269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -949,6 +950,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 999822283}
   tabOn: {fileID: 999822283}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &999822270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -964,6 +966,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 999822282}
   tabOn: {fileID: 999822282}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &999822271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -979,6 +982,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 999822280}
   tabOn: {fileID: 999822280}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &999822272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -994,6 +998,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 999822279}
   tabOn: {fileID: 999822279}
   CurrentImage: 1
+  Lines: 0
 --- !u!114 &999822273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1009,6 +1014,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 999822281}
   tabOn: {fileID: 999822281}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &999822274 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11432780, guid: 225c7e4ab0579c34da68a53968d691a6,
@@ -1388,7 +1394,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 215d567ead6cf004f9f71dc0b880812e, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 215d567ead6cf004f9f71dc0b880812e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1404,7 +1410,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 215d567ead6cf004f9f71dc0b880812e, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 215d567ead6cf004f9f71dc0b880812e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1481,6 +1487,10 @@ Prefab:
     - target: {fileID: 100018, guid: 215d567ead6cf004f9f71dc0b880812e, type: 3}
       propertyPath: m_TagString
       value: Module2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 215d567ead6cf004f9f71dc0b880812e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 215d567ead6cf004f9f71dc0b880812e, type: 3}
