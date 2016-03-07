@@ -59,7 +59,7 @@ public class SendMail : MonoBehaviour {
 	
 	public void SendMailTo() {
 		ThreadPool.QueueUserWorkItem(x => ThreadMail());
-				ThreadMail ();
+//				ThreadMail ();
 		
 	}
 	void ThreadMail(){

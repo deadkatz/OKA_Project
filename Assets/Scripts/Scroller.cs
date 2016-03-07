@@ -59,7 +59,7 @@ public class Scroller : MonoBehaviour
 			CurrentLevelName = Application.loadedLevelName;
 //		Debug.Log (CurrentLevelName);
 
-			if (Line02 == true && CurrentLevelName == "Baseline_Scene_01") {
+			if (Line01 == true && CurrentLevelName == "Baseline_Scene_01") {
 				DisableScrollbar ();
 			}
 			if (Line02 == true && CurrentLevelName == "Trion_Scene_01") {
