@@ -4,44 +4,35 @@ using UnityEngine.UI;
 using System.IO;
 
 public class FotoLoader : MonoBehaviour {
+	
+	public string LiniaName;
+	public int ScenaName;
+	public GameObject[] Fotos;
 
-	private string FotoString;
-	public GameObject Foto01;
-	private Texture2D NewFoto01;
+
+//	public Texture2D NewFoto01;
 
 	// Use this for initialization
 	void Start () {
 
-//		GetPictures();
+		GetPictures();
 	}
 
 	public void GetPictures(){
 
 		MyService service = new MyService ();
 //		service.Timeout = 3000;
-//	 	byte[] nBytes = new byte[]{48,64,69,92,0};
 
-		FotoString = service.getLiniaPictureBase64String ("BaseLine", 1);
+		for (int i = 0; i <= 1; i++){
+			
+		Texture2D NewFoto = new Texture2D(2048, 1536);
+		byte[] bytes = service.getLiniaPicture (LiniaName, i);
+//		Debug.Log ("test");
 
-		byte[] bytes = System.Convert.FromBase64String (FotoString);
-		Debug.Log (FotoString);
+		NewFoto.LoadImage (bytes);
+//		transform.GetComponent<RawImage>().texture = NewFoto;
+		Fotos[i].GetComponent<RawImage>().texture = NewFoto;
 
-//		using (var ms = new MemoryStream(bytes, 0, bytes.Length))
-//		{
-//			Texture2D image = Texture2D.FromStream(ms, true);
-//			return image;
-
-//		NewFoto01 = System.Convert.FromBase64String (FotoString);
-
-//		File.WriteAllBytes ("data.png", bytes);
-
-		NewFoto01.LoadImage(bytes);
-
-//		NewFoto01 = (Texture2D) Resources.Load(bytes);
-
-		Foto01.GetComponent<RawImage>().texture = NewFoto01;
-
-		Debug.Log (FotoString);
-//}
-}
+		}
+	}
 }

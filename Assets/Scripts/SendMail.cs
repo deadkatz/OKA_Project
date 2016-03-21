@@ -13,7 +13,7 @@ using System.Net.Security;
 public class SendMail : MonoBehaviour {
 	
 	public string email;
-	private string path = (Application.persistentDataPath + "/Screenshot.png");
+	private string path = (Application.persistentDataPath + "/Screenshot" + ".png");
 	
 	[SerializeField]
 	private InputField nameInputField = null; // Assign in editor
@@ -30,9 +30,12 @@ public class SendMail : MonoBehaviour {
 		
 		if (Application.platform == RuntimePlatform.IPhonePlayer) {
 			
-			path = (Application.persistentDataPath + "/Screenshot.png");
+			path = ("Screenshot" + ".png");
+		}
+			else if (Application.platform == RuntimePlatform.Android) {
+			path = (Application.persistentDataPath + "/Screenshot" + ".png");
 		} else {
-			path = (Application.persistentDataPath + "/Screenshot.png");
+			path = (Application.persistentDataPath + "/Screenshot" + ".png");
 		}
 	}
 	
@@ -58,7 +61,7 @@ public class SendMail : MonoBehaviour {
 	}
 	
 	public void SendMailTo() {
-		ThreadPool.QueueUserWorkItem(x => ThreadMail());
+				ThreadPool.QueueUserWorkItem(x => ThreadMail());
 //				ThreadMail ();
 		
 	}
@@ -66,26 +69,34 @@ public class SendMail : MonoBehaviour {
 		email = nameInputField.text;
 		Debug.Log (email);
 		
-		MailMessage mail = new MailMessage("kuba@3monkeys.pl", email);
-		Attachment a = new Attachment (path, MediaTypeNames.Application.Octet);
-		mail.Attachments.Add (a);
+//		MailMessage mail = new MailMessage("app@oka-office.eu", email);
+				MailMessage mail = new MailMessage("oka.configuration@gmail.com", email);
+
+		if (Application.platform == RuntimePlatform.IPhonePlayer) {
+			Attachment a = new Attachment (Application.persistentDataPath + "/" + path, MediaTypeNames.Application.Octet);
+			mail.Attachments.Add (a);
+		} else {
+			Attachment a = new Attachment (path, MediaTypeNames.Application.Octet);
+			mail.Attachments.Add (a);
+		}
+
 		SmtpClient client = new SmtpClient();
-		client.Host = "smtp.3monkeys.pl";
+		client.EnableSsl = true;
+//		client.Host = "w0062da6.kasserver.com";
+		client.Host = "smtp.gmail.com";
+//		client.Port = 25;
 		client.Port = 587;
 		client.DeliveryMethod = SmtpDeliveryMethod.Network;
 		client.UseDefaultCredentials = false;
-		client.Credentials = new System.Net.NetworkCredential ("kuba@3monkeys.pl", "cieslIK_15") as ICredentialsByHost;
-		client.EnableSsl = true;
-		ServicePointManager.ServerCertificateValidationCallback =
-			delegate(object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
-		{ return true; };
+//		client.Credentials = new System.Net.NetworkCredential ("m037d95d", "3mVEVGT7wKwKDb5X") as ICredentialsByHost;
+		client.Credentials = new System.Net.NetworkCredential ("oka.configuration@gmail.com", "okaconf2016") as ICredentialsByHost;
+		ServicePointManager.ServerCertificateValidationCallback = delegate(object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+		{
+			return true;
+		};
 		mail.Subject = "OKA Configuration";
 		mail.Body = "";
-		client.Send(mail);
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+		client.Send (mail);
+//		Debug.Log(a);
 	}
 }

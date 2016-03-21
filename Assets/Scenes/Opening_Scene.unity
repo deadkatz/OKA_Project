@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: .00999999978
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
+  m_AmbientSkyColor: {r: .909803987, g: .909803987, b: .909803987, a: 1}
   m_AmbientEquatorColor: {r: .114, g: .125, b: .133000001, a: 1}
   m_AmbientGroundColor: {r: .0469999984, g: .0430000015, b: .0350000001, a: 1}
   m_AmbientIntensity: 1
@@ -188,10 +188,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1852055726}
   m_RootOrder: 1
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: .5, y: .5}
+  m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -3.05175781e-05, y: 2.28881836e-05}
-  m_SizeDelta: {x: 1948, y: 1436}
+  m_SizeDelta: {x: 2048, y: 1536}
   m_Pivot: {x: .5, y: .5}
 --- !u!223 &106108960
 Canvas:
@@ -516,10 +516,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1852055726}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: .000177321432}
-  m_SizeDelta: {x: 1948, y: 1436}
+  m_AnchorMin: {x: .5, y: .5}
+  m_AnchorMax: {x: .5, y: .5}
+  m_AnchoredPosition: {x: 0, y: .000177383423}
+  m_SizeDelta: {x: 2048, y: 1536}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1278564281
 MonoBehaviour:
@@ -695,10 +695,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1852055726}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: .5, y: .5}
+  m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -3.05175781e-05, y: 2.28881836e-05}
-  m_SizeDelta: {x: 1948, y: 1436}
+  m_SizeDelta: {x: 2048, y: 1536}
   m_Pivot: {x: .5, y: .5}
 --- !u!223 &1614637916
 Canvas:
@@ -768,17 +768,17 @@ RectTransform:
   m_GameObject: {fileID: 1852055725}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: .391000032, y: .391000032, z: 1}
+  m_LocalScale: {x: .440462619, y: .440462649, z: 1.12650287}
   m_Children:
   - {fileID: 1278564280}
   - {fileID: 106108959}
   - {fileID: 1614637915}
   m_Father: {fileID: 389246297}
   m_RootOrder: 1
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: .5, y: .5}
+  m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 0, y: -3.05175781e-05}
-  m_SizeDelta: {x: -700, y: -500}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: .5, y: .5}
 --- !u!95 &1852055727
 Animator:

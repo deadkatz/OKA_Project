@@ -6,7 +6,7 @@ PlayerSettings:
   serializedVersion: 7
   AndroidProfiler: 0
   defaultScreenOrientation: 4
-  targetDevice: 2
+  targetDevice: 1
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: mimo.ooo
@@ -22,7 +22,7 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   m_ActiveColorSpace: 0
   m_MTRendering: 1
-  m_MobileMTRendering: 0
+  m_MobileMTRendering: 1
   m_Stereoscopic3D: 0
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: -1
@@ -80,18 +80,18 @@ PlayerSettings:
   virtualRealitySupported: 0
   productGUID: 76827f3b3dd86ee4a81486b8c4874fc8
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 9
-  AndroidPreferredInstallLocation: 1
+  AndroidMinSdkVersion: 19
+  AndroidPreferredInstallLocation: 0
   aotOptions: 
   apiCompatibilityLevel: 1
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 0
-  ForceInternetPermission: 0
-  ForceSDCardPermission: 0
+  ForceInternetPermission: 1
+  ForceSDCardPermission: 1
   CreateWallpaper: 0
   APKExpansionFiles: 0
   preloadShaders: 0
-  StripUnusedMeshComponents: 0
+  StripUnusedMeshComponents: 1
   VertexChannelCompressionMask:
     serializedVersion: 2
     m_Bits: 238
@@ -134,9 +134,9 @@ PlayerSettings:
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
-  AndroidTVCompatibility: 1
-  AndroidIsGame: 1
-  androidEnableBanner: 1
+  AndroidTVCompatibility: 0
+  AndroidIsGame: 0
+  androidEnableBanner: 0
   m_AndroidBanners:
   - width: 320
     height: 180
@@ -146,12 +146,18 @@ PlayerSettings:
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 2800000, guid: 820ba1f09ed8f8543ae03b415296d83d, type: 3}
+    - m_Icon: {fileID: 2800000, guid: 37680bc4c8e32c649ad4db1a71f4ec7c, type: 3}
       m_Size: 128
-  m_BuildTargetBatching: []
+  m_BuildTargetBatching:
+  - m_BuildTarget: Android
+    m_StaticBatching: 1
+    m_DynamicBatching: 1
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: iOSSupport
     m_APIs: 1000000008000000
+    m_Automatic: 1
+  - m_BuildTarget: AndroidPlayer
+    m_APIs: 0b00000008000000
     m_Automatic: 1
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}
@@ -275,8 +281,8 @@ PlayerSettings:
   scriptingDefineSymbols:
     1: CROSS_PLATFORM_INPUT
     2: CROSS_PLATFORM_INPUT
-    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT;WRITE_EXTERNAL_STORAGE
+    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT;WRITE_EXTERNAL_STORAGE
     14: MOBILE_INPUT
     15: CROSS_PLATFORM_INPUT;MOBILE_INPUT
     16: CROSS_PLATFORM_INPUT;MOBILE_INPUT

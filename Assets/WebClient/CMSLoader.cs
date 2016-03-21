@@ -19,7 +19,7 @@ public class CMSLoader : MonoBehaviour
 	public void GetInfo(){
 
 		MyService service = new MyService ();
-		service.Timeout = 1500;
+//		service.Timeout = 1500;
 //		print(service.);
 
 			//mamy lacznosc...
