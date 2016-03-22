@@ -15,7 +15,7 @@ public class FotoLoader : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-//		GetPictures();
+		GetPictures();
 	}
 
 	public void GetPictures(){
@@ -26,7 +26,7 @@ public class FotoLoader : MonoBehaviour {
 		for (int i = 0; i <= 1; i++){
 			
 		Texture2D NewFoto = new Texture2D(2048, 1536);
-		byte[] bytes = service.getLiniaPicture (LiniaName, i);
+		byte[] bytes = service.getLiniaPicture (LiniaName, i + 1);
 //		Debug.Log ("test");
 
 		NewFoto.LoadImage (bytes);
