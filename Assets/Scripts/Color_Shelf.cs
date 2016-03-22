@@ -61,7 +61,7 @@ public class Color_Shelf : MonoBehaviour {
 //	public bool D0_Alusilber; // Alusilver
 //	public bool E3_Graphitschwarz; // Graphite black
 //	public bool I4_Metallgrau; // Metal grey
-	/*36*/public bool _36_E2_Tiefschwarz_Feinstruktur; // Dark black textured
+//	/*36*/public bool _36_E2_Tiefschwarz_Feinstruktur; // Dark black textured
 
 	//Glas lackiert // Painted glass
 //	/*--*/public bool DT_Alusilber; // Alusilver
@@ -269,10 +269,10 @@ public class Color_Shelf : MonoBehaviour {
 			
 			ButtonList.Add(Color_Buttons.GetValue(35));
 		}
-		if(_36_E2_Tiefschwarz_Feinstruktur == true){
-			
-			ButtonList.Add(Color_Buttons.GetValue(36));
-		}
+//		if(_36_E2_Tiefschwarz_Feinstruktur == true){
+//			
+//			ButtonList.Add(Color_Buttons.GetValue(36));
+//		}
 		if(_37_GQ_Metallgrau == true){
 			
 			ButtonList.Add(Color_Buttons.GetValue(37));
