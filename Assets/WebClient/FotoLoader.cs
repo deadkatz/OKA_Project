@@ -15,13 +15,13 @@ public class FotoLoader : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		GetPictures();
+//		GetPictures();
 	}
 
 	public void GetPictures(){
 
 		MyService service = new MyService ();
-//		service.Timeout = 3000;
+		service.Timeout = 3000;
 
 		for (int i = 0; i <= 1; i++){
 			
