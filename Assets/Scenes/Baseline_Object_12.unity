@@ -538,6 +538,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 156942122}
   tabOn: {fileID: 156942122}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &421898924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -770,7 +771,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 467288216}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1.44500005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1338264968}
@@ -980,6 +981,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 992663170}
   tabOn: {fileID: 992663170}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &552342626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1198,6 +1200,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 1835927537}
   tabOn: {fileID: 1835927537}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &558759873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1592,6 +1595,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 1432692048}
   tabOn: {fileID: 1432692048}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &760405499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1829,6 +1833,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 1857535669}
   tabOn: {fileID: 1857535669}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &775487955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2469,6 +2474,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 267277620}
   tabOn: {fileID: 267277620}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &1084330009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2706,6 +2712,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 1244982574}
   tabOn: {fileID: 1244982574}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &1186441706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3604,6 +3611,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 1824121387}
   tabOn: {fileID: 1824121387}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &1357407527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3915,6 +3923,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 1408659833}
   tabOn: {fileID: 1408659833}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &1366224151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4152,6 +4161,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 495053856}
   tabOn: {fileID: 495053856}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &1400854571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4740,6 +4750,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 753222201}
   tabOn: {fileID: 753222201}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &1444548951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5039,6 +5050,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 1977555230}
   tabOn: {fileID: 1977555230}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &1592563187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5359,11 +5371,11 @@ Prefab:
     - target: {fileID: 2300010, guid: 6c38f0e0e7d2b844ba680e56e0236f01, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 91de0966092c5f842a98b3bd7241830f, type: 2}
+      objectReference: {fileID: 2100000, guid: b28f51113d25cb04c8c47388587b8f00, type: 2}
     - target: {fileID: 2300008, guid: 6c38f0e0e7d2b844ba680e56e0236f01, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 91de0966092c5f842a98b3bd7241830f, type: 2}
+      objectReference: {fileID: 2100000, guid: b28f51113d25cb04c8c47388587b8f00, type: 2}
     - target: {fileID: 100006, guid: 6c38f0e0e7d2b844ba680e56e0236f01, type: 3}
       propertyPath: m_TagString
       value: Module2
@@ -5398,6 +5410,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: 6c38f0e0e7d2b844ba680e56e0236f01, type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300014, guid: 6c38f0e0e7d2b844ba680e56e0236f01, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300012, guid: 6c38f0e0e7d2b844ba680e56e0236f01, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5729,6 +5749,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 2061621269}
   tabOn: {fileID: 2061621269}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &1746131422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6551,6 +6572,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 1440932888}
   tabOn: {fileID: 1440932888}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &2079561693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6788,6 +6810,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 843637817}
   tabOn: {fileID: 843637817}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &2084648776
 MonoBehaviour:
   m_ObjectHideFlags: 0
