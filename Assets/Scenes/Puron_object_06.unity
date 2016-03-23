@@ -772,6 +772,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 861465354}
   tabOn: {fileID: 861465354}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &1192983208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1037,10 +1038,6 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Puron_Scene_01
       objectReference: {fileID: 0}
-    - target: {fileID: 11434012, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
-      propertyPath: m_Texture
-      value: 
-      objectReference: {fileID: 2800000, guid: 4b44d0eeabe1f0341aa9d10a0b56018d, type: 3}
     - target: {fileID: 22490820, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
       propertyPath: m_AnchoredPosition.x
       value: -555
@@ -1469,6 +1466,10 @@ Prefab:
       propertyPath: Przycisk
       value: 
       objectReference: {fileID: 177512, guid: 9a1e40a76ed1a1048ac485739e6ce614, type: 2}
+    - target: {fileID: 11434012, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 97795585f3a0d8e4aa84bd04dcd88f75, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 225c7e4ab0579c34da68a53968d691a6, type: 2}
   m_IsPrefabParent: 0
