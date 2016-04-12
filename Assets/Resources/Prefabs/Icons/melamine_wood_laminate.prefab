@@ -220,7 +220,7 @@ GameObject:
   - 114: {fileID: 11431040}
   - 114: {fileID: 11445604}
   m_Layer: 0
-  m_Name: "B6_Buche_ged\xE4mpft"
+  m_Name: "I6_Buche_ged\xE4mpft"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1183,7 +1183,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "B6 Buche ged\xE4mpft"
+  m_Text: "I6 Buche ged\xE4mpft"
 --- !u!114 &11441026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1221,7 +1221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f16615e14eb55054ea0f09cb0493c56f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialNaKlawiszu: {fileID: 2100000, guid: d3481b45ee17a5b478316e140d852c4d, type: 2}
+  materialNaKlawiszu: {fileID: 2100000, guid: dd72fbffc4a01ff42b720e4e087d6843, type: 2}
   StartColor: 0
   Modul: 1
 --- !u!114 &11446464
@@ -1683,7 +1683,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B6 Beech cushioned
+  m_Text: I6 Beech cushioned
 --- !u!114 &11480576
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2684,6 +2684,10 @@ Prefab:
       propertyPath: m_Name
       value: A9_Ahorn
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: materialNaKlawiszu
+      value: 
+      objectReference: {fileID: 2100000, guid: dd72fbffc4a01ff42b720e4e087d6843, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 118248}
