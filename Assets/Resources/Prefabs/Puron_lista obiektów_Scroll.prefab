@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &105566
 GameObject:
   m_ObjectHideFlags: 1
@@ -148,7 +148,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &141606
 GameObject:
   m_ObjectHideFlags: 1
@@ -264,7 +264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &157196
 GameObject:
   m_ObjectHideFlags: 1
@@ -302,7 +302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &165056
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,6 +564,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 151142}
   tabOn: {fileID: 151142}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &11403058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1163,6 +1164,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 118274}
   tabOn: {fileID: 118274}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &11422332
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1198,6 +1200,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 193190}
   tabOn: {fileID: 193190}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &11423110
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1593,6 +1596,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 192460}
   tabOn: {fileID: 192460}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &11437038
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1628,6 +1632,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 105566}
   tabOn: {fileID: 105566}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &11439364
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1747,6 +1752,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 178472}
   tabOn: {fileID: 178472}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &11441666
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1802,6 +1808,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 182576}
   tabOn: {fileID: 182576}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &11446172
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2757,6 +2764,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 157196}
   tabOn: {fileID: 157196}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &11468268
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2836,6 +2844,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 192370}
   tabOn: {fileID: 192370}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &11471118
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2863,6 +2872,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 198620}
   tabOn: {fileID: 198620}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &11473424
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2910,6 +2920,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 113102}
   tabOn: {fileID: 113102}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &11476652
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3337,6 +3348,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 141606}
   tabOn: {fileID: 141606}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &11482772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3364,6 +3376,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 137608}
   tabOn: {fileID: 137608}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &11483470
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3452,6 +3465,7 @@ MonoBehaviour:
   ikonaOn: {fileID: 185994}
   tabOn: {fileID: 185994}
   CurrentImage: 0
+  Lines: 0
 --- !u!114 &11487418
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4436,7 +4450,7 @@ RectTransform:
   m_RootOrder: 12
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 55, y: 0}
+  m_AnchoredPosition: {x: 35, y: 0}
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22412360
@@ -4536,7 +4550,7 @@ RectTransform:
   m_RootOrder: 5
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -15, y: 0}
+  m_AnchoredPosition: {x: 5, y: 0}
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22424158
@@ -4571,7 +4585,7 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -35, y: 0}
+  m_AnchoredPosition: {x: -15, y: 0}
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22426904
@@ -4606,7 +4620,7 @@ RectTransform:
   m_RootOrder: 11
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 45, y: 0}
+  m_AnchoredPosition: {x: 25, y: 0}
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22440910
@@ -4658,7 +4672,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -45, y: 0}
+  m_AnchoredPosition: {x: -25, y: 0}
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22446310
@@ -4676,7 +4690,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -55, y: 0}
+  m_AnchoredPosition: {x: -35, y: 0}
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22450924
@@ -4764,7 +4778,7 @@ RectTransform:
   m_RootOrder: 6
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -5, y: 0}
+  m_AnchoredPosition: {x: 15, y: 0}
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22480646
@@ -4799,7 +4813,7 @@ RectTransform:
   m_RootOrder: 13
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 65, y: 0}
+  m_AnchoredPosition: {x: 45, y: 0}
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22490042
@@ -4835,7 +4849,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -65, y: 0}
+  m_AnchoredPosition: {x: -45, y: 0}
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22491012
@@ -4853,7 +4867,7 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -25, y: 0}
+  m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22494772
