@@ -69,8 +69,8 @@ public class SendMail : MonoBehaviour {
 		email = nameInputField.text;
 		Debug.Log (email);
 		
-//		MailMessage mail = new MailMessage("app@oka-office.eu", email);
-				MailMessage mail = new MailMessage("oka.configuration@gmail.com", email);
+		MailMessage mail = new MailMessage("app@oka.de", email);
+//				MailMessage mail = new MailMessage("oka.configuration@gmail.com", email);
 
 		if (Application.platform == RuntimePlatform.IPhonePlayer) {
 			Attachment a = new Attachment (Application.persistentDataPath + "/" + path, MediaTypeNames.Application.Octet);
@@ -82,14 +82,14 @@ public class SendMail : MonoBehaviour {
 
 		SmtpClient client = new SmtpClient();
 		client.EnableSsl = true;
-//		client.Host = "w0062da6.kasserver.com";
-		client.Host = "smtp.gmail.com";
+		client.Host = "w0062da6.kasserver.com";
+//		client.Host = "smtp.gmail.com";
 //		client.Port = 25;
 		client.Port = 587;
 		client.DeliveryMethod = SmtpDeliveryMethod.Network;
 		client.UseDefaultCredentials = false;
-//		client.Credentials = new System.Net.NetworkCredential ("m037d95d", "3mVEVGT7wKwKDb5X") as ICredentialsByHost;
-		client.Credentials = new System.Net.NetworkCredential ("oka.configuration@gmail.com", "okaconf2016") as ICredentialsByHost;
+		client.Credentials = new System.Net.NetworkCredential ("m0399d9f", "3mVEVGT7wKwKDb5X") as ICredentialsByHost;
+//		client.Credentials = new System.Net.NetworkCredential ("oka.configuration@gmail.com", "okaconf2016") as ICredentialsByHost;
 		ServicePointManager.ServerCertificateValidationCallback = delegate(object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
 		{
 			return true;
