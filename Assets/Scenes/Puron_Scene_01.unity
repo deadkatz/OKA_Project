@@ -58,14 +58,14 @@ LightmapSettings:
   m_LightmapEditorSettings:
     serializedVersion: 3
     m_Resolution: 1
-    m_BakeResolution: 120
-    m_TextureWidth: 1024
+    m_BakeResolution: 60
+    m_TextureWidth: 256
     m_TextureHeight: 1024
     m_AOMaxDistance: 1.5
     m_Padding: 2
     m_CompAOExponent: 0
     m_LightmapParameters: {fileID: 0}
-    m_TextureCompression: 1
+    m_TextureCompression: 0
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
   m_LightmapSnapshot: {fileID: 112000000, guid: 64b6c676d4cd5094ba63d4779e77e31e,
@@ -3830,7 +3830,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400004, guid: 9af34d9da5cfea7408d0d95b302c35c6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.61399996
+      value: -1.69700003
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 9af34d9da5cfea7408d0d95b302c35c6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3886,7 +3886,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9af34d9da5cfea7408d0d95b302c35c6, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 9af34d9da5cfea7408d0d95b302c35c6, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3894,11 +3894,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2300004, guid: 9af34d9da5cfea7408d0d95b302c35c6, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 15
+      value: 1.11000001
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: 9af34d9da5cfea7408d0d95b302c35c6, type: 3}
       propertyPath: m_ScaleInLightmap
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300004, guid: 9af34d9da5cfea7408d0d95b302c35c6, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300004, guid: 9af34d9da5cfea7408d0d95b302c35c6, type: 3}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9af34d9da5cfea7408d0d95b302c35c6, type: 3}
